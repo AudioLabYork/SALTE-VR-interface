@@ -61,6 +61,33 @@ public class UIManager : MonoBehaviour
         }
     }
 
+    public bool settingsOpen;
+    public Animator settingsAnim;
+
+    public void SettingsOpen()
+    {
+        if (settingsOpen)
+        {
+            settingsOpen = false;
+            if (settingsAnim != null)
+            {
+                bool isOpen = settingsAnim.GetBool("Open");
+
+                settingsAnim.SetBool("Open", settingsOpen);
+            }
+        }
+        else if (!settingsOpen)
+        {
+            settingsOpen = true;
+            if (settingsAnim != null)
+            {
+                bool isOpen = settingsAnim.GetBool("Open");
+
+                settingsAnim.SetBool("Open", settingsOpen);
+            }
+        }
+    }
+
  
     public void MouseEnter()
     {

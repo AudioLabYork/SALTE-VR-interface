@@ -32,8 +32,33 @@ public class JSON_SaveTest : MonoBehaviour
     private string fullPath;
 
 
+    // UI
     Test_Object test_Object = new Test_Object();
     Saved_Objects saveList = new Saved_Objects();
+
+
+    // Test Settings
+    GlobalTestSettings globalSettings = new GlobalTestSettings();
+    TrialSettings trial = new TrialSettings();
+    StimuliSettings stim = new StimuliSettings();
+
+    public int numberOfTrials;
+    public int globalAmbOrder = 1;
+    public string trialType;
+    public int trialNumber;
+    public int ambOrder = 1;
+    public string reference;
+    public int numberOfStimuli;
+    public string ambixconfig;
+    public List<StimuliSettings> teststimuli = new List<StimuliSettings>();
+
+
+    // stimuli settingsa 
+    public string source;
+    public string ambixconfigS;
+    public int order;
+
+
 
     public List<GameObject> testObjects = new List<GameObject>();
 
@@ -47,25 +72,7 @@ public class JSON_SaveTest : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.S))
         {
-            /*
-            Test_Object object1 = new Test_Object();
-            object1.objectID = 1;
-            object1.objectType = "bum";
-            object1.objectPostion = this.transform.position;
-            object1.objectScale = this.transform.localScale;
-            object1.objectRotation = this.transform.localRotation;
-            saveList.Save_Objects_Json.Add(object1);
-
-            Test_Object object2 = new Test_Object();
-            object2.objectID = 2;
-            object2.objectType = "bum";
-            object2.objectPostion = this.transform.position;
-            object2.objectScale = this.transform.localScale;
-            object2.objectRotation = this.transform.localRotation;
-            saveList.Save_Objects_Json.Add(object2);
-            */
-
-            SaveData();
+            SaveDataUI();
         }
 
         if (Input.GetKeyDown(KeyCode.R))
@@ -77,7 +84,7 @@ public class JSON_SaveTest : MonoBehaviour
     }
 
     #region Save Data
-  public  void SaveData()
+  public  void SaveDataUI()
     {
         updateList();
 
@@ -91,6 +98,26 @@ public class JSON_SaveTest : MonoBehaviour
             File.WriteAllText(fullPath, contents);
         } else
             File.WriteAllText(fullPath, contents);
+    }
+
+
+    public void SaveDataAudio()
+    {
+
+
+        updateTrialSettings();
+
+        JSON_Wrapper_Settings wrapper = new JSON_Wrapper_Settings();
+        wrapper.globalSettings = globalSettings;
+        string contents = JsonUtility.ToJson(wrapper, true);
+        if (File.Exists(fullPath))
+        {
+            
+            File.AppendAllText(fullPath, contents);
+        }
+        else
+            return;
+
     }
 
     private void updateList()
@@ -107,6 +134,34 @@ public class JSON_SaveTest : MonoBehaviour
             saveList.objectCount++;
         }
     }
+
+    private void updateTrialSettings()
+    {
+        // update stim 
+ 
+
+
+
+        globalSettings.numberOfTrials++;
+        globalSettings.globalAmbOrder = globalAmbOrder;
+        TrialSettings tmp = new TrialSettings();
+        tmp.trialNumber = globalSettings.numberOfTrials;
+        tmp.trialType = trialType;
+      
+       
+        
+        for(int i = 0; i < teststimuli.Count; i++)
+        {
+            tmp.testStimuli.Add(teststimuli[i]);
+        }
+
+        tmp.numberOfStimuli = teststimuli.Count;
+
+        globalSettings.Save_trials_Json.Add(tmp);
+
+    }
+
+
     #endregion
 
     #region Load Data
