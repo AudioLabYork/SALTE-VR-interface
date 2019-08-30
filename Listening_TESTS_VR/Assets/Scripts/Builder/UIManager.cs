@@ -59,6 +59,8 @@ public class UIManager : MonoBehaviour
                 animator.SetBool("Open", uiOpen);
             }
         }
+
+        
     }
 
     public bool settingsOpen;
@@ -86,6 +88,8 @@ public class UIManager : MonoBehaviour
                 settingsAnim.SetBool("Open", settingsOpen);
             }
         }
+
+        
     }
 
  
