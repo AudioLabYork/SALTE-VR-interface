@@ -17,6 +17,9 @@ public class OSC_IN : MonoBehaviour
     public TextMeshPro screenMessage;
     public string messageReceived;
 
+    public TextMeshPro smallScreenMessage;
+    public string smallMessageReceived;
+
     Outline outline;
     public GameObject[] buttons;
     public GameObject[] sliders;
@@ -67,7 +70,7 @@ public class OSC_IN : MonoBehaviour
                       Debug.Log(data.GetElementAsInt(0) + " - " + data.GetElementAsFloat(1));
                       int index = data.GetElementAsInt(0);
                       float value = data.GetElementAsFloat(1);
-                      sliderValuesReceived[index] = value;
+                      if(sliderValuesReceived[index] != null) sliderValuesReceived[index] = value;
                   }
               }
           );
@@ -82,8 +85,9 @@ public class OSC_IN : MonoBehaviour
                        Debug.Log("screen callback");
                        Debug.Log(data.GetElementAsString(0) + " - " + data.GetElementAsString(1));
                        string message1 = data.GetElementAsString(0);
+                       smallMessageReceived = message1;
                        string message2 = data.GetElementAsString(1);
-                       messageReceived = "\n\n" + message1 + "\n\n" + message2;
+                       messageReceived = message2;
                    }
                }
            );
@@ -124,6 +128,7 @@ public class OSC_IN : MonoBehaviour
         }
 
         if (screenMessage.text != messageReceived) screenMessage.text = messageReceived;
+        if (smallScreenMessage.text != smallMessageReceived) smallScreenMessage.text = smallMessageReceived;
     }
 
     // Takes in OSC data and changes value of scale

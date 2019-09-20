@@ -6,7 +6,7 @@ using OscJack;
 public class headTracker_Export : MonoBehaviour
 {
     public string IPAddress = "127.0.0.1";
-    public int MainOutPort = 9001;
+    public int MainOutPort = 9000;
     float sendFrequency = 0.01f;
 
     bool quat, standard, RollPitchYaw;
