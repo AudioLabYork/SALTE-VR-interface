@@ -11,8 +11,11 @@ public class OSC_IN : MonoBehaviour
     public int oscPortIN = 6000; // Port for OSC
     OscServer server;
 
-    public float[] sliderValues, sliderValuesReceived;
-    public int[] buttonStates, buttonStatesReceived;
+    public float[] sliderValues;
+    public int[] buttonStates;
+
+    bool visibleUI;
+    bool updateSlidersLatch;
 
     public TextMeshPro screenMessage;
     public string messageReceived;
@@ -24,66 +27,32 @@ public class OSC_IN : MonoBehaviour
     public GameObject[] buttons;
     public GameObject[] sliders;
 
+    public Material[] material;
+
     private void Start()
     {
         sliderValues = new float[4];
-        sliderValuesReceived = new float[4];
-
         buttonStates = new int[5];
-        buttonStatesReceived = new int[5];
 
         // set text
         messageReceived = "\n\nSpatial Audio Listening Test Environment";
 
+        // hide UI
+        visibleUI = false;
+        updateSlidersLatch = false;
+
         var server = new OscServer(oscPortIN); // Port number
-        Debug.Log("server created");
+        Debug.Log("OSC server created");
 
-        // Recieves OSC data to control button hightlights
+        // Receives OSC data to display two messages on the screen
         server.MessageDispatcher.AddCallback(
-               "/ts26259/button", // OSC address
-               (string address, OscDataHandle data) =>
-               {
-                   if (data.GetElementAsString(0) != null && data.GetElementAsInt(1) != null)
-                   {
-                       Debug.Log("button callback");
-                       Debug.Log(data.GetElementAsString(0) + " - " + data.GetElementAsInt(1));
-                       string oscButton = data.GetElementAsString(0);
-                       int state = data.GetElementAsInt(1);
-
-                       if (oscButton == "play") buttonStatesReceived[0] = state;
-                       else if (oscButton == "stop") buttonStatesReceived[1] = state;
-                       else if (oscButton == "loop") buttonStatesReceived[2] = state;
-                       else if (oscButton == "A") buttonStatesReceived[3] = state;
-                       else if (oscButton == "B") buttonStatesReceived[4] = state;
-                   }
-               }
-           );
-
-        // Receives OSC data to control sliders 
-        server.MessageDispatcher.AddCallback(
-              "/ts26259/slider", // OSC address
-              (string address, OscDataHandle data) =>
-              {
-                  if (data.GetElementAsInt(0) != null && data.GetElementAsFloat(1) != null)
-                  {
-                      Debug.Log("slider callback");
-                      Debug.Log(data.GetElementAsInt(0) + " - " + data.GetElementAsFloat(1));
-                      int index = data.GetElementAsInt(0);
-                      float value = data.GetElementAsFloat(1);
-                      if(sliderValuesReceived[index] != null) sliderValuesReceived[index] = value;
-                  }
-              }
-          );
-
-        // Recieves OSC data to display two messages on the screen
-        server.MessageDispatcher.AddCallback(
-               "/ts26259/screen", // OSC address
+               "/screen", // OSC address
                (string address, OscDataHandle data) =>
                {
                    if (data.GetElementAsString(0) != null && data.GetElementAsString(1) != null)
                    {
-                       Debug.Log("screen callback");
-                       Debug.Log(data.GetElementAsString(0) + " - " + data.GetElementAsString(1));
+                       // Debug.Log("screen callback");
+                       // Debug.Log(data.GetElementAsString(0) + " - " + data.GetElementAsString(1));
                        string message1 = data.GetElementAsString(0);
                        smallMessageReceived = message1;
                        string message2 = data.GetElementAsString(1);
@@ -92,74 +61,121 @@ public class OSC_IN : MonoBehaviour
                }
            );
 
-        // initialise sliders and buttons
-        for (int i = 0; i < 4; ++i)
-        {
-            checkOscSlider(i, sliderValues[i]);
-        }
+        // Receives OSC data to show / hide UI
+        server.MessageDispatcher.AddCallback(
+               "/showUI", // OSC address
+               (string address, OscDataHandle data) =>
+               {
+                   if (data.GetElementAsInt(0) != null)
+                   {
+                       if (data.GetElementAsInt(0) == 1)
+                       {
+                           visibleUI = true;
+                           updateSlidersLatch = true;
+                       }
+                       else
+                       {
+                           visibleUI = false;
+                           updateSlidersLatch = false;
+                       }
+                   }
+               }
+           );
 
-        for (int i = 0; i < 5; ++i)
-        {
-            checkOscButton(i, buttonStates[i]);
-        }
+        // Receives OSC data to control button hightlights
+        server.MessageDispatcher.AddCallback(
+               "/button", // OSC address
+               (string address, OscDataHandle data) =>
+               {
+                   if (data.GetElementAsString(0) != null && data.GetElementAsInt(1) != null)
+                   {
+                       // Debug.Log("button callback");
+                       // Debug.Log(data.GetElementAsString(0) + " - " + data.GetElementAsInt(1));
+                       string oscButton = data.GetElementAsString(0);
+                       int state = data.GetElementAsInt(1);
+
+                       if (oscButton == "play") buttonStates[0] = state;
+                       else if (oscButton == "stop") buttonStates[1] = state;
+                       else if (oscButton == "loop") buttonStates[2] = state;
+                       else if (oscButton == "A") buttonStates[3] = state;
+                       else if (oscButton == "B") buttonStates[4] = state;
+                   }
+               }
+           );
+
+        // Receives OSC data to control sliders 
+        server.MessageDispatcher.AddCallback(
+              "/slider", // OSC address
+              (string address, OscDataHandle data) =>
+              {
+                  if (data.GetElementAsInt(0) != null && data.GetElementAsFloat(1) != null)
+                  {
+                      Debug.Log("slider callback");
+                      Debug.Log(data.GetElementAsInt(0) + " - " + data.GetElementAsFloat(1));
+                      int index = data.GetElementAsInt(0);
+                      float value = data.GetElementAsFloat(1);
+                      if(sliderValues[index] != null) sliderValues[index] = value;
+                  }
+              }
+          );
+
+
+
+        // initialise sliders and buttons
+        updateSliders();
+        highlightButtons();
+
+        // set UI visibility
+        showUI(visibleUI);
     }
 
     private void Update()
     {
-        if (!ArrayEquals(sliderValues, sliderValuesReceived))
-        {
-            sliderValues = (float[])sliderValuesReceived.Clone();
-
-            for (int i = 0; i < 4; ++i)
-            {
-                checkOscSlider(i, sliderValues[i]);
-            }
-        }
-
-        //if (!ArrayEquals(buttonStates, buttonStatesReceived))
-        if (true) // this could be fixed, so buttons don't have to be updated every frame...
-        {
-            buttonStates = (int[])buttonStatesReceived.Clone();
-
-            for (int i = 0; i < 5; ++i)
-            {
-                checkOscButton(i, buttonStates[i]);
-            }
-        }
-
         if (screenMessage.text != messageReceived) screenMessage.text = messageReceived;
         if (smallScreenMessage.text != smallMessageReceived) smallScreenMessage.text = smallMessageReceived;
+
+        updateSliders();
+        highlightButtons();
+        showUI(visibleUI);
     }
 
-    // Takes in OSC data and changes value of scale
-    private void checkOscSlider(int index, float value)
+    // Takes in OSC data and changes value of the slider
+    private void updateSliders()
     {
-        sliderScale slider = sliders[index].GetComponent<sliderScale>();
-        slider.scaledAmount = (value + 3) / 6;
-        Debug.Log("received: " + index + " / "+ value);
+        if (updateSlidersLatch == true)
+        {
+            for (int i = 0; i < sliders.Length; ++i)
+            {
+                H_slider oscSendScript = sliders[i].GetComponent<H_slider>();
+                oscSendScript.enabled = false;
+
+                sliderScale slider = sliders[i].GetComponent<sliderScale>();
+                slider.scaledAmount = (sliderValues[i] + 3) / 6;
+
+                oscSendScript.enabled = true;
+            }
+            updateSlidersLatch = false;
+        }
     }
 
     // Takes in OSC data and highlights button
-    void checkOscButton(int index, int state)
+    private void highlightButtons()
     {
-        if (state == 1)
+        for (int i = 0; i < buttons.Length; ++i)
         {
-            //Renderer buttonRenderer = buttons[index].GetComponent<Renderer>();
-            //buttonRenderer.material.shader = Shader.Find("_Color");
-            //buttonRenderer.material.SetColor("_Color", Color.red);
-
-            
-            outline = buttons[index].GetComponent<Outline>();
-            outline.enabled = true;
+            if (buttonStates[i] == 1) buttons[i].GetComponent<Renderer>().material = material[1];
+            else buttons[i].GetComponent<Renderer>().material = material[0];
         }
-        else
+    }
+
+    private void showUI(bool show)
+    {
+        for (int i = 0; i < sliders.Length; ++i)
         {
-            //Renderer buttonRenderer = buttons[index].GetComponent<Renderer>();
-            //buttonRenderer.material.shader = Shader.Find("_Color");
-            //buttonRenderer.material.SetColor("_Color", Color.blue);
-
-            outline = buttons[index].GetComponent<Outline>();
-            outline.enabled = false;
+            sliders[i].SetActive(show);
         }
+
+        buttons[3].SetActive(show);
+        buttons[4].SetActive(show);
     }
 }

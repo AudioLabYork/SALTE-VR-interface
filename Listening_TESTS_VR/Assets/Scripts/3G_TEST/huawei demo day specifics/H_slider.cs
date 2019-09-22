@@ -10,7 +10,7 @@ public class H_slider : MonoBehaviour
     public int oscPortOut = 9000; // Port for OSC
     OscClient client;
 
-    string buttonAddress = "/ts26259/slider";
+    string buttonAddress = "/slider";
     string msg;
     public int slider_index;
     public float value;

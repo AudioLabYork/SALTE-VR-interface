@@ -10,7 +10,7 @@ public class H_button : MonoBehaviour
     public int oscPortOut = 9000; // Port for OSC
     OscClient client;
 
-    string buttonAddress = "/ts26259/button";
+    string buttonAddress = "/button";
 
     public string msg;
 
@@ -23,6 +23,4 @@ public class H_button : MonoBehaviour
     {
         client.Send(buttonAddress, msg);
     }
-
-
 }
