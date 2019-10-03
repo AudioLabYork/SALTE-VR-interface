@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Ignore/3G_template.unity
     guid: 318c18bafb4949349bc77c83dc1bab7a
+  - enabled: 1
+    path: Assets/Scenes/Ignore/loadTest.unity
+    guid: 56a5db842ee826145bc9cae135eeb3e4
+  - enabled: 1
+    path: Assets/Scenes/Ignore/load3G.unity
+    guid: de242735b34c3d34e8b52cc082a02549
   m_configObjects: {}

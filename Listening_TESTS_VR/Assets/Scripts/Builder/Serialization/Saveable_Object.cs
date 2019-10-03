@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+
 
 enum ObjectType { Slider_3G_Cont, Slider_Mush_Cont , Button_Play, Button_Stop, Button_Loop, Button_Next, Button_Prev, Button_A, Button_B,  Cube, Sphere }
 public abstract class Saveable_Object : MonoBehaviour
@@ -18,19 +20,44 @@ public abstract class Saveable_Object : MonoBehaviour
 
     public string type;
 
- 
+    public TextMeshPro sliderTextID;
+    public string _sliderID;
+
+    public int _sliderIndex;
+
+  public  H_slider sliderInfo;
 
     private void Start()
     {
 
         type = objectType.ToString();
-      
+
+        
 
         // Add the test object to the saveable manager list 
         // Player Prefs
         JSON_SaveTest.Instance.testObjects.Add(gameObject);
+
+        
     
     }
+
+    public void SetIndex(string i)
+    {
+        _sliderIndex = int.Parse(i);
+
+        if(sliderInfo != null)
+        {
+            sliderInfo.slider_index = int.Parse(i);
+        }
+    }
+
+    public void SetTEXTID(string id)
+    {
+        _sliderID = sliderTextID.text.ToString();
+        sliderTextID.text = id;
+    }
+
 
 
     public virtual void Save(int id)
@@ -55,8 +82,10 @@ public abstract class Saveable_Object : MonoBehaviour
     {
         Test_Object objectJSON = new Test_Object()
         {
-        objectID = id,
-        objectType = objectType.ToString(),
+            objectID = id,
+            objectType = objectType.ToString(),
+            sliderText = sliderTextID.ToString(),
+            sliderIndex = _sliderIndex,
         objectPostion = transform.position,
         objectScale = transform.localScale,
         objectRotation = transform.localRotation

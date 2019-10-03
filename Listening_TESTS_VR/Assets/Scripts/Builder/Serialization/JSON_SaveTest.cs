@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 using System;
+using TMPro;
 
 public class JSON_SaveTest : MonoBehaviour
 {
@@ -29,7 +30,7 @@ public class JSON_SaveTest : MonoBehaviour
          
     public string filename = "testNEW.json";
     public string path;
-    private string fullPath;
+    public string fullPath;
 
 
     // UI
@@ -126,6 +127,8 @@ public class JSON_SaveTest : MonoBehaviour
         {
             Test_Object tmp = new Test_Object();
             tmp.objectID = i;
+            tmp.sliderText = testObjects[i].GetComponent<Saveable_Object>()._sliderID;
+            tmp.sliderIndex = testObjects[i].GetComponent<Saveable_Object>()._sliderIndex;
             tmp.objectType = testObjects[i].GetComponent<Saveable_Object>().type;
             tmp.objectPostion = testObjects[i].transform.position;
             tmp.objectScale = testObjects[i].transform.localScale;
@@ -214,10 +217,17 @@ public class JSON_SaveTest : MonoBehaviour
 
         GameObject tmp = null;
         tmp = Instantiate(Resources.Load(obj.objectType) as GameObject);
+        
         tmp.transform.position = obj.objectPostion;
         tmp.transform.localScale = obj.objectScale;
         tmp.transform.localRotation = obj.objectRotation;
-        
+
+
+
+        tmp.GetComponent<Saveable_Object>().SetTEXTID(obj.sliderText);
+        tmp.GetComponent<Saveable_Object>().SetIndex(obj.sliderIndex.ToString());
+
+
 
 
     }

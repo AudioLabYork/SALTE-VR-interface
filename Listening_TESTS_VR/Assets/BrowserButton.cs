@@ -16,7 +16,9 @@ public class BrowserButton : MonoBehaviour
     [SerializeField]
     trialUpdate data;
 
+    public SingleLoadManager _loadManager;
 
+    
     public void SetText(string text)
     {
         uiText.text = text;
@@ -33,6 +35,9 @@ public class BrowserButton : MonoBehaviour
 
     void Start()
     {
+
+        _loadManager = GameObject.Find("LoadManager").GetComponent<SingleLoadManager>();
+
         
         FileBrowser.SetFilters(true, new FileBrowser.Filter("Sound File", ".wav", ".mp3"), new FileBrowser.Filter("Text Files", ".txt", ".pdf"));
 
@@ -58,8 +63,19 @@ public class BrowserButton : MonoBehaviour
 
         placeHolderText.text = FileBrowser.Result;
         Debug.Log(FileBrowser.Success + " " + FileBrowser.Result);
-        data.location = FileBrowser.Result;
+        if (data != null)
+        {
+            data.location = FileBrowser.Result;
+        }
+       
+         
+            PlayerPrefs.SetString("_loadTemplate", FileBrowser.Result);
 
+     
+       
+       
+
+       
 
     }
 
