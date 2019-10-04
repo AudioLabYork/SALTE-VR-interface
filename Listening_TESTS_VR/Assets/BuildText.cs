@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent (typeof(MeshFilter), typeof(MeshRenderer), typeof(BoxCollider))]
-public class BuildGrid : MonoBehaviour
+[RequireComponent(typeof(MeshFilter), typeof(MeshRenderer), typeof(BoxCollider))]
+public class BuildText : MonoBehaviour
 {
-
     Mesh mesh;
     BoxCollider box;
     Vector3[] vertices;
@@ -15,10 +13,10 @@ public class BuildGrid : MonoBehaviour
     // Grid Settings 
     public float cellSize;
     public Vector3 gridOffset;
-   
 
 
-   
+
+
 
     private void Awake()
     {
@@ -30,8 +28,8 @@ public class BuildGrid : MonoBehaviour
 
     private void Start()
     {
-       
-       
+
+
 
     }
 
@@ -40,7 +38,7 @@ public class BuildGrid : MonoBehaviour
         UpdateMesh();
         MakeDiscreteProcedualGrid();
         UpdateCollider();
-        
+
     }
 
     private void UpdateCollider()
@@ -57,7 +55,7 @@ public class BuildGrid : MonoBehaviour
         mesh.RecalculateNormals();
     }
 
-    private void MakeDiscreteProcedualGrid() 
+    private void MakeDiscreteProcedualGrid()
     {
         // set array size 
         vertices = new Vector3[4];
@@ -68,17 +66,17 @@ public class BuildGrid : MonoBehaviour
 
         // populate the vertices and triangles arrays 
         vertices[0] = new Vector3(-vertexOffset, 0, -vertexOffset);
-        vertices[1] = new Vector3(-vertexOffset, 0,  vertexOffset);
-        vertices[2] = new Vector3( vertexOffset, 0, -vertexOffset);
-        vertices[3] = new Vector3( vertexOffset, 0,  vertexOffset);
+        vertices[1] = new Vector3(-vertexOffset, 0, vertexOffset);
+        vertices[2] = new Vector3(vertexOffset, 0, -vertexOffset);
+        vertices[3] = new Vector3(vertexOffset, 0, vertexOffset);
 
         triangles[0] = 0;
         triangles[1] = triangles[4] = 1;
-        triangles[2] = triangles[3] = 2;        
+        triangles[2] = triangles[3] = 2;
         triangles[5] = 3;
 
 
-       
+
 
     }
 }

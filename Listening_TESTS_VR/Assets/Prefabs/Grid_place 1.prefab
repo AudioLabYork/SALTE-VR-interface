@@ -14,8 +14,9 @@ GameObject:
   - component: {fileID: 7184469472138808144}
   - component: {fileID: 3097980729468868151}
   - component: {fileID: 6067961483170778757}
+  - component: {fileID: -7380311241148800298}
   m_Layer: 12
-  m_Name: Grid_place
+  m_Name: Grid_place 1
   m_TagString: Node
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,7 +30,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1341538521892593932}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 34, y: 2.3935544, z: -2}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 0.65}
   m_Children: []
   m_Father: {fileID: 0}
@@ -101,7 +102,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1341538521892593932}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5fa4d208de68d84488f0d0d43bb8221b, type: 3}
   m_Name: 
@@ -122,3 +123,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   selected: []
   objectPlaced: 0
+--- !u!114 &-7380311241148800298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1341538521892593932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3358e405448d87344b29b765ded21b08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cellSize: 1
+  gridOffset: {x: 0, y: 0, z: 0}
