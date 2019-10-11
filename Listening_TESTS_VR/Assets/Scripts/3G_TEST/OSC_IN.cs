@@ -53,15 +53,14 @@ public class OSC_IN : MonoBehaviour
     {
         BlankList();
 
-
-      sliderValues = new float[20];
+        sliderValues = new float[20];
         buttonStates = new int[5];
 
         // set text
         messageReceived = "\n\nSpatial Audio Listening Test Environment";
 
         // hide UI
-        visibleUI = true; 
+        visibleUI = false;
         updateSlidersLatch = false;
 
         var server = new OscServer(oscPortIN); // Port number
@@ -74,15 +73,8 @@ public class OSC_IN : MonoBehaviour
                {
                    if (data.GetElementAsString(0) != null && data.GetElementAsString(1) != null)
                    {
-                       // Debug.Log("screen callback");
-                       // Debug.Log(data.GetElementAsString(0) + " - " + data.GetElementAsString(1));
                        smallMessageReceived = data.GetElementAsString(0);
-                       messageReceived = data.GetElementAsString(1); 
-                     //  smallMessageReceived = message1;
-                      // smallScreenMessage.text = message1;
-                 //      string message2 = data.GetElementAsString(1);
-                //       messageReceived = message2;
-                 //      screenMessage.text = message2;
+                       messageReceived = data.GetElementAsString(1);
                    }
                }
            );
@@ -104,7 +96,6 @@ public class OSC_IN : MonoBehaviour
                            clearUI = false;
                            visibleUI = false;
                            updateSlidersLatch = true;
-                        //  
                        }
                        else
                        {
@@ -112,7 +103,6 @@ public class OSC_IN : MonoBehaviour
                            clearUI = true;
                            visibleUI = true;
                            updateSlidersLatch = false;
-                         //  oscManager.ClearUI();
                        }
                    }
                }
@@ -125,8 +115,6 @@ public class OSC_IN : MonoBehaviour
                {
                    if (data.GetElementAsString(0) != null && data.GetElementAsInt(1) != null)
                    {
-                       // Debug.Log("button callback");
-                       // Debug.Log(data.GetElementAsString(0) + " - " + data.GetElementAsInt(1));
                        string oscButton = data.GetElementAsString(0);
                        int state = data.GetElementAsInt(1);
 
@@ -154,7 +142,7 @@ public class OSC_IN : MonoBehaviour
 
                       sliderValues[data.GetElementAsInt(0)] = data.GetElementAsFloat(1);
 
-                      if(sliderValues[index] != null) sliderValues[index] = value;
+                      if (sliderValues[index] != null) sliderValues[index] = value;
                   }
               }
           );
@@ -166,13 +154,12 @@ public class OSC_IN : MonoBehaviour
                   {
                       if (data.GetElementAsInt(0) != null)
                       {
-                          if(data.GetElementAsInt(0) > 0)
+                          if (data.GetElementAsInt(0) > 0)
                           {
                               uiStart = true;
                           }
                           oscManager.numberOfSliders = data.GetElementAsInt(0);
                           slidersNum = data.GetElementAsInt(0);
-                          
                       }
                   }
               );
@@ -183,11 +170,20 @@ public class OSC_IN : MonoBehaviour
                  {
                      if (data.GetElementAsInt(0) != null && data.GetElementAsFloat(1) != null && data.GetElementAsFloat(2) != null && data.GetElementAsFloat(3) != null)
                      {
+                         if (data.GetElementAsInt(3) == 3.00f && uiStart)
+                         {
+                             oscManager.is3G = true;
+                             oscManager.isMushra = false;
+                             uiStart = false;
+                         }
+                         if (data.GetElementAsFloat(3) == 100.0f && uiStart)
+                         {
+                             oscManager.is3G = false;
+                             oscManager.isMushra = true;
+                             uiStart = false;
+                         }
 
-                      if(data.GetElementAsInt(3) == 3.00f && uiStart) { oscManager.is3G = true; oscManager.isMushra = false; uiStart = false; }
-                      if(data.GetElementAsFloat(3) == 100.0f && uiStart) { oscManager.is3G = false; oscManager.isMushra = true; uiStart = false; }
                          sliderValues[data.GetElementAsInt(0)] = data.GetElementAsFloat(1);
-
                      }
                  }
              );
@@ -201,7 +197,6 @@ public class OSC_IN : MonoBehaviour
                       if (data.GetElementAsInt(0) != null)
                       {
                           oscManager.numberOfLabels = data.GetElementAsInt(0);
-                          
                       }
                   }
               );
@@ -210,23 +205,19 @@ public class OSC_IN : MonoBehaviour
                 "/ratingLabel", // OSC address
                 (string address, OscDataHandle data) =>
                 {
-                    if (data.GetElementAsInt(0) != null && data.GetElementAsString(1) != null )
+                    if (data.GetElementAsInt(0) != null && data.GetElementAsString(1) != null)
                     {
-
                         labelStrings[data.GetElementAsInt(0)] = data.GetElementAsString(1);
                     }
                 }
             );
-
-
-
 
         // initialise sliders and buttons
         updateSliders();
         //   highlightButtons();
 
         // set UI visibility
-        //CreateUI();
+        oscManager.SetUI();
     }
 
 
@@ -244,59 +235,35 @@ public class OSC_IN : MonoBehaviour
         if (smallScreenMessage.text != smallMessageReceived) smallScreenMessage.text = smallMessageReceived;
 
 
- //    highlightButtons();
-    //  showUI(visibleUI);
+        //    highlightButtons();
+        //  showUI(visibleUI);
         CreateUI();
-
-        UpdateMessage();
-        
     }
 
-    private void UpdateMessage()
+    private void CreateUI()
     {
-        
-    }
-
-    private void CreateUI() {
-
 
         if (createUI == true)
-            {
-
-
-            
+        {
+            Debug.Log("create ui");
+            oscManager.SetUI();
             createUI = false;
-                Debug.Log("create ui");
-          
-                oscManager.SetUI();
-           
-            }
-
-      
+        }
     }
-   
+
 
     // Takes in OSC data and changes value of the slider
     public void updateSliders()
     {
-       
-            for (int i = 0; i < sliders.Count; ++i)
-            {
 
-                sliderScale slider = sliders[i].GetComponent<sliderScale>();
-                slider.scaledAmount = (sliderValues[i] - slider.userLimitMin) / (slider.userLimitMax - slider.userLimitMin);
-                
+        for (int i = 0; i < sliders.Count; ++i)
+        {
 
-                //    H_slider oscSendScript = sliders[i].GetComponent<H_slider>();
-                //     oscSendScript.enabled = false;
+            sliderScale slider = sliders[i].GetComponent<sliderScale>();
+            slider.scaledAmount = (sliderValues[i] - slider.userLimitMin) / (slider.userLimitMax - slider.userLimitMin);
+        }
+        updateSlidersLatch = false;
 
-
-                //      slider.scaledAmount = (sliderValues[i] + 3) / 6;
-
-                //     oscSendScript.enabled = true;
-            }
-            updateSlidersLatch = false;
-        
     }
 
     // Takes in OSC data and highlights button
@@ -315,25 +282,6 @@ public class OSC_IN : MonoBehaviour
         {
             sliders[i].SetActive(show);
         }
-        /*
-        if (test == 0)  // Disables all buttons
-        {
-            buttons[3].SetActive(show);
-            buttons[4].SetActive(show);
-            buttons[5].SetActive(show);
-        }
-
-        if (test == 1) // only shows buttons for 3G test
-        {
-            buttons[3].SetActive(show); // A
-            buttons[4].SetActive(show); // B
-        }
-
-        if (test == 2) // only shows buttons for Mushra
-        {
-            buttons[5].SetActive(show); // Reference
-        }
-        */
     }
 
     public void SetSliders(int numberOfSliders, int sliderMin, int sliderMax)
@@ -346,8 +294,8 @@ public class OSC_IN : MonoBehaviour
 
     public void SetText()
     {
-      
-        for( int i = 0; i < labels.Count; i++)
+
+        for (int i = 0; i < labels.Count; i++)
         {
             TextMeshPro labelText = labels[i].GetComponentInChildren<TextMeshPro>();
             labelText.text = labelStrings[i];

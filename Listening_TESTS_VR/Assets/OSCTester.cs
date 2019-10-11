@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class OSCTester : MonoBehaviour
 {
-
-
     OSC_IN _osc;
     [SerializeField]  TextPlacer _text;
     [SerializeField] SliderPlacer _sliders;
@@ -21,7 +19,6 @@ public class OSCTester : MonoBehaviour
     [SerializeField] GameObject[] buttons3G;
     public bool showUI;
 
-
     public bool isMushra;
     public bool is3G;
 
@@ -36,21 +33,18 @@ public class OSCTester : MonoBehaviour
     {
         _sliders._segments = numberOfSliders;
         _sliders.SetUI(numberOfSliders);
-       
     }
 
     public void SetText()
     {
-      
-        for (int i = 0; i < _text._textList.Count; i++) Destroy(_text._textList[i]);
-        
-        
-       
+
+        for (int i = 0; i < _text._textList.Count; i++)
+        {
+            Destroy(_text._textList[i]);
+        }
+
         _text._segments = numberOfLabels;
-        
         _text.SetText();
-      
-    
     }
 
     public void ClearUI()
@@ -64,65 +58,22 @@ public class OSCTester : MonoBehaviour
     {
         ClearUI();
         SetText();
- 
 
-        if (is3G)
+        _sliders._sliderMushra = isMushra;
+        _sliders._slider3G = is3G;
+        SetSliders();
+        _osc.updateSliders();
+
+        for (int i = 0; i < buttons3G.Length; i++)
         {
-            _sliders._sliderMushra = false;
-            _sliders._slider3G = true;
-            SetSliders();
-            _osc.updateSliders();
-            _osc.showUI(true);
-
-
-            for (int i = 0; i < buttons3G.Length; i++)
-            {
-               
-                    buttons3G[i].SetActive(true);
-
-            }
-
-
-            for (int i = 0; i < buttonsMushra.Length; i++)
-            {
-              
-                    buttonsMushra[i].SetActive(false);
-
-            }
-
-
+            buttons3G[i].SetActive(is3G);
         }
 
-        if (isMushra)
+        for (int i = 0; i < buttonsMushra.Length; i++)
         {
-            _sliders._sliderMushra = true;
-            _sliders._slider3G = false;
-            SetSliders();
-            _osc.updateSliders();
-            _osc.showUI(true);
-            for (int i = 0; i < buttonsMushra.Length; i++)
-            {
-               
-                    buttonsMushra[i].SetActive(true);
-
-              
-            }
-
-            for (int i = 0; i < buttons3G.Length; i++)
-            {
-           
-                    buttons3G[i].SetActive(false);
-
-               
-            }
-
-
+            buttonsMushra[i].SetActive(isMushra);
         }
-    }
 
-    public void HideUI()
-    {
-       
+        _osc.showUI(true);
     }
- 
 }

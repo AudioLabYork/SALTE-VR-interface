@@ -592,7 +592,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IPAddress: 127.0.0.1
   oscPortOut: 9000
-  msg: 
+  msg: condH
 --- !u!1 &2893510936147553028
 GameObject:
   m_ObjectHideFlags: 0

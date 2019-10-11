@@ -6,8 +6,6 @@ using UnityEditor;
 [CustomEditor(typeof(OSCTester))]
 public class OSCTetserEditor : Editor
 {
-
-
     public override void OnInspectorGUI()
     {
         DrawDefaultInspector();
@@ -23,24 +21,15 @@ public class OSCTetserEditor : Editor
             tester.SetText();
         }
 
-        if (GUILayout.Button("Hide UI"))
-        {
-            tester.HideUI();
-        }
-
         if (GUILayout.Button("Clear UI"))
         {
             tester.ClearUI();
-
         }
-
 
         if (GUILayout.Button("Set UI"))
         {
             tester.SetUI();
-
         }
     }
-
 }
 
