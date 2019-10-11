@@ -64,14 +64,15 @@ public class OSCTester : MonoBehaviour
     {
         ClearUI();
         SetText();
-        
+ 
 
         if (is3G)
         {
             _sliders._sliderMushra = false;
             _sliders._slider3G = true;
             SetSliders();
-           _osc.showUI(true);
+            _osc.updateSliders();
+            _osc.showUI(true);
 
 
             for (int i = 0; i < buttons3G.Length; i++)
@@ -97,6 +98,7 @@ public class OSCTester : MonoBehaviour
             _sliders._sliderMushra = true;
             _sliders._slider3G = false;
             SetSliders();
+            _osc.updateSliders();
             _osc.showUI(true);
             for (int i = 0; i < buttonsMushra.Length; i++)
             {

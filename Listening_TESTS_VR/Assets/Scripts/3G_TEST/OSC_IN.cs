@@ -259,11 +259,13 @@ public class OSC_IN : MonoBehaviour
 
     private void CreateUI() {
 
-        updateSliders();
 
         if (createUI == true)
             {
-                createUI = false;
+
+
+            
+            createUI = false;
                 Debug.Log("create ui");
           
                 oscManager.SetUI();
@@ -275,7 +277,7 @@ public class OSC_IN : MonoBehaviour
    
 
     // Takes in OSC data and changes value of the slider
-    private void updateSliders()
+    public void updateSliders()
     {
        
             for (int i = 0; i < sliders.Count; ++i)
