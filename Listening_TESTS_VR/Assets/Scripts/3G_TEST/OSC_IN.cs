@@ -45,7 +45,7 @@ public class OSC_IN : MonoBehaviour
     [SerializeField] int testParadigm;
     [SerializeField] OSCTester oscManager;
 
-    
+    public bool uiStart;
 
     public int showUIi;
 
@@ -76,10 +76,12 @@ public class OSC_IN : MonoBehaviour
                    {
                        // Debug.Log("screen callback");
                        // Debug.Log(data.GetElementAsString(0) + " - " + data.GetElementAsString(1));
-                       string message1 = data.GetElementAsString(0);
-                       smallMessageReceived = message1;
+                       smallMessageReceived = data.GetElementAsString(0);
+                     //  smallMessageReceived = message1;
+                      // smallScreenMessage.text = message1;
                        string message2 = data.GetElementAsString(1);
                        messageReceived = message2;
+                       screenMessage.text = message2;
                    }
                }
            );
@@ -160,8 +162,13 @@ public class OSC_IN : MonoBehaviour
                   {
                       if (data.GetElementAsInt(0) != null)
                       {
+                          if(data.GetElementAsInt(0) > 0)
+                          {
+                              uiStart = true;
+                          }
                           oscManager.numberOfSliders = data.GetElementAsInt(0);
                           slidersNum = data.GetElementAsInt(0);
+                          
                       }
                   }
               );
@@ -170,10 +177,11 @@ public class OSC_IN : MonoBehaviour
                  "/sliderState", // OSC address
                  (string address, OscDataHandle data) =>
                  {
-                     if (data.GetElementAsFloat(0) != null && data.GetElementAsFloat(1) != null && data.GetElementAsFloat(2) != null )
+                     if (data.GetElementAsFloat(0) != null && data.GetElementAsFloat(1) != null && data.GetElementAsFloat(2) != null && data.GetElementAsFloat(3) != null)
                      {
-                       if(data.GetElementAsInt(3) == 3.00f) { oscManager.is3G = true; oscManager.isMushra = false; }
-                       if(data.GetElementAsFloat(3) == 100.0f) { oscManager.is3G = false; oscManager.isMushra = true; }
+
+                //       if(data.GetElementAsInt(3) == 3.00f && uiStart) { oscManager.is3G = true; oscManager.isMushra = false; uiStart = false; }
+                //       if(data.GetElementAsFloat(3) == 100.0f && uiStart) { oscManager.is3G = false; oscManager.isMushra = true; uiStart = false; }
 
                      }
                  }
@@ -234,11 +242,15 @@ public class OSC_IN : MonoBehaviour
  //    highlightButtons();
     //  showUI(visibleUI);
         CreateUI();
+
+        UpdateMessage();
         
     }
 
-  
-
+    private void UpdateMessage()
+    {
+        screenMessage.text = 
+    }
 
     private void CreateUI() {
 
