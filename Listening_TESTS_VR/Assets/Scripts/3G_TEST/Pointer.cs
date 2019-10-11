@@ -55,7 +55,7 @@ public class Pointer : MonoBehaviour
 
         if (currentObject != null)
         {
-            oject.text = currentObject.name;
+        //    oject.text = currentObject.name;
             dot.SetActive(true);
             checkTAG(currentObject); //checks the tag of the current object 
         } else

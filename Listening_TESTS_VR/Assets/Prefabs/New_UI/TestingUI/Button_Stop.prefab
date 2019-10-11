@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8056529938031717538}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 3292198040245364957}
   - component: {fileID: 8674490661408407185}
   - component: {fileID: 4380302008276532019}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Button_Play 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -190,7 +190,7 @@ GameObject:
   - component: {fileID: 5013462520669270237}
   - component: {fileID: 8322603865151843657}
   - component: {fileID: 7898325605721700351}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Button_Stop
   m_TagString: Slider
   m_Icon: {fileID: 0}
@@ -231,6 +231,8 @@ MonoBehaviour:
   b: 0
   userLimitMax: 3
   userLimitMin: -3
+  isMushra: 0
+  is3G: 0
   handType: 0
   sliderAction:
     actionPath: 
@@ -278,6 +280,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectType: 3
   type: 
+  sliderTextID: {fileID: 0}
+  _sliderID: 
+  _sliderIndex: 0
+  sliderInfo: {fileID: 0}
 --- !u!114 &7898325605721700351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -306,7 +312,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4262417571951326141}
   - component: {fileID: 3980834332095063031}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Preview_Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -356,7 +362,7 @@ GameObject:
   - component: {fileID: 3398274611383777796}
   - component: {fileID: 9194073009093574018}
   - component: {fileID: 7318228533570471612}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -446,9 +452,9 @@ GameObject:
   m_Component:
   - component: {fileID: 711375969891394972}
   - component: {fileID: 3205367370698871226}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Collider
-  m_TagString: Untagged
+  m_TagString: Button
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -494,7 +500,7 @@ GameObject:
   - component: {fileID: 813257445700989721}
   - component: {fileID: 8932047579117230602}
   - component: {fileID: 4542183056466597295}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TextMeshPro
   m_TagString: Untagged
   m_Icon: {fileID: 0}

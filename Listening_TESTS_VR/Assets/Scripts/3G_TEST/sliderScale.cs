@@ -18,6 +18,8 @@ public class sliderScale : MonoBehaviour
     public float userLimitMax = 3;
     public float userLimitMin = -3;
 
+    public bool isMushra;
+    public bool is3G;
 
 
     Vector2 joystickInput;
@@ -28,7 +30,7 @@ public class sliderScale : MonoBehaviour
 
 
 
-    public DataSave_Slider sliderValue;
+   public DataSave_Slider sliderValue;
 
 
     private void Start()
@@ -77,15 +79,33 @@ public class sliderScale : MonoBehaviour
 
     public  void UpdateScale()
     {
-        scaledAmount = Mathf.Clamp(scaledAmount, sliderMin, sliderMax);
 
-        slider.transform.localScale = new Vector3(1, scaledAmount, 1);
 
-        float newScaled = scale(0.0f, 1.0f, userLimitMin, userLimitMax, scaledAmount);
+        if (is3G)
+        {
+            scaledAmount = Mathf.Clamp(scaledAmount, sliderMin, sliderMax);
 
-        text.text = Math.Round(newScaled, 1).ToString();
-        // text.text = Mathf.RoundToInt(scaledAmount * 100).ToString();
-        sliderValue.sliderValue = (float)Math.Round(newScaled, 1);
+            slider.transform.localScale = new Vector3(1, scaledAmount, 1);
+
+            float newScaled = scale(0.0f, 1.0f, userLimitMin, userLimitMax, scaledAmount);
+
+            text.text = Math.Round(newScaled, 1).ToString();
+            // text.text = Mathf.RoundToInt(scaledAmount * 100).ToString();
+            sliderValue.sliderValue = (float)Math.Round(newScaled, 1);
+        }
+
+        if (isMushra)
+        {
+            scaledAmount = Mathf.Clamp(scaledAmount, sliderMin, sliderMax);
+
+            slider.transform.localScale = new Vector3(1, scaledAmount, 1);
+
+            float newScaled = scale(0.0f, 1.0f, userLimitMin, userLimitMax, scaledAmount);
+
+            text.text = Math.Round(newScaled).ToString();
+            // text.text = Mathf.RoundToInt(scaledAmount * 100).ToString();
+            sliderValue.sliderValue = (float)Math.Round(newScaled);
+        }
     }
 
         private float scale(float OldMin, float OldMax, float NewMin, float NewMax, float OldValue)

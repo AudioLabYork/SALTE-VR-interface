@@ -15,9 +15,9 @@ GameObject:
   - component: {fileID: 8290739502185335334}
   - component: {fileID: -4164929308959087487}
   - component: {fileID: -6920931608137216012}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Button_Loop
-  m_TagString: Slider
+  m_TagString: Button
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44,7 +44,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2039656853498809063}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4ff4bdf1360808348b27803a07f84529, type: 3}
   m_Name: 
@@ -55,6 +55,8 @@ MonoBehaviour:
   b: 0
   userLimitMax: 3
   userLimitMin: -3
+  isMushra: 0
+  is3G: 0
   handType: 0
   sliderAction:
     actionPath: 
@@ -95,13 +97,17 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2039656853498809063}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4659bf5d75c0ac844845d10b88b92107, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   objectType: 4
   type: 
+  sliderTextID: {fileID: 0}
+  _sliderID: 
+  _sliderIndex: 0
+  sliderInfo: {fileID: 0}
 --- !u!114 &-4164929308959087487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109,7 +115,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2039656853498809063}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
   m_Name: 
@@ -127,7 +133,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2039656853498809063}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e654294590c8e844d9ad437c587acd64, type: 3}
   m_Name: 
@@ -150,7 +156,7 @@ GameObject:
   - component: {fileID: 1862728188585265470}
   - component: {fileID: 5478763687168991090}
   - component: {fileID: 621625049366141648}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Button_Play 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -289,7 +295,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6604258977928351041}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -324,7 +330,7 @@ GameObject:
   - component: {fileID: 4548851751486640890}
   - component: {fileID: 5736600991971621865}
   - component: {fileID: 819816395449168972}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TextMeshPro
   m_TagString: Untagged
   m_Icon: {fileID: 0}

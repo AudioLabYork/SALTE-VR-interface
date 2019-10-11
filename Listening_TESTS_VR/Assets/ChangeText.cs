@@ -10,6 +10,6 @@ public class ChangeText : MonoBehaviour
     [SerializeField] TextMeshPro textLAbel;
     public void ChangeLabel(string text)
     {
-        textLAbel.text = text;
+       // textLAbel.text = text;
     }
 }

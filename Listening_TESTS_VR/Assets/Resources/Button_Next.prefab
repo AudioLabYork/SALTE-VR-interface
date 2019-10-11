@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9007352031450987317}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 1046505801904966150}
   - component: {fileID: 8267797623413702949}
   - component: {fileID: 1897554220574704239}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TextMeshPro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -251,9 +251,9 @@ GameObject:
   - component: {fileID: 5758402584067882316}
   - component: {fileID: -2064422377102403247}
   - component: {fileID: -8518702275227836688}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Button_Next
-  m_TagString: Slider
+  m_TagString: Button
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -280,7 +280,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3721316183787001766}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4ff4bdf1360808348b27803a07f84529, type: 3}
   m_Name: 
@@ -291,6 +291,8 @@ MonoBehaviour:
   b: 0
   userLimitMax: 3
   userLimitMin: -3
+  isMushra: 0
+  is3G: 0
   handType: 0
   sliderAction:
     actionPath: 
@@ -303,7 +305,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3721316183787001766}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1e8aa2e7e07e534fa649114e5382bf7, type: 3}
   m_Name: 
@@ -331,13 +333,17 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3721316183787001766}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4659bf5d75c0ac844845d10b88b92107, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   objectType: 5
   type: 
+  sliderTextID: {fileID: 0}
+  _sliderID: 
+  _sliderIndex: 0
+  sliderInfo: {fileID: 0}
 --- !u!114 &-2064422377102403247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -345,7 +351,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3721316183787001766}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
   m_Name: 
@@ -363,7 +369,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3721316183787001766}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e654294590c8e844d9ad437c587acd64, type: 3}
   m_Name: 
@@ -387,7 +393,7 @@ GameObject:
   - component: {fileID: 4865809394309189617}
   - component: {fileID: 6077880333821661746}
   - component: {fileID: 2361790470446896030}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Button_Next 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

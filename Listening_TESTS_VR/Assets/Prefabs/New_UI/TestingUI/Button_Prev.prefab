@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7386923138556512151}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 6065665863365907965}
   - component: {fileID: 5096857601380365137}
   - component: {fileID: 5297426874853103068}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 6342693743523525459}
   - component: {fileID: 5754441927303163536}
   - component: {fileID: 4271055583284752188}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Button_Next 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -299,7 +299,7 @@ GameObject:
   - component: {fileID: 5013462520669270237}
   - component: {fileID: 4002708540138599177}
   - component: {fileID: -5736036519046132442}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Button_Prev
   m_TagString: Button
   m_Icon: {fileID: 0}
@@ -340,6 +340,8 @@ MonoBehaviour:
   b: 0
   userLimitMax: 3
   userLimitMin: -3
+  isMushra: 0
+  is3G: 0
   handType: 0
   sliderAction:
     actionPath: 
@@ -387,6 +389,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectType: 6
   type: 
+  sliderTextID: {fileID: 0}
+  _sliderID: 
+  _sliderIndex: 0
+  sliderInfo: {fileID: 0}
 --- !u!114 &-5736036519046132442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -418,7 +424,7 @@ GameObject:
   - component: {fileID: 1515174287322871460}
   - component: {fileID: 7583511628573162887}
   - component: {fileID: 132401014449323725}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TextMeshPro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -620,7 +626,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8111844743053053530}
   - component: {fileID: 4681694899810432736}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -665,7 +671,7 @@ GameObject:
   m_Component:
   - component: {fileID: 323209107858458863}
   - component: {fileID: 3709072376464726020}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Preview_Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}

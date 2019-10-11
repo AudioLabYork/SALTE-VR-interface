@@ -83,9 +83,7 @@ public abstract class Saveable_Object : MonoBehaviour
         Test_Object objectJSON = new Test_Object()
         {
             objectID = id,
-            objectType = objectType.ToString(),
-            sliderText = sliderTextID.ToString(),
-            sliderIndex = _sliderIndex,
+            objectType = objectType.ToString(),         
         objectPostion = transform.position,
         objectScale = transform.localScale,
         objectRotation = transform.localRotation

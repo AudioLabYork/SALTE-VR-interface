@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8056529938031717538}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 3292198040245364957}
   - component: {fileID: 8674490661408407185}
   - component: {fileID: 4380302008276532019}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Button_Play 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -190,7 +190,7 @@ GameObject:
   - component: {fileID: 2673848723909786593}
   - component: {fileID: 2786321383336854673}
   - component: {fileID: -6106480319543333104}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Button_A
   m_TagString: Slider
   m_Icon: {fileID: 0}
@@ -232,6 +232,8 @@ MonoBehaviour:
   b: 0
   userLimitMax: 3
   userLimitMin: -3
+  isMushra: 0
+  is3G: 0
   handType: 0
   sliderAction:
     actionPath: 
@@ -279,6 +281,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectType: 7
   type: 
+  sliderTextID: {fileID: 0}
+  _sliderID: 
+  _sliderIndex: 0
+  sliderInfo: {fileID: 0}
 --- !u!114 &2673848723909786593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -332,9 +338,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5378707780839784680}
   - component: {fileID: 3597266373257525878}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Collider
-  m_TagString: Untagged
+  m_TagString: Button
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -381,7 +387,7 @@ GameObject:
   - component: {fileID: 5389101669598179509}
   - component: {fileID: 3616224500376203504}
   - component: {fileID: 129475990052679086}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -471,7 +477,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4413857060525505570}
   - component: {fileID: 6846032736284131296}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Preview_Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -518,7 +524,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5027733237921993667}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -552,7 +558,7 @@ GameObject:
   - component: {fileID: 813257445700989721}
   - component: {fileID: 8932047579117230602}
   - component: {fileID: 4542183056466597295}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TextMeshPro
   m_TagString: Untagged
   m_Icon: {fileID: 0}

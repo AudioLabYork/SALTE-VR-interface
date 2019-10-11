@@ -260,10 +260,10 @@ GameObject:
   - component: {fileID: 5828939121066927479}
   - component: {fileID: 8549503900646389019}
   - component: {fileID: 8007908294849701732}
-  - component: {fileID: 1380479484191993513}
   - component: {fileID: 5737570000210105240}
   - component: {fileID: -2412886121504501049}
   - component: {fileID: -3581053229040884390}
+  - component: {fileID: 5941852755276085891}
   m_Layer: 10
   m_Name: Slider_3G_Cont
   m_TagString: Slider
@@ -295,7 +295,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2893510936147553028}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4ff4bdf1360808348b27803a07f84529, type: 3}
   m_Name: 
@@ -306,11 +306,13 @@ MonoBehaviour:
   b: 0
   userLimitMax: 3
   userLimitMin: -3
-  handType: 0
+  isMushra: 0
+  is3G: 1
+  handType: 2
   sliderAction:
-    actionPath: 
+    actionPath: /actions/default/in/Slider
     needsReinit: 0
-  sliderValue: {fileID: 0}
+  sliderValue: {fileID: 5941852755276085891}
 --- !u!114 &8007908294849701732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -318,7 +320,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2893510936147553028}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1e8aa2e7e07e534fa649114e5382bf7, type: 3}
   m_Name: 
@@ -326,20 +328,6 @@ MonoBehaviour:
   speed: 1
   scaleTest: 0
   outline: {fileID: 0}
---- !u!114 &1380479484191993513
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2893510936147553028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4659bf5d75c0ac844845d10b88b92107, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectType: 0
-  type: 
 --- !u!65 &5737570000210105240
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -360,7 +348,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2893510936147553028}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
   m_Name: 
@@ -378,7 +366,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2893510936147553028}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b62cc2d506448b545b1bd36c107351ed, type: 3}
   m_Name: 
@@ -387,6 +375,22 @@ MonoBehaviour:
   oscPortOut: 9000
   slider_index: 0
   value: 0
+--- !u!114 &5941852755276085891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2893510936147553028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7275597eeb0915942858273834cef790, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  savePath: 
+  filename: 
+  sliderValue: 0
+  sampleNumber: 0
 --- !u!1 &4684224316681970220
 GameObject:
   m_ObjectHideFlags: 0

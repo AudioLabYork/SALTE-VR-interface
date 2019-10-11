@@ -126,9 +126,7 @@ public class JSON_SaveTest : MonoBehaviour
         for(int i  = 0; i < testObjects.Count; i++)
         {
             Test_Object tmp = new Test_Object();
-            tmp.objectID = i;
-            tmp.sliderText = testObjects[i].GetComponent<Saveable_Object>()._sliderID;
-            tmp.sliderIndex = testObjects[i].GetComponent<Saveable_Object>()._sliderIndex;
+            tmp.objectID = i;         
             tmp.objectType = testObjects[i].GetComponent<Saveable_Object>().type;
             tmp.objectPostion = testObjects[i].transform.position;
             tmp.objectScale = testObjects[i].transform.localScale;
@@ -224,8 +222,7 @@ public class JSON_SaveTest : MonoBehaviour
 
 
 
-        tmp.GetComponent<Saveable_Object>().SetTEXTID(obj.sliderText);
-        tmp.GetComponent<Saveable_Object>().SetIndex(obj.sliderIndex.ToString());
+
 
 
 

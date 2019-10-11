@@ -15,9 +15,7 @@ public class Test_Object
     public int objectID;
     public string objectType;
 
-    // If object is a Slider 
-    public string sliderText;
-    public int sliderIndex;
+
 
     // Postion and rotation of object 
     public Vector3 objectPostion;

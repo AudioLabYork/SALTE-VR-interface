@@ -7,8 +7,9 @@ public class SliderPlacer : MonoBehaviour
     public int gridWidth = 8;
     public int gridHeight = 8;
 
+  [SerializeField]  OSC_IN _osc;
 
-    [SerializeField] int _segments;
+   public int _segments;
 
     public GameObject tilePrefab;
 
@@ -16,13 +17,19 @@ public class SliderPlacer : MonoBehaviour
 
     GameObject grid;
 
+    [SerializeField] SetPosition _screenPostion;
+
     public GameObject ankerPoint;
 
     BuildGrid _gridTile;
 
-    [SerializeField] GameObject _sliderPrefab;
+    [SerializeField] GameObject[] _sliderMushraPrefab;
+    [SerializeField] GameObject _slider3GPrefab;
 
-    public List<Transform> _segmentList = new List<Transform>();
+    public List<GameObject> _segmentList = new List<GameObject>();
+
+    public bool _sliderMushra;
+    public bool _slider3G;
 
 
     string[] _labels = new string[] {"_", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j" };
@@ -30,19 +37,51 @@ public class SliderPlacer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
+       
         gridWidth = _segments + 1;
         _gridTile = tilePrefab.GetComponent<BuildGrid>();
         _gridTile.cellSize = _gridTile.cellSize / (_segments + 1);
-        UpdateGrid();
-        UpdateSliderPositions();
 
-
+        _sliderMushra = true;
+       
+  
     }
 
     // Update is called once per frame
     void Update()
     {
         this.gameObject.transform.position = ankerPoint.transform.position;
+
+    }
+
+
+    public void SetUI(int segment)
+    {
+
+        gridWidth = _segments + 1;
+        _gridTile.cellSize = _gridTile.cellSize / (_segments + 1);
+        _segments = segment;
+        _screenPostion.ResetPos();
+        UpdateGrid();
+        UpdateSliderPositions();
+        _screenPostion.UpdatePos();
+    }
+
+    public void ClearUI()
+    {
+      foreach(GameObject slider in _osc.sliders)
+        {
+            Destroy(slider);
+        }
+
+      foreach(GameObject segment in _segmentList)
+        {
+            Destroy(segment);
+        }
+        _osc.sliders.Clear();
+
+        _segmentList.Clear();
 
     }
 
@@ -63,7 +102,7 @@ public class SliderPlacer : MonoBehaviour
                 tempGO.transform.position = new Vector3(this.transform.position.x + (cellOffset.x), this.transform.position.y, this.transform.position.z);
                 //  tempGO.transform.rotation = Quaternion.identity;
                 tempGO.transform.SetParent(transform);
-                _segmentList.Add(tempGO.transform);
+                _segmentList.Add(tempGO);
 
             }
 
@@ -76,11 +115,24 @@ public class SliderPlacer : MonoBehaviour
     {
         for (int i = 1; i < _segmentList.Count; i++)
         {
-            GameObject tmpGo = Instantiate(_sliderPrefab);
-            ChangeText Label = tmpGo.GetComponent<ChangeText>();
-            Label.ChangeLabel(_labels[i]);
-            tmpGo.transform.position = new Vector3(_segmentList[i].position.x, _segmentList[i].position.y, _segmentList[i].position.z + 0.22f);
-            tmpGo.transform.SetParent(transform);
+            if (_sliderMushra)
+            {
+                GameObject tmpGo = Instantiate(_sliderMushraPrefab[i - 1]);
+                ChangeText Label = tmpGo.GetComponent<ChangeText>();
+                Label.ChangeLabel(_labels[i]);
+                tmpGo.transform.position = new Vector3(_segmentList[i].transform.position.x, _segmentList[i].transform.position.y, _segmentList[i].transform.position.z + 0.22f);
+                
+                tmpGo.transform.SetParent(transform);
+                 _osc.sliders.Add(tmpGo);
+            }  else if (_slider3G)
+            {
+                GameObject tmpGo = Instantiate(_slider3GPrefab);
+             //   ChangeText Label = tmpGo.GetComponent<ChangeText>();
+             //   Label.ChangeLabel(_labels[i]);
+                tmpGo.transform.position = new Vector3(_segmentList[i].transform.position.x, _segmentList[i].transform.position.y, _segmentList[i].transform.position.z + 0.22f);
+                tmpGo.transform.SetParent(transform);
+                  _osc.sliders.Add(tmpGo);
+            }
         }
     }
 

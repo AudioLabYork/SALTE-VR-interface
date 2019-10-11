@@ -385,6 +385,8 @@ MonoBehaviour:
   b: 0
   userLimitMax: 3
   userLimitMin: -3
+  isMushra: 0
+  is3G: 0
   handType: 0
   sliderAction:
     actionPath: 
@@ -432,6 +434,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectType: 5
   type: 
+  sliderTextID: {fileID: 0}
+  _sliderID: 
+  _sliderIndex: 0
+  sliderInfo: {fileID: 0}
 --- !u!114 &-3388796774328390098
 MonoBehaviour:
   m_ObjectHideFlags: 0
