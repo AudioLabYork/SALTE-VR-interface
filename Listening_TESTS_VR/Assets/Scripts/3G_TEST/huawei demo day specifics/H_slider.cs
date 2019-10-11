@@ -27,6 +27,8 @@ public class H_slider : MonoBehaviour
 
     }
 
+
+
     public void sendData()
     {
         client.Send(buttonAddress, slider_index, value);

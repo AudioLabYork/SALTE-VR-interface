@@ -54,7 +54,7 @@ public class OSC_IN : MonoBehaviour
         BlankList();
 
 
-        sliderValues = new float[4];
+      sliderValues = new float[20];
         buttonStates = new int[5];
 
         // set text
@@ -69,7 +69,7 @@ public class OSC_IN : MonoBehaviour
 
         // Receives OSC data to display two messages on the screen
         server.MessageDispatcher.AddCallback(
-               "/screen", // OSC address
+               "/screenMessages", // OSC address
                (string address, OscDataHandle data) =>
                {
                    if (data.GetElementAsString(0) != null && data.GetElementAsString(1) != null)
@@ -77,11 +77,12 @@ public class OSC_IN : MonoBehaviour
                        // Debug.Log("screen callback");
                        // Debug.Log(data.GetElementAsString(0) + " - " + data.GetElementAsString(1));
                        smallMessageReceived = data.GetElementAsString(0);
+                       messageReceived = data.GetElementAsString(1); 
                      //  smallMessageReceived = message1;
                       // smallScreenMessage.text = message1;
-                       string message2 = data.GetElementAsString(1);
-                       messageReceived = message2;
-                       screenMessage.text = message2;
+                 //      string message2 = data.GetElementAsString(1);
+                //       messageReceived = message2;
+                 //      screenMessage.text = message2;
                    }
                }
            );
@@ -150,6 +151,9 @@ public class OSC_IN : MonoBehaviour
                       Debug.Log(data.GetElementAsInt(0) + " - " + data.GetElementAsFloat(1));
                       int index = data.GetElementAsInt(0);
                       float value = data.GetElementAsFloat(1);
+
+                      sliderValues[data.GetElementAsInt(0)] = data.GetElementAsFloat(1);
+
                       if(sliderValues[index] != null) sliderValues[index] = value;
                   }
               }
@@ -177,11 +181,12 @@ public class OSC_IN : MonoBehaviour
                  "/sliderState", // OSC address
                  (string address, OscDataHandle data) =>
                  {
-                     if (data.GetElementAsFloat(0) != null && data.GetElementAsFloat(1) != null && data.GetElementAsFloat(2) != null && data.GetElementAsFloat(3) != null)
+                     if (data.GetElementAsInt(0) != null && data.GetElementAsFloat(1) != null && data.GetElementAsFloat(2) != null && data.GetElementAsFloat(3) != null)
                      {
 
-                //       if(data.GetElementAsInt(3) == 3.00f && uiStart) { oscManager.is3G = true; oscManager.isMushra = false; uiStart = false; }
-                //       if(data.GetElementAsFloat(3) == 100.0f && uiStart) { oscManager.is3G = false; oscManager.isMushra = true; uiStart = false; }
+                      if(data.GetElementAsInt(3) == 3.00f && uiStart) { oscManager.is3G = true; oscManager.isMushra = false; uiStart = false; }
+                      if(data.GetElementAsFloat(3) == 100.0f && uiStart) { oscManager.is3G = false; oscManager.isMushra = true; uiStart = false; }
+                         sliderValues[data.GetElementAsInt(0)] = data.GetElementAsFloat(1);
 
                      }
                  }
@@ -238,7 +243,7 @@ public class OSC_IN : MonoBehaviour
         if (screenMessage.text != messageReceived) screenMessage.text = messageReceived;
         if (smallScreenMessage.text != smallMessageReceived) smallScreenMessage.text = smallMessageReceived;
 
-   //     updateSliders();
+
  //    highlightButtons();
     //  showUI(visibleUI);
         CreateUI();
@@ -249,13 +254,14 @@ public class OSC_IN : MonoBehaviour
 
     private void UpdateMessage()
     {
-        screenMessage.text = 
+        
     }
 
     private void CreateUI() {
 
-     
-            if (createUI == true)
+        updateSliders();
+
+        if (createUI == true)
             {
                 createUI = false;
                 Debug.Log("create ui");
@@ -271,20 +277,24 @@ public class OSC_IN : MonoBehaviour
     // Takes in OSC data and changes value of the slider
     private void updateSliders()
     {
-        if (updateSlidersLatch == true)
-        {
+       
             for (int i = 0; i < sliders.Count; ++i)
             {
-                H_slider oscSendScript = sliders[i].GetComponent<H_slider>();
-                oscSendScript.enabled = false;
 
                 sliderScale slider = sliders[i].GetComponent<sliderScale>();
-                slider.scaledAmount = (sliderValues[i] + 3) / 6;
+                slider.scaledAmount = (sliderValues[i] - slider.userLimitMin) / (slider.userLimitMax - slider.userLimitMin);
+                
 
-                oscSendScript.enabled = true;
+                //    H_slider oscSendScript = sliders[i].GetComponent<H_slider>();
+                //     oscSendScript.enabled = false;
+
+
+                //      slider.scaledAmount = (sliderValues[i] + 3) / 6;
+
+                //     oscSendScript.enabled = true;
             }
             updateSlidersLatch = false;
-        }
+        
     }
 
     // Takes in OSC data and highlights button
