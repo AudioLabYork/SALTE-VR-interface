@@ -26,6 +26,10 @@ public class OSC_IN : MonoBehaviour
 
     Outline outline;
     public GameObject[] buttons;
+    public bool referenceButtonPresent = false;
+    public bool ABbuttonsPresent = false;
+
+
     public List<GameObject> sliders = new List<GameObject>();
 
     public Material[] material;
@@ -54,7 +58,16 @@ public class OSC_IN : MonoBehaviour
         BlankList();
 
         sliderValues = new float[20];
-        buttonStates = new int[5];
+        for (int i = 0; i < sliderValues.Length; ++i)
+        {
+            sliderValues[i] = 0;
+        }
+
+        buttonStates = new int[6];
+        for (int i = 0; i < buttonStates.Length; ++i)
+        {
+            buttonStates[i] = 0;
+        }
 
         // set text
         messageReceived = "\n\nSpatial Audio Listening Test Environment";
@@ -62,6 +75,7 @@ public class OSC_IN : MonoBehaviour
         // hide UI
         visibleUI = false;
         updateSlidersLatch = false;
+
 
         var server = new OscServer(oscPortIN); // Port number
         Debug.Log("OSC server created");
@@ -107,10 +121,31 @@ public class OSC_IN : MonoBehaviour
                    }
                }
            );
+        server.MessageDispatcher.AddCallback(
+               "/RefTrigButtonPresent", // OSC address
+               (string address, OscDataHandle data) =>
+               {
+                   if (data.GetElementAsInt(0) == 1)
+                       referenceButtonPresent = true;
+                   else
+                       referenceButtonPresent = false;
+               }
+           );
+
+        server.MessageDispatcher.AddCallback(
+               "/ABTrigButtonsPresent", // OSC address
+               (string address, OscDataHandle data) =>
+               {
+                   if (data.GetElementAsInt(0) == 1)
+                       ABbuttonsPresent = true;
+                   else
+                       ABbuttonsPresent = false;
+               }
+           );
 
         // Receives OSC data to control button hightlights
         server.MessageDispatcher.AddCallback(
-               "/button", // OSC address
+               "/buttonState", // OSC address
                (string address, OscDataHandle data) =>
                {
                    if (data.GetElementAsString(0) != null && data.GetElementAsInt(1) != null)
@@ -124,6 +159,39 @@ public class OSC_IN : MonoBehaviour
                        else if (oscButton == "A") buttonStates[3] = state;
                        else if (oscButton == "B") buttonStates[4] = state;
                        else if (oscButton == "reference") buttonStates[5] = state;
+                   }
+               }
+           );
+
+
+        // Receives OSC data to control button hightlights
+        server.MessageDispatcher.AddCallback(
+               "/buttonState", // OSC address
+               (string address, OscDataHandle data) =>
+               {
+                   if (data.GetElementAsString(0) != null && data.GetElementAsInt(1) != null)
+                   {
+                       string oscButton = data.GetElementAsString(0);
+                       int state = data.GetElementAsInt(1);
+
+                       if (oscButton == "play") buttonStates[0] = state;
+                       else if (oscButton == "stop") buttonStates[1] = state;
+                       else if (oscButton == "loop") buttonStates[2] = state;
+                       else if (oscButton == "A") buttonStates[3] = state;
+                       else if (oscButton == "B") buttonStates[4] = state;
+                       else if (oscButton == "reference") buttonStates[5] = state;
+                   }
+               }
+           );
+
+        server.MessageDispatcher.AddCallback(
+               "/condTrigButtonState", // OSC address
+               (string address, OscDataHandle data) =>
+               {
+                   if (data.GetElementAsInt(0) != null && data.GetElementAsInt(1) != null)
+                   {
+                       int sliderIndex = data.GetElementAsInt(0); // 0,1,2,3... equals A,B,C,D...
+                       int state = data.GetElementAsInt(1); // 0 off, 1 on
                    }
                }
            );
@@ -214,7 +282,7 @@ public class OSC_IN : MonoBehaviour
 
         // initialise sliders and buttons
         updateSliders();
-        //   highlightButtons();
+        highlightButtons();
 
         // set UI visibility
         oscManager.SetUI();
@@ -234,23 +302,17 @@ public class OSC_IN : MonoBehaviour
         if (screenMessage.text != messageReceived) screenMessage.text = messageReceived;
         if (smallScreenMessage.text != smallMessageReceived) smallScreenMessage.text = smallMessageReceived;
 
-
-        //    highlightButtons();
-        //  showUI(visibleUI);
-        CreateUI();
-    }
-
-    private void CreateUI()
-    {
-
         if (createUI == true)
         {
-            Debug.Log("create ui");
             oscManager.SetUI();
             createUI = false;
         }
-    }
 
+        buttons[3].SetActive(ABbuttonsPresent);
+        buttons[4].SetActive(ABbuttonsPresent);
+        buttons[5].SetActive(referenceButtonPresent);
+        highlightButtons();
+    }
 
     // Takes in OSC data and changes value of the slider
     public void updateSliders()
@@ -258,7 +320,6 @@ public class OSC_IN : MonoBehaviour
 
         for (int i = 0; i < sliders.Count; ++i)
         {
-
             sliderScale slider = sliders[i].GetComponent<sliderScale>();
             slider.scaledAmount = (sliderValues[i] - slider.userLimitMin) / (slider.userLimitMax - slider.userLimitMin);
         }
@@ -294,7 +355,6 @@ public class OSC_IN : MonoBehaviour
 
     public void SetText()
     {
-
         for (int i = 0; i < labels.Count; i++)
         {
             TextMeshPro labelText = labels[i].GetComponentInChildren<TextMeshPro>();

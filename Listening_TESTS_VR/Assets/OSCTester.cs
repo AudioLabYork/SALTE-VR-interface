@@ -15,8 +15,8 @@ public class OSCTester : MonoBehaviour
     public int sliderMin;
     public int sliderMax;
 
-    [SerializeField] GameObject[] buttonsMushra;
-    [SerializeField] GameObject[] buttons3G;
+    //[SerializeField] GameObject[] buttonsMushra;
+    //[SerializeField] GameObject[] buttons3G;
     public bool showUI;
 
     public bool isMushra;
@@ -28,23 +28,15 @@ public class OSCTester : MonoBehaviour
         _osc = GetComponent<OSC_IN>();
     }
 
-
-    public void SetSliders()
+    public void SetUI()
     {
-        _sliders._segments = numberOfSliders;
-        _sliders.SetUI(numberOfSliders);
-    }
-
-    public void SetText()
-    {
-
-        for (int i = 0; i < _text._textList.Count; i++)
-        {
-            Destroy(_text._textList[i]);
-        }
-
-        _text._segments = numberOfLabels;
-        _text.SetText();
+        ClearUI();
+        SetText();
+        _sliders._sliderMushra = isMushra;
+        _sliders._slider3G = is3G;
+        SetSliders();
+        _osc.updateSliders();
+        _osc.showUI(true);
     }
 
     public void ClearUI()
@@ -54,26 +46,19 @@ public class OSCTester : MonoBehaviour
         _sliders.ClearUI();
     }
 
-    public void SetUI()
+    public void SetText()
     {
-        ClearUI();
-        SetText();
-
-        _sliders._sliderMushra = isMushra;
-        _sliders._slider3G = is3G;
-        SetSliders();
-        _osc.updateSliders();
-
-        for (int i = 0; i < buttons3G.Length; i++)
+        for (int i = 0; i < _text._textList.Count; i++)
         {
-            buttons3G[i].SetActive(is3G);
+            Destroy(_text._textList[i]);
         }
+        _text._segments = numberOfLabels;
+        _text.SetText();
+    }
 
-        for (int i = 0; i < buttonsMushra.Length; i++)
-        {
-            buttonsMushra[i].SetActive(isMushra);
-        }
-
-        _osc.showUI(true);
+    public void SetSliders()
+    {
+        _sliders._segments = numberOfSliders;
+        _sliders.SetUI(numberOfSliders);
     }
 }
