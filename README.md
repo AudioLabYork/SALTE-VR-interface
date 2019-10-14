@@ -48,5 +48,5 @@ The interface have been tested with **Oculus Rift** and **Oculus Rift S.**
 - Competitive gaming experience 
 - Researchers can collect participants localisation response and head movement data
 
-# Our poster for AES New York Convention 2019
+# Our poster presented in AES New York Convention 2019
 ![SALTE Pt. 1: A Virtual Reality Tool for Streamlined and Standardised Spatial Audio Listening Tests (e-Brief 536)](https://github.com/AudioLabYork/SALTE-VR-interface/blob/master/AES_NY_poster_landscape_2019%20copy.jpg)
