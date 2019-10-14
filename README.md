@@ -79,8 +79,8 @@ Built with Unity 2019.2.3f1.
 
 **Head pointing localisation test demo (Demoed in AES IIA 2019)** <br/>
 ![Localisation test demo (head pointing method)](/head_pointing.gif) <br/>
-The right-hand side is the participant's view in VR. <br/>
-The left-hand side is of researchers fo observe the participant's response, the purple dot is the sound source location which is hidden in VR. 
+- The right-hand side is the participant's view in VR. <br/>
+- The left-hand side is of researchers fo observe the participant's response, the purple dot is the sound source location which is hidden in VR. 
 
 **MATLAB app post processing localisation test data** <br/>
 ![MATLAB app for localsiation test data](/MATLAB_app.png) <br/>
