@@ -78,7 +78,7 @@ Built with Unity 2019.2.3f1.
 - Researchers can collect participants localisation externalisation response with head movement data
 
 **Head pointing localisation test demo (Demoed in AES IIA 2019)** <br/>
-![Localisation test demo (head pointing method)](https://github.com/AudioLabYork/SALTE-VR-interface/blob/master/head_pointing.gif) <br/>
+![Localisation test demo (head pointing method)](/head_pointing.gif) <br/>
 The right-hand side is the participant's view in VR.
 The left-hand side is of researchers fo observe the participant's response, the purple dot is the sound source location which is hidden in VR. 
 
