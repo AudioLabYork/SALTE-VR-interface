@@ -68,7 +68,7 @@ Built with Unity 2019.2.3f1.
 4. 6 degrees of freedom (6 DoF) <br/>
 5. More options for the VR interface and control method <br/>
 
-**1** *and* **2** *will be included in version 1.0 early next year.*
+**1** *and* **2** *will be included in version 1.0 (publishing in early next year).*
 
 # Sneak peek: Localsation test
 - Demoed in the 2019 AES International Conference in Immersive and Interactive audio (March 27-29, 2019) Localisation test with head pointing
