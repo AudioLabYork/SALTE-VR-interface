@@ -7,13 +7,36 @@ Built with Unity 2019.2.3f1.
 
 # Motivation
 **1. Building VR listening tests without prior knowledge of VR game engines (e.g. Unity or Unreal)** <br/>
+- No prior knowledge in Unity or C# code
+- Drag and drop interface
+- Well documented with templates and tutorial available
+
 **2. Open Source** <br/>
+- Know the back-end
+- Flexible (easy to modify)
+- Everyone is welcome to contribute
+
 **3. Standardise work-flow** <br/>
+- Standardise data
+- Stable and easy to deploy
+- Repeatable test = Good science
+- Comparable results
+- Easy to expand the scale of the test
+
 **4. Share tests and results** <br/>
+- One person's noise is another person's data
+- No need to build or repeat similar tests
+- Share test easily (with a single .JSON file)
+- Big data era for machine learning
+
+**5. Easy to use and ergonomic interface** <br/>
+- Intuitive design (reduce training time)
+- Improve test speed
+- Better interface = longer test
 
 # Demo
 **Make sure you have setup your VR headset.**
-The interface have been tested with **Oculus Rift** and **Oculus Rift S.** 
+(The interface have been tested with **Oculus Rift** and **Oculus Rift S.** )
 
 **Open demo scene**
 1. Download and start the [SALTE renderer](https://github.com/AudioLabYork/SALTE-audio-renderer)
@@ -33,7 +56,8 @@ The interface have been tested with **Oculus Rift** and **Oculus Rift S.**
 1. Create a .JSON that consolidate all the data for the listening test
 2. For people who are not familiar with coding or editing .JSON file
 3. Drag and drop interface
-4. A safer way to create listening test
+4. Add flexibility (can change background, interfave and control)
+5. A safer way to create listening test
 
 # Future work 
 **1. Video tutorials**
@@ -48,7 +72,7 @@ The interface have been tested with **Oculus Rift** and **Oculus Rift S.**
 - Competitive gaming experience 
 - Researchers can collect participants localisation response and head movement data
 
-![Localisation test demo (head pointing method)](https://github.com/AudioLabYork/SALTE-VR-interface/blob/master/head_pointing.gif)
+![Localisation test demo (head pointing method)](https://github.com/AudioLabYork/SALTE-VR-interface/blob/master/head_pointing.gif) <br/>
 The right-hand side is the participant's view in VR.
 The left-hand side is of researchers fo observe the participant's response, the purple dot is the sound source location which is hidden in VR. 
 
