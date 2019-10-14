@@ -4,7 +4,7 @@ Built with Unity 2019.2.3f1.
 
 **This part of the framework is still under development.** <br/>
 **We are aiming to publish version 1.0 early next year (Please Watch out project for latest update).** <br/>
-**We would also like to have your feedback and contribution to this project.** <br/>
+**We would like to have your feedback and contribution to this project.** <br/>
 
 
 # Motivation
@@ -63,10 +63,12 @@ Built with Unity 2019.2.3f1.
 
 # Future work 
 **1. Video tutorials** <br/>
-2. Localisation tests <br/>
+**2. Localisation tests** <br/>
 3. 360 videos playback <br/>
 4. 6 degrees of freedom (6 DoF) <br/>
 5. More options for the VR interface and control method <br/>
+
+**1** *and* **2** *will be included in version 1.0 early next year.*
 
 # Sneak peek: Localsation test
 - Demoed in the 2019 AES International Conference in Immersive and Interactive audio (March 27-29, 2019) Localisation test with head pointing
@@ -74,9 +76,12 @@ Built with Unity 2019.2.3f1.
 - Competitive gaming experience 
 - Researchers can collect participants localisation response and head movement data
 
+**Localisation test demo**
 ![Localisation test demo (head pointing method)](https://github.com/AudioLabYork/SALTE-VR-interface/blob/master/head_pointing.gif) <br/>
 The right-hand side is the participant's view in VR.
 The left-hand side is of researchers fo observe the participant's response, the purple dot is the sound source location which is hidden in VR. 
+
+![Localisation test demo (hand pointing method)](https://github.com/AudioLabYork/SALTE-VR-interface/blob/master/hand_pointing.gif) <br/>
 
 # Our poster presented in AES New York Convention 2019
 ![SALTE Pt. 1: A Virtual Reality Tool for Streamlined and Standardised Spatial Audio Listening Tests (e-Brief 536)](https://github.com/AudioLabYork/SALTE-VR-interface/blob/master/AES_NY_poster_landscape_2019%20copy.jpg)
