@@ -48,5 +48,9 @@ The interface have been tested with **Oculus Rift** and **Oculus Rift S.**
 - Competitive gaming experience 
 - Researchers can collect participants localisation response and head movement data
 
+![Localisation test demo (head pointing method)](https://github.com/AudioLabYork/SALTE-VR-interface/blob/master/head_pointing.gif)
+The right-hand side is the participant's view in VR.
+The left-hand side is of researchers fo observe the participant's response, the purple dot is the sound source location which is hidden in VR. 
+
 # Our poster presented in AES New York Convention 2019
 ![SALTE Pt. 1: A Virtual Reality Tool for Streamlined and Standardised Spatial Audio Listening Tests (e-Brief 536)](https://github.com/AudioLabYork/SALTE-VR-interface/blob/master/AES_NY_poster_landscape_2019%20copy.jpg)
