@@ -74,7 +74,8 @@ Built with Unity 2019.2.3f1.
 - Demoed in the 2019 AES International Conference in Immersive and Interactive audio (March 27-29, 2019) Localisation test with head pointing
 - Game like interface (easy to embed into game in the future)
 - Competitive gaming experience 
-- Researchers can collect participants localisation response and head movement data
+- Externalisation response (optional)
+- Researchers can collect participants localisation externalisation response with head movement data
 
 **Head pointing localisation test demo (Demoed in AES IIA 2019)** <br/>
 ![Localisation test demo (head pointing method)](https://github.com/AudioLabYork/SALTE-VR-interface/blob/master/head_pointing.gif) <br/>
