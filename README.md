@@ -6,10 +6,10 @@ Built with Unity 2019.2.3f1.
 **We want your feedback and contribution to the project.**
 
 # Motivation
-**1. Building VR listening tests without prior knowledge of VR game engines (e.g. Unity or Unreal)**
-**2. Open Source**
-**3. Standardise work-flow**
-**4. Share tests and results**
+**1. Building VR listening tests without prior knowledge of VR game engines (e.g. Unity or Unreal)** <br/>
+**2. Open Source** <br/>
+**3. Standardise work-flow** <br/>
+**4. Share tests and results** <br/>
 
 # Demo
 **Make sure you have setup your VR headset.**
