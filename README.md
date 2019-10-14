@@ -4,7 +4,7 @@ Built with Unity 2019.2.3f1.
 
 **This part of the framework is still under development.** <br/>
 **We are aiming to publish version 1.0 early next year (Please Watch out project for latest update).** <br/>
-**We would like to have your feedback and contribution to this project.** <br/>
+**We would like to hear your feedback and contribution to this project.** <br/>
 
 
 # Motivation
