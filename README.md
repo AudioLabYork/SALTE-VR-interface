@@ -35,7 +35,7 @@ Built with Unity 2019.2.3f1.
 - Better interface = longer test
 
 # Demo
-**Make sure you have setup your VR headset.**
+**Make sure you have setup your VR headset.** <br/>
 (The interface have been tested with **Oculus Rift** and **Oculus Rift S.** )
 
 **Open demo scene**
@@ -60,11 +60,11 @@ Built with Unity 2019.2.3f1.
 5. A safer way to create listening test
 
 # Future work 
-**1. Video tutorials**
-2. Localisation tests 
-3. 360 videos playback
-4. 6 degrees of freedom (6 DoF)
-5. More options for the VR interface and control method
+**1. Video tutorials** <br/>
+2. Localisation tests <br/>
+3. 360 videos playback <br/>
+4. 6 degrees of freedom (6 DoF) <br/>
+5. More options for the VR interface and control method <br/>
 
 # Sneak peek: Localsation test
 - Demoed in the 2019 AES International Conference in Immersive and Interactive audio (March 27-29, 2019) Localisation test with head pointing
