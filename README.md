@@ -3,7 +3,9 @@ This is the VR listening test interface of SALTE framwork.
 Built with Unity 2019.2.3f1.
 
 **This part of the framework is still under development.** <br/>
-**We want your feedback and contribution to the project.**
+**We are aiming to publish version 1.0 early next year.** <br/>
+**We would like to have your feedback and contribution to this project.** <br/>
+
 
 # Motivation
 **1. Building VR listening tests without prior knowledge of VR game engines (e.g. Unity or Unreal)** <br/>
