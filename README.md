@@ -94,7 +94,8 @@ Built with Unity 2019.2.3f1.
 **Hand pointing method with head tracked grid (New)** <br/>
 ![Localisation test demo (hand pointing method)](/hand_pointing.gif) <br/>
 
-# Our poster presented in AES New York Convention 2019
-
-[**e-Brief - SALTE Pt. 1: A Virtual Reality Tool for Streamlined and Standardized Spatial Audio Listening Tests**](http://www.aes.org/e-lib/browse.cfm?elib=20559) <br/>
+# Our E-Brief and poster presented in AES New York Convention 2019
+**E-Brief** <br/>
+[**SALTE Pt. 1: A Virtual Reality Tool for Streamlined and Standardized Spatial Audio Listening Tests**](http://www.aes.org/e-lib/browse.cfm?elib=20559) <br/>
+**Poster** <br/>
 ![SALTE Pt. 1: A Virtual Reality Tool for Streamlined and Standardised Spatial Audio Listening Tests (e-Brief 536)](/AES_NY_poster_landscape_2019%20copy.jpg)
