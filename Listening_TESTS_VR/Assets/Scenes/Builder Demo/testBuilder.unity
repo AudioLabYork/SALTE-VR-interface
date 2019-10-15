@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -8951,8 +8951,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 458402389}
   m_HandleRect: {fileID: 458402388}
   m_Direction: 2
-  m_Value: 1.0000043
-  m_Size: 0.5942093
+  m_Value: 1.000004
+  m_Size: 0
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -25846,7 +25846,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.0924, y: 5939.8496}
+  m_AnchoredPosition: {x: 4.0924, y: 5939.85}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 28}
 --- !u!114 &1328810199
@@ -33287,17 +33287,17 @@ PrefabInstance:
     - target: {fileID: 114147592530563342, guid: 69a688479fbdc954491fe244abdaf6fd,
         type: 3}
       propertyPath: m_text
-      value: 3G tp
+      value: 3GPP
       objectReference: {fileID: 0}
     - target: {fileID: 114147592530563342, guid: 69a688479fbdc954491fe244abdaf6fd,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 114147592530563342, guid: 69a688479fbdc954491fe244abdaf6fd,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114147592530563342, guid: 69a688479fbdc954491fe244abdaf6fd,
         type: 3}
@@ -33312,7 +33312,7 @@ PrefabInstance:
     - target: {fileID: 114147592530563342, guid: 69a688479fbdc954491fe244abdaf6fd,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114147592530563342, guid: 69a688479fbdc954491fe244abdaf6fd,
         type: 3}
@@ -33344,17 +33344,17 @@ PrefabInstance:
     - target: {fileID: 114423433613037598, guid: 69a688479fbdc954491fe244abdaf6fd,
         type: 3}
       propertyPath: m_text
-      value: 3G tp
+      value: 3GPP
       objectReference: {fileID: 0}
     - target: {fileID: 114423433613037598, guid: 69a688479fbdc954491fe244abdaf6fd,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 114423433613037598, guid: 69a688479fbdc954491fe244abdaf6fd,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114423433613037598, guid: 69a688479fbdc954491fe244abdaf6fd,
         type: 3}
@@ -33369,7 +33369,7 @@ PrefabInstance:
     - target: {fileID: 114423433613037598, guid: 69a688479fbdc954491fe244abdaf6fd,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114423433613037598, guid: 69a688479fbdc954491fe244abdaf6fd,
         type: 3}

@@ -42,6 +42,9 @@ public class OSC_IN : MonoBehaviour
     public List<string> labelStrings = new List<string>();
     public List<GameObject> labels = new List<GameObject>();
 
+    public int numberOfAttributeLabels;
+    public string[] attributeLabels;
+
     // UI Placer Objects 
     [SerializeField] SliderPlacer _sliders;
     [SerializeField] TextPlacer _text;
@@ -57,7 +60,7 @@ public class OSC_IN : MonoBehaviour
     {
         BlankList();
 
-        sliderValues = new float[20];
+        sliderValues = new float[12];
         for (int i = 0; i < sliderValues.Length; ++i)
         {
             sliderValues[i] = 0;
@@ -68,6 +71,8 @@ public class OSC_IN : MonoBehaviour
         {
             buttonStates[i] = 0;
         }
+
+        attributeLabels = new string[4];
 
         // set text
         messageReceived = "\n\nSpatial Audio Listening Test Environment";
@@ -276,6 +281,32 @@ public class OSC_IN : MonoBehaviour
                     if (data.GetElementAsInt(0) != null && data.GetElementAsString(1) != null)
                     {
                         labelStrings[data.GetElementAsInt(0)] = data.GetElementAsString(1);
+                    }
+                }
+            );
+
+        // receives messages about labels 
+        server.MessageDispatcher.AddCallback(
+                  "/numOfAttributeLabels", // OSC address
+                  (string address, OscDataHandle data) =>
+                  {
+                      if (data.GetElementAsInt(0) != null)
+                      {
+                          //oscManager.numberOfLabels = data.GetElementAsInt(0);
+                          numberOfAttributeLabels = data.GetElementAsInt(0);
+
+                      }
+                  }
+              );
+
+        server.MessageDispatcher.AddCallback(
+                "/attributeLabel", // OSC address
+                (string address, OscDataHandle data) =>
+                {
+                    if (data.GetElementAsInt(0) != null && data.GetElementAsString(1) != null)
+                    {
+                        //labelStrings[data.GetElementAsInt(0)] = data.GetElementAsString(1);
+                        attributeLabels[data.GetElementAsInt(0)] = data.GetElementAsString(1);
                     }
                 }
             );
