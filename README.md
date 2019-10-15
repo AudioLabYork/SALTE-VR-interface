@@ -79,7 +79,7 @@ Built with Unity 2019.2.3f1.
 - Game like interface (easy to embed into game in the future)
 - Competitive gaming experience 
 - Externalisation response by changing the distance of the red dot (optional)
-- Researchers can collect participants localisation externalisation response with head movement data
+- Researchers can collect participants localisation and externalisation response with head movement data
 
 **Head pointing localisation test demo (Demoed in AES IIA 2019)** <br/>
 ![Localisation test demo (head pointing method)](/head_pointing.gif) <br/>
