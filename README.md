@@ -74,7 +74,7 @@ Built with Unity 2019.2.3f1.
 - Demoed in the 2019 AES International Conference in Immersive and Interactive audio (March 27-29, 2019) Localisation test with head pointing
 - Game like interface (easy to embed into game in the future)
 - Competitive gaming experience 
-- Externalisation response (optional)
+- Externalisation response by changing the distance of the red dot (optional)
 - Researchers can collect participants localisation externalisation response with head movement data
 
 **Head pointing localisation test demo (Demoed in AES IIA 2019)** <br/>
