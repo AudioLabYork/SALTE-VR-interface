@@ -1,4 +1,4 @@
-# SALTE (Unity)
+# SALTE (Unity part)
 This is the VR listening test interface of SALTE framwork. <br/>
 Built with Unity 2019.2.3f1.
 
