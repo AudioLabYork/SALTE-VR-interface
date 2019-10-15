@@ -48,10 +48,10 @@ Built with Unity 2019.2.3f1.
 5. Have fun
 
 **Control**
-- You will see a ray cast from the right hand controller.
-- Index trigger to “press” any button.
-- Move the joystick up or down to adjust the slider.
-- More control options will come later.
+- You will see a ray cast from the right hand controller
+- **Index trigger** to “press” any button
+- Move the **joystick** up or down to adjust the slider
+- *More control options will come later*
 
 ![3GPP test](/3gScreen.PNG) <br/>
 
