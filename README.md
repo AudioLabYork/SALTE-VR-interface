@@ -60,7 +60,7 @@ Built with Unity 2019.2.3f1.
 1. Create a .JSON that consolidate all the data for the listening test
 2. For people who are not familiar with coding or editing .JSON file
 3. Drag and drop interface
-4. Add flexibility (allow researchers to change background, interface and control method)
+4. More flexible (allow researchers to change background, interface and control method)
 5. A safer way to create listening test
 
 ![Builder](/builder2hand.png) <br/>
