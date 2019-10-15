@@ -44,7 +44,7 @@ Built with Unity 2019.2.3f1.
 1. Download and start the [SALTE renderer](https://github.com/AudioLabYork/SALTE-audio-renderer)
 2. Open Unity (make sure it is on Unity 2019.2.3f1)
 3. Load the SALTE-VR-interface/Listening_TESTS_VR/Assets/Scenes/**NYC.unity** scene
-4. Press the **begin** button in the renderer
+4. Press the **Begin** button in the renderer
 5. Have fun
 
 **Control**
