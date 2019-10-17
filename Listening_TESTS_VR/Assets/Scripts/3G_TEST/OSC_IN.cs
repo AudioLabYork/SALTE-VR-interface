@@ -131,9 +131,15 @@ public class OSC_IN : MonoBehaviour
                (string address, OscDataHandle data) =>
                {
                    if (data.GetElementAsInt(0) == 1)
+                   {
                        referenceButtonPresent = true;
+                       ABbuttonsPresent = false;
+                   }
                    else
+                   {
                        referenceButtonPresent = false;
+                       ABbuttonsPresent = true;
+                   }
                }
            );
 
@@ -142,9 +148,16 @@ public class OSC_IN : MonoBehaviour
                (string address, OscDataHandle data) =>
                {
                    if (data.GetElementAsInt(0) == 1)
+                   {
                        ABbuttonsPresent = true;
+                       referenceButtonPresent = false;
+                   }
+
                    else
+                   {
                        ABbuttonsPresent = false;
+                       referenceButtonPresent = true;
+                   }
                }
            );
 
@@ -336,6 +349,7 @@ public class OSC_IN : MonoBehaviour
         if (createUI == true)
         {
             oscManager.SetUI();
+            
             createUI = false;
         }
 

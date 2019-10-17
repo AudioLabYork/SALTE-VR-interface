@@ -36,12 +36,12 @@ public class OSCTester : MonoBehaviour
         _sliders._slider3G = is3G;
         SetSliders();
         _osc.updateSliders();
-        _osc.showUI(true);
+     //   _osc.showUI(true);
     }
 
     public void ClearUI()
     {
-        _osc.showUI(false);
+    //    _osc.showUI(false);
         _text.ClearText();
         _sliders.ClearUI();
     }

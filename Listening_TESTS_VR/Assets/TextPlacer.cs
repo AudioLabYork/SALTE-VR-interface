@@ -50,6 +50,7 @@ public class TextPlacer : MonoBehaviour
 
     public void ClearText()
     {
+        
        
         foreach (GameObject go in _textList)
         {
@@ -86,6 +87,8 @@ public class TextPlacer : MonoBehaviour
 
     private void UpdateTextString()
     {
+        _textList.Reverse();
+
         for (int i = 0; i < _segments; i++)
         {
             TextMeshPro text = _textList[i].GetComponentInChildren<TextMeshPro>();

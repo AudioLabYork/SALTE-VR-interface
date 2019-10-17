@@ -32,7 +32,7 @@ public class SliderPlacer : MonoBehaviour
     public bool _slider3G;
 
 
-    string[] _labels = new string[] {"_", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j" };
+    string[] _labels = new string[] {"_", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J" , "K" };
 
     // Start is called before the first frame update
     void Start()
@@ -127,8 +127,9 @@ public class SliderPlacer : MonoBehaviour
             }  else if (_slider3G)
             {
                 GameObject tmpGo = Instantiate(_slider3GPrefab);
-             //   ChangeText Label = tmpGo.GetComponent<ChangeText>();
-             //   Label.ChangeLabel(_labels[i]);
+                ChangeText Label = tmpGo.GetComponent<ChangeText>();
+                if(Label != null) { Label.ChangeLabel(_osc.attributeLabels[i - 1]);
+                Debug.Log("hello");}                
                 tmpGo.transform.position = new Vector3(_segmentList[i].transform.position.x, _segmentList[i].transform.position.y, _segmentList[i].transform.position.z + 0.22f);
                 tmpGo.transform.SetParent(transform);
                   _osc.sliders.Add(tmpGo);
