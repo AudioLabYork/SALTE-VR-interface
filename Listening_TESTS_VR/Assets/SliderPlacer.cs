@@ -129,7 +129,9 @@ public class SliderPlacer : MonoBehaviour
                 GameObject tmpGo = Instantiate(_slider3GPrefab);
                 ChangeText Label = tmpGo.GetComponent<ChangeText>();
                 if(Label != null) { Label.ChangeLabel(_osc.attributeLabels[i - 1]);
-                Debug.Log("hello");}                
+                Debug.Log("hello");}
+                H_slider H_slider = tmpGo.GetComponent<H_slider>();
+                H_slider.slider_index = i - 1;
                 tmpGo.transform.position = new Vector3(_segmentList[i].transform.position.x, _segmentList[i].transform.position.y, _segmentList[i].transform.position.z + 0.22f);
                 tmpGo.transform.SetParent(transform);
                   _osc.sliders.Add(tmpGo);
