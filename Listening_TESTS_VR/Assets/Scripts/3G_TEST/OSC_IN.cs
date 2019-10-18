@@ -133,12 +133,12 @@ public class OSC_IN : MonoBehaviour
                    if (data.GetElementAsInt(0) == 1)
                    {
                        referenceButtonPresent = true;
-                       ABbuttonsPresent = false;
+                       //ABbuttonsPresent = false;
                    }
                    else
                    {
                        referenceButtonPresent = false;
-                       ABbuttonsPresent = true;
+                       //ABbuttonsPresent = true;
                    }
                }
            );
@@ -150,13 +150,13 @@ public class OSC_IN : MonoBehaviour
                    if (data.GetElementAsInt(0) == 1)
                    {
                        ABbuttonsPresent = true;
-                       referenceButtonPresent = false;
+                       //referenceButtonPresent = false;
                    }
 
                    else
                    {
                        ABbuttonsPresent = false;
-                       referenceButtonPresent = true;
+                       //referenceButtonPresent = true;
                    }
                }
            );
