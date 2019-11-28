@@ -1,0 +1,1103 @@
+Trigger log 
+
+
+- Login date: 2/12/2019 7:49:37 PM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,19:49:41.0455782,135.441,2.137742,1.5,irc_1023_normalised_pink_-90_60_1s (UnityEngine.AudioClip),0,-90,60,0,3.703366,3.703366,pink,0,0,135.441,-2.137742,358.4574,azi.err,ele.err,dist.err,loc.score,OA.score,
+1,19:49:44.7001951,0.3058777,0.2473388,1.5,irc_1044_normalised_pink_150_0_1s (UnityEngine.AudioClip),1,150,0,0,2.521863,7.358619,pink,135.4063,-2.292871,135.7121,-2.54021,357.7478,azi.err,ele.err,dist.err,loc.score,OA.score,
+2,19:49:55.5309828,0.8695602,2.759583,1.5,irc_1051_normalised_pink_-90_45_1s (UnityEngine.AudioClip),1,-90,45,0,5.574804,18.19019,pink,46.88826,1.705933,47.75782,-1.05365,355.99,azi.err,ele.err,dist.err,loc.score,OA.score,
+3,19:50:04.0229963,92.93049,2.233475,1.5,irc_1006_normalised_pink_135_0_1s (UnityEngine.AudioClip),1,135,0,0,5.837511,26.68231,pink,47.78173,-2.299227,140.7122,-0.06575254,353.8478,azi.err,ele.err,dist.err,loc.score,OA.score,
+4,19:50:14.9111078,86.99658,2.059906,1.5,subject_153_normalised_pink_30_0_1s (UnityEngine.AudioClip),1,30,0,0,9.354311,37.56997,pink,140.2869,0.3678284,227.2835,2.427734,356.1844,azi.err,ele.err,dist.err,loc.score,OA.score,
+5,19:50:27.1221694,89.08266,0.9264221,1.5,D2_96K_24bit_512tap_FIR_SOFA_normalised_pink_-30_45_1s (UnityEngine.AudioClip),1,-30,45,0,8.578457,49.78149,pink,225.0172,2.539948,135.9345,1.613525,355.8016,azi.err,ele.err,dist.err,loc.score,OA.score,
+6,19:50:32.5994437,0.2343292,0.07501221,1.5,subject_028_normalised_pink_-150_45_1s (UnityEngine.AudioClip),1,-150,45,0,1.4884,55.25954,pink,137.0301,1.576691,137.2644,1.651703,356.001,azi.err,ele.err,dist.err,loc.score,OA.score,
+7,19:50:35.3003369,0.1320648,0.1745605,1.5,irc_1042_normalised_pink_-30_60_1s (UnityEngine.AudioClip),1,-30,60,0,1.400051,57.95975,pink,137.2464,1.489655,137.3785,1.315094,355.4516,azi.err,ele.err,dist.err,loc.score,OA.score,
+8,19:50:42.9342451,23.98894,22.45905,1.5,subject_135_normalised_pink_-30_0_1s (UnityEngine.AudioClip),1,-30,0,0,9.033531,65.59323,pink,137.2464,1.489655,161.2354,23.9487,355.8068,azi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/12/2019 10:39:07 PM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,22:40:37.6573724,63.58383,10.24024,1.5,irc_1005_normalised_pink_135_0_1s (UnityEngine.AudioClip),0,135,0,0,89.80393,89.80393,pink,0,0,-63.58383,-10.24024,358.981,azi.err,ele.err,dist.err,loc.score,OA.score,
+1,22:40:46.7631698,2.183777,13.29403,1.5,subject_012_normalised_pink_30_60_1s (UnityEngine.AudioClip),1,30,60,0,7.797897,98.91055,pink,-64.06335,-8.355004,-66.24713,4.939026,356.0066,azi.err,ele.err,dist.err,loc.score,OA.score,
+2,22:40:48.9855295,28.6452,14.93575,1.5,irc_1012_normalised_pink_150_0_1s (UnityEngine.AudioClip),1,150,0,0,10.02058,101.1332,pink,-64.06335,-8.355004,-92.70856,6.58075,351.9744,azi.err,ele.err,dist.err,loc.score,OA.score,
+3,22:40:49.9313035,27.45459,14.17907,1.5,D1_96K_24bit_512tap_FIR_SOFA_normalised_pink_0_45_1s (UnityEngine.AudioClip),1,0,45,0,10.96725,102.0799,pink,-64.06335,-8.355004,-91.51794,5.824066,353.4012,azi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/12/2019 10:50:00 PM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,22:50:40.7974014,-102.2405,2.994219,0.9770624,irc_1057_normalised_pink_150_45_1s (UnityEngine.AudioClip),0.9813152,150,45,0,4.965744,40.26263,pink,270.8269,-0.5765553,168.5864,2.417664,357.6849,azi.err,ele.err,dist.err,loc.score,OA.score,
+1,22:50:52.2085554,61.15192,0.4617727,0.9770624,subject_021_normalised_pink_0_45_1s (UnityEngine.AudioClip),1,0,45,0,7.267662,51.6736,pink,260.4496,-0.3050954,321.6016,0.1566772,358.0163,azi.err,ele.err,dist.err,loc.score,OA.score,
+2,22:51:05.4949834,183.9633,1.341973,0.9770624,subject_133_normalised_pink_-150_0_1s (UnityEngine.AudioClip),0.4479819,-150,0,0,5.030849,64.96088,pink,80.85275,-4.025126,264.8161,-2.683153,357.0635,azi.err,ele.err,dist.err,loc.score,OA.score,
+3,22:51:14.8741585,-102.7737,0.9796047,0.9770624,subject_165_normalised_pink_0_60_1s (UnityEngine.AudioClip),1,0,60,0,3.78997,74.34007,pink,269.5356,-3.395282,166.7618,-2.415677,358.7979,azi.err,ele.err,dist.err,loc.score,OA.score,
+4,22:51:23.1642537,0.7303162,-1.845144,0.9770624,D2_96K_24bit_512tap_FIR_SOFA_normalised_pink_-90_45_1s (UnityEngine.AudioClip),1,-90,45,0,6.517517,82.62975,pink,257.9063,-0.4351476,258.6366,-2.280291,351.9709,azi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/12/2019 10:53:18 PM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,22:53:31.5294908,-91.60321,0.3813782,1.5,subject_134_normalised_pink_-135_0_1s (UnityEngine.AudioClip),1,-135,0,0,2.855742,12.5911,pink,273.895,2.846252,182.2917,3.227631,7.816515,azi.err,ele.err,dist.err,loc.score,OA.score,
+1,22:53:35.2078089,-84.12622,0.6663208,1.5,subject_011_normalised_pink_-150_0_1s (UnityEngine.AudioClip),0.4479819,-150,0,0,2.167087,16.26973,pink,264.1992,2.029572,180.073,2.695892,5.446175,azi.err,ele.err,dist.err,loc.score,OA.score,
+2,22:53:39.2642900,-87.97679,-1.132629,1.5,irc_1012_normalised_pink_-30_45_1s (UnityEngine.AudioClip),0.7893198,-30,45,0,2.577141,20.32618,pink,270.2598,2.290558,182.283,1.157928,6.327189,azi.err,ele.err,dist.err,loc.score,OA.score,
+3,22:53:43.6640182,-71.54968,4.240681,1.5,irc_1016_normalised_pink_150_60_1s (UnityEngine.AudioClip),0.9813152,150,60,0,2.555948,24.72557,pink,263.4109,-1.598744,191.8612,2.641937,2.668388,azi.err,ele.err,dist.err,loc.score,OA.score,
+4,22:53:47.7413832,76.49335,-1.327732,1.5,subject_154_normalised_pink_150_0_1s (UnityEngine.AudioClip),1,150,0,0,2.466486,28.80325,pink,264.7522,0.3095093,341.2455,-1.018223,349.1678,azi.err,ele.err,dist.err,loc.score,OA.score,
+5,22:53:51.5736184,69.8916,-3.034267,1.5,subject_152_normalised_pink_0_45_1s (UnityEngine.AudioClip),0.9173242,0,45,0,1.988562,32.63543,pink,266.3383,0.318573,336.2299,-2.715694,358.558,azi.err,ele.err,dist.err,loc.score,OA.score,
+6,22:53:56.5197137,1.648895,0.9642088,1.5,H20_96K_24bit_512tap_FIR_SOFA_normalised_pink_-90_60_1s (UnityEngine.AudioClip),0.4906576,-90,60,0,1.076878,37.58119,pink,267.6793,-1.493972,269.3282,-0.5297627,354.9116,azi.err,ele.err,dist.err,loc.score,OA.score,
+7,22:53:59.3754808,-64.12643,4.656557,1.5,H13_96K_24bit_512tap_FIR_SOFA_normalised_pink_-30_45_1s (UnityEngine.AudioClip),1,-30,45,0,2.055771,40.43671,pink,269.7299,-0.261324,205.6035,4.395233,0.8512521,azi.err,ele.err,dist.err,loc.score,OA.score,
+8,22:54:03.4417944,-57.43951,1.710571,1.5,irc_1023_normalised_pink_-30_60_1s (UnityEngine.AudioClip),1,-30,60,0,2.723389,44.50415,pink,266.2095,2.564148,208.77,4.274719,1.293836,azi.err,ele.err,dist.err,loc.score,OA.score,
+9,22:54:07.5011434,1.622162,0.4359508,1.5,subject_152_normalised_pink_-180_45_1s (UnityEngine.AudioClip),1,-180,45,0,2.859814,48.5629,pink,267.5487,-1.003772,269.1709,-0.5678215,356.126,azi.err,ele.err,dist.err,loc.score,OA.score,
+10,22:54:11.1101483,59.302,-0.6604876,1.5,subject_040_normalised_pink_0_60_1s (UnityEngine.AudioClip),0.9813152,0,60,0,3.069031,52.17172,pink,269.5361,-0.1716818,328.8381,-0.8321694,354.6219,azi.err,ele.err,dist.err,loc.score,OA.score,
+11,22:54:15.1625969,46.94986,-0.4745924,1.5,irc_1026_normalised_pink_-30_60_1s (UnityEngine.AudioClip),0.8959864,-30,60,0,1.810585,56.22403,pink,276.0499,-1.476623,322.9998,-1.951215,352.7509,azi.err,ele.err,dist.err,loc.score,OA.score,
+12,22:54:20.2516768,-50.26581,0.9289551,1.5,subject_156_normalised_pink_-30_0_1s (UnityEngine.AudioClip),0.5759864,-30,0,0,3.68922,61.31324,pink,270.9711,1.073029,220.7053,2.001984,357.9716,azi.err,ele.err,dist.err,loc.score,OA.score,
+13,22:54:24.1731264,-56.2218,1.212311,1.5,irc_1043_normalised_pink_-30_60_1s (UnityEngine.AudioClip),1,-30,60,0,2.555336,65.23558,pink,271.8245,0.9080811,215.6027,2.120392,0.9230233,azi.err,ele.err,dist.err,loc.score,OA.score,
+14,22:54:27.7422757,-46.87968,3.367771,1.5,irc_1017_normalised_pink_-180_0_1s (UnityEngine.AudioClip),1,-180,0,0,2.289009,68.80312,pink,268.9726,-2.816013,222.0929,0.5517578,358.3698,azi.err,ele.err,dist.err,loc.score,OA.score,
+15,22:54:31.9849765,0.4233093,0.2840271,1.5,subject_019_normalised_pink_-180_60_1s (UnityEngine.AudioClip),1,-180,60,0,1.55455,73.04697,pink,271.4594,1.510315,271.8827,1.794342,357.6105,azi.err,ele.err,dist.err,loc.score,OA.score,
+16,22:54:34.6965825,43.06329,-1.723938,1.5,H13_96K_24bit_512tap_FIR_SOFA_normalised_pink_45_0_1s (UnityEngine.AudioClip),0.9813152,45,0,0,2.287048,75.75841,pink,271.9159,1.828064,314.9792,0.104126,355.2538,azi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/13/2019 12:20:13 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,00:20:14.1565804,332.4363,-7.01369,1.5,irc_1028_normalised_pink_-180_0_1s (UnityEngine.AudioClip),0,-180,0,0,0.7859076,0.7859076,pink,0,0,332.4363,-7.01369,357.2053,-152.4363, -7.01369,1.5,loc.score,OA.score,
+1,00:20:26.5660192,1.792267,-2.672089,3.477019,subject_147_normalised_pink_150_0_1s (UnityEngine.AudioClip),0.5973243,150,0,0,1.780025,13.19595,pink,320.0324,3.462433,321.8247,0.7903442,347.1722,-148.2077, -2.672089,3.477019,loc.score,OA.score,
+2,00:20:29.6170291,0.1925659,1.226866,1.634139,irc_1004_normalised_pink_-30_0_1s (UnityEngine.AudioClip),1,-30,0,0,2.354894,16.24726,pink,330.3214,-3.478273,330.514,-2.251408,350.3793,30.19257, 1.226866,1.634139,loc.score,OA.score,
+
+- Login date: 2/13/2019 12:31:45 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,00:31:46.8654311,329.2719,9.832489,1.5,H15_96K_24bit_512tap_FIR_SOFA_normalised_pink_-150_45_1s (UnityEngine.AudioClip),0,-150,45,0,0.7758034,0.7758034,pink,0,0,329.2719,9.832489,352.2658,-119.2719, -35.16751,1.5,loc.score,OA.score,
+1,00:31:53.3054209,0.8727417,0.2661685,4.245107,subject_009_normalised_pink_0_45_1s (UnityEngine.AudioClip),1,0,45,0,1.542527,7.217583,pink,331.4343,-0.9333249,332.307,-0.6671564,355.6182,0.8727417, -44.73383,4.245107,loc.score,OA.score,
+2,00:31:55.6159040,0.04864502,-0.06747949,4.245107,subject_018_normalised_pink_0_0_1s (UnityEngine.AudioClip),1,0,0,0,1.744161,9.528528,pink,332.5899,-0.4321345,332.6385,-0.499614,355.3339,0.04864502, -0.06747949,4.245107,loc.score,OA.score,
+3,00:31:59.3969318,nan,nan,nan,subject_018_normalised_pink_0_0_1s (UnityEngine.AudioClip),1,0,0,0,3.357059,13.30906,pink,332.6647,-0.4040363,332.7828,-0.5378314,355.3895,nan, nan,nan,loc.score,OA.score,
+4,00:32:10.6533374,0.2751465,-0.7590379,4.245107,subject_009_normalised_pink_0_45_1s (UnityEngine.AudioClip),1,0,45,0,3.04755,24.56571,pink,333.0938,-1.463527,333.3689,-2.222565,355.4364,0.2751465, -45.75904,4.245107,loc.score,OA.score,
+5,00:32:17.6400752,-0.381897,-0.3994321,4.245107,subject_018_normalised_pink_0_0_1s (UnityEngine.AudioClip),1,0,0,0,1.421801,31.55107,pink,332.6834,-1.276332,332.3015,-1.675764,355.5568,-0.381897, -0.3994321,4.245107,loc.score,OA.score,
+6,00:32:24.0184639,-0.09844971,-0.2000986,4.245107,subject_018_normalised_pink_0_0_1s (UnityEngine.AudioClip),1,0,0,0,1.324463,37.931,pink,332.8533,-1.836706,332.7549,-2.036804,355.0296,-0.09844971, -0.2000986,4.245107,loc.score,OA.score,
+7,00:32:30.2948082,0.01104736,-0.03385353,4.245107,subject_018_normalised_pink_0_0_1s (UnityEngine.AudioClip),1,0,0,0,1.254517,44.20658,pink,332.5057,-2.159734,332.5168,-2.193588,355.5696,0.01104736, -0.03385353,4.245107,loc.score,OA.score,
+8,00:32:33.8498107,0.04147339,-0.05638242,4.245107,subject_018_normalised_pink_0_0_1s (UnityEngine.AudioClip),0.9813152,0,0,0,1.732845,47.76199,pink,332.6028,-2.006607,332.6443,-2.062989,355.1897,0.04147339, -0.05638242,4.245107,loc.score,OA.score,
+9,00:32:34.8384193,-0.07470703,-0.03631639,4.245107,irc_1052_normalised_pink_-150_60_1s (UnityEngine.AudioClip),0.9813152,-150,60,0,2.722065,48.75121,pink,332.6028,-2.006607,332.5281,-2.042923,355.1111,149.9253, -60.03632,4.245107,loc.score,OA.score,
+10,00:32:39.5045829,-0.01556396,0.1723247,4.245107,subject_124_normalised_pink_-30_45_1s (UnityEngine.AudioClip),1,-30,45,0,1.409824,53.41669,pink,332.5643,-2.229447,332.5487,-2.057122,355.0854,29.98444, -44.82767,4.245107,loc.score,OA.score,
+11,00:32:47.6427014,0.03283691,-0.2444011,4.245107,subject_124_normalised_pink_-30_45_1s (UnityEngine.AudioClip),1,-30,45,0,3.33778,61.55548,pink,332.7241,-1.775573,332.7569,-2.019974,355.0794,30.03284, -45.2444,4.245107,loc.score,OA.score,
+12,00:32:55.5864715,0.1012268,-0.04544616,4.245107,subject_124_normalised_pink_-30_45_1s (UnityEngine.AudioClip),1,-30,45,0,1.714668,69.4984,pink,332.5952,-2.209312,332.6964,-2.254758,354.7778,30.10123, -45.04544,4.245107,loc.score,OA.score,
+13,00:33:02.0660096,0.002807617,0.1444256,4.245107,subject_124_normalised_pink_-30_45_1s (UnityEngine.AudioClip),1,-30,45,0,1.525696,75.97746,pink,332.6705,-2.428146,332.6733,-2.28372,355.3511,30.00281, -44.85558,4.245107,loc.score,OA.score,
+14,00:33:08.4391335,0.04873657,-0.1559017,4.245107,subject_124_normalised_pink_-30_45_1s (UnityEngine.AudioClip),1,-30,45,0,1.453163,82.35129,pink,332.5177,-2.361566,332.5665,-2.517467,355.2787,30.04874, -45.1559,4.245107,loc.score,OA.score,
+15,00:33:17.2065117,nan,nan,nan,irc_1007_normalised_pink_-150_45_1s (UnityEngine.AudioClip),1,-150,45,0,3.511749,91.11874,pink,332.5193,-2.653233,332.6751,-2.497467,355.2748,nan, nan,nan,loc.score,OA.score,
+16,00:33:21.7494596,nan,nan,nan,irc_1007_normalised_pink_-150_45_1s (UnityEngine.AudioClip),1,-150,45,0,1.520721,95.66233,pink,332.7594,-2.46382,332.6168,-2.514105,354.9851,nan, nan,nan,loc.score,OA.score,
+
+- Login date: 2/13/2019 12:39:58 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,00:40:03.2512670,0.1086121,-0.2929235,1.5,irc_1038_normalised_pink_-30_0_1s (UnityEngine.AudioClip),1,-30,0,0,1.811561,4.575011,pink,339.4207,-4.490968,339.5294,-4.783892,353.6458,30.10861, -0.2929235,1.5,loc.score,OA.score,
+1,00:40:12.5045825,-46.02167,66.40305,1.5,irc_1012_normalised_pink_150_0_1s (UnityEngine.AudioClip),1,150,0,0,4.531478,13.82746,pink,339.1891,-5.144869,293.1675,61.25818,6.516196,163.9783, 66.40305,1.5,loc.score,OA.score,
+2,00:40:20.6411641,-277.6007,3.412518,1.5,subject_131_normalised_pink_30_45_1s (UnityEngine.AudioClip),0.8959864,30,45,0,5.5019,21.96508,pink,334.2333,-0.6408809,56.63262,2.771637,348.7541,52.39932, -41.58748,1.5,loc.score,OA.score,
+3,00:40:33.0292248,-286.7501,39.24735,1.5,subject_008_normalised_pink_-30_60_1s (UnityEngine.AudioClip),1,-30,60,0,3.68944,34.35336,pink,335.1068,-0.7386206,48.35672,38.50873,348.9948,103.2499, -20.75265,1.5,loc.score,OA.score,
+4,00:40:36.9714537,-0.4532166,-0.9943542,1.5,irc_1057_normalised_pink_-90_60_1s (UnityEngine.AudioClip),1,-90,60,0,1.620266,38.29577,pink,337.8165,5.887451,337.3633,4.893097,350.9045,89.54678, -60.99435,1.5,loc.score,OA.score,
+5,00:40:57.8747925,-3.389038,46.2063,1.5,subject_131_normalised_pink_30_45_1s (UnityEngine.AudioClip),1,30,45,0,3.844097,59.19829,pink,329.0074,9.272461,325.6183,55.47876,349.2679,-33.38904, 1.206299,1.5,loc.score,OA.score,
+6,00:41:09.3187899,-12.25772,52.26477,1.5,subject_131_normalised_pink_30_45_1s (UnityEngine.AudioClip),0.8959864,30,45,0,3.434288,70.64263,pink,336.631,6.377197,324.3733,58.64197,356.6917,-42.25772, 7.264771,1.5,loc.score,OA.score,
+7,00:41:13.9742854,-291.3751,33.57237,1.5,subject_008_normalised_pink_-30_60_1s (UnityEngine.AudioClip),0.5973243,-30,60,0,1.865997,75.2975,pink,332.4011,-2.932053,41.02602,30.64032,355.2894,98.62494, -26.42763,1.5,loc.score,OA.score,
+8,00:41:21.3189251,-55.00476,38.11707,1.5,irc_1057_normalised_pink_-90_60_1s (UnityEngine.AudioClip),1,-90,60,0,5.401169,82.64231,pink,328.4792,4.192108,273.4745,42.30917,355.8176,34.99524, -21.88293,1.5,loc.score,OA.score,
+9,00:41:39.3153257,18.04022,1.293823,1.5,subject_131_normalised_pink_30_45_1s (UnityEngine.AudioClip),0.06399093,30,45,0,7.341873,100.6384,pink,334.5776,8.442383,352.6179,9.736206,357.431,-11.95978, -43.70618,1.5,loc.score,OA.score,
+10,00:41:42.4490350,18.39536,0.9466553,1.5,subject_008_normalised_pink_-30_60_1s (UnityEngine.AudioClip),0.06399093,-30,60,0,10.47563,103.7722,pink,334.5776,8.442383,352.973,9.389038,357.298,48.39536, -59.05334,1.5,loc.score,OA.score,
+11,00:41:45.0599820,18.27209,1.123352,1.5,irc_1057_normalised_pink_-90_60_1s (UnityEngine.AudioClip),0.06399093,-90,60,0,13.0864,106.3829,pink,334.5776,8.442383,352.8497,9.565735,357.364,108.2721, -58.87665,1.5,loc.score,OA.score,
+12,00:41:58.9682459,-334.5776,-8.442383,1.5,subject_131_normalised_pink_30_45_1s (UnityEngine.AudioClip),0.06399093,30,45,0,26.99408,120.2906,pink,334.5776,8.442383,0,0,0,-4.577637, -53.44238,1.5,loc.score,OA.score,
+13,00:41:59.9893816,-334.5776,-8.442383,1.5,subject_008_normalised_pink_-30_60_1s (UnityEngine.AudioClip),0.06399093,-30,60,0,28.01626,121.3128,pink,334.5776,8.442383,0,0,0,55.42236, -68.44238,1.5,loc.score,OA.score,
+14,00:42:00.6785408,-334.5776,-8.442383,1.5,irc_1057_normalised_pink_-90_60_1s (UnityEngine.AudioClip),0.06399093,-90,60,0,28.70497,122.0015,pink,334.5776,8.442383,0,0,0,115.4224, -68.44238,1.5,loc.score,OA.score,
+
+- Login date: 2/13/2019 12:45:47 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,00:45:52.3067508,2.456261,4.010162,1.5,irc_1039_normalised_pink_30_0_1s (UnityEngine.AudioClip),0,30,0,0,4.47943,4.47943,pink,0,0,2.456261,4.010162,354.8021,-27.54374, 4.010162,1.5,loc.score,OA.score,
+1,00:45:54.7169886,nan,nan,nan,irc_1032_normalised_pink_-135_0_1s (UnityEngine.AudioClip),0,-135,0,0,6.891163,6.891163,pink,0,0,0.6114523,3.383392,355.9537,nan, nan,nan,loc.score,OA.score,
+2,00:45:58.4950962,0.3360395,2.324829,1.5,H16_96K_24bit_512tap_FIR_SOFA_normalised_pink_-180_0_1s (UnityEngine.AudioClip),0,-180,0,0,10.66938,10.66938,pink,0,0,0.3360395,2.324829,355.8987,179.664, 2.324829,1.5,loc.score,OA.score,
+3,00:46:09.8181257,5.158777,15.49469,1.5,irc_1043_normalised_pink_-150_0_1s (UnityEngine.AudioClip),0,-150,0,0,21.99184,21.99184,pink,0,0,5.158777,15.49469,352.7237,155.1588, 15.49469,1.5,loc.score,OA.score,
+4,00:46:17.6421799,4.596636,16.96512,1.5,subject_003_normalised_pink_135_0_1s (UnityEngine.AudioClip),0,135,0,0,29.81552,29.81552,pink,0,0,4.596636,16.96512,352.1823,-130.4034, 16.96512,1.5,loc.score,OA.score,
+5,00:46:38.8724783,0.2944031,-0.1912806,1.5,irc_1017_normalised_pink_150_0_1s (UnityEngine.AudioClip),1,150,0,0,2.711937,51.04667,pink,352.4844,-0.124038,352.7788,-0.3153186,358.1351,-149.7056, -0.1912806,1.5,loc.score,OA.score,
+
+- Login date: 2/13/2019 12:47:38 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,00:47:45.5616818,0.1426697,0.2482982,1.5,irc_1039_normalised_pink_30_0_1s (UnityEngine.AudioClip),1,30,0,0,1.489077,6.996945,pink,346.6188,-5.345112,346.7615,-5.096814,357.032,-29.85733, 0.2482982,1.5,loc.score,OA.score,
+1,00:47:53.6719667,0.1203918,-0.3285336,1.5,irc_1039_normalised_pink_30_0_1s (UnityEngine.AudioClip),1,30,0,0,3.833496,15.10811,pink,347.1426,-4.789631,347.263,-5.118165,356.8452,-29.87961, -0.3285336,1.5,loc.score,OA.score,
+2,00:47:55.9389485,-0.003814697,0.2799921,1.5,irc_1039_normalised_pink_30_0_1s (UnityEngine.AudioClip),1,30,0,0,1.456221,17.37466,pink,347.2924,-5.091179,347.2886,-4.811187,356.6611,-30.00381, 0.2799921,1.5,loc.score,OA.score,
+3,00:47:57.6498415,0.06182861,0.03112698,1.5,irc_1039_normalised_pink_30_0_1s (UnityEngine.AudioClip),1,30,0,0,1.332991,19.08571,pink,347.3019,-5.112525,347.3637,-5.081398,356.6683,-29.93817, 0.03112698,1.5,loc.score,OA.score,
+4,00:47:59.2615166,-0.1105957,-0.137979,1.5,irc_1039_normalised_pink_30_0_1s (UnityEngine.AudioClip),1,30,0,0,1.266376,20.69672,pink,347.3893,-5.107223,347.2787,-5.245202,356.8705,-30.1106, -0.137979,1.5,loc.score,OA.score,
+5,00:48:00.9829703,-0.0385437,-0.4488349,1.5,irc_1039_normalised_pink_30_0_1s (UnityEngine.AudioClip),1,30,0,0,1.255045,22.41867,pink,347.3283,-5.278869,347.2898,-5.727704,356.9357,-30.03854, -0.4488349,1.5,loc.score,OA.score,
+6,00:48:02.8153838,0.729126,-0.3185711,1.5,irc_1039_normalised_pink_30_0_1s (UnityEngine.AudioClip),1,30,0,0,1.423725,24.25135,pink,347.3671,-5.691102,348.0962,-6.009673,358.0977,-29.27087, -0.3185711,1.5,loc.score,OA.score,
+
+- Login date: 2/13/2019 12:48:30 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,00:48:31.5605797,342.6029,-7.744079,1.5,subject_021_normalised_pink_-180_60_1s (UnityEngine.AudioClip),0,-180,60,0,1.206372,1.206372,pink,0,0,342.6029,-7.744079,355.8114,-162.6029, -67.74408,1.5,loc.score,OA.score,
+1,00:48:33.1057500,342.6978,-7.806765,1.5,subject_133_normalised_pink_-150_60_1s (UnityEngine.AudioClip),0,-150,60,0,2.753514,2.753514,pink,0,0,342.6978,-7.806765,355.6305,-132.6978, -67.80676,1.5,loc.score,OA.score,
+2,00:48:36.3272158,0.1265869,1.600543,1.5,subject_119_normalised_pink_30_45_1s (UnityEngine.AudioClip),0.8746485,30,45,0,1.321256,5.975088,pink,342.8708,-7.901632,342.9974,-6.301089,354.8689,-29.87341, -43.39946,1.5,loc.score,OA.score,
+3,00:48:40.1738904,-0.04919434,0.2883773,1.5,subject_119_normalised_pink_30_45_1s (UnityEngine.AudioClip),1,30,45,0,1.812675,9.821349,pink,342.9548,-5.76979,342.9056,-5.481412,354.896,-30.04919, -44.71162,1.5,loc.score,OA.score,
+4,00:48:46.3388190,-0.1234131,0.1836934,1.5,subject_119_normalised_pink_30_45_1s (UnityEngine.AudioClip),1,30,45,0,1.322129,15.98682,pink,343.0535,-6.053491,342.9301,-5.869798,355.3047,-30.12341, -44.81631,1.5,loc.score,OA.score,
+5,00:48:48.5504731,0.3871155,-0.2182403,1.5,irc_1034_normalised_pink_-180_60_1s (UnityEngine.AudioClip),1,-180,60,0,1.878521,18.19883,pink,342.9449,-5.860629,343.332,-6.078869,354.5764,179.6129, -60.21824,1.5,loc.score,OA.score,
+6,00:48:52.6497111,-0.05514526,0.1380568,1.5,irc_1034_normalised_pink_-180_60_1s (UnityEngine.AudioClip),1,-180,60,0,1.455156,22.29803,pink,343.5814,-5.850781,343.5262,-5.712725,354.6881,179.9449, -59.86194,1.5,loc.score,OA.score,
+7,00:48:54.4721641,-0.01199341,-0.02572727,1.5,irc_1018_normalised_pink_-30_60_1s (UnityEngine.AudioClip),1,-30,60,0,1.443573,24.11974,pink,343.4983,-5.925876,343.4863,-5.951603,354.8588,29.98801, -60.02573,1.5,loc.score,OA.score,
+8,00:48:56.1157798,-0.2060852,-0.3334637,1.5,H17_96K_24bit_512tap_FIR_SOFA_normalised_pink_-45_0_1s (UnityEngine.AudioClip),1,-45,0,0,1.330927,25.76399,pink,343.5087,-6.04151,343.3026,-6.374973,355.1597,44.79391, -0.3334637,1.5,loc.score,OA.score,
+9,00:49:00.2058212,-0.08892822,0.2424359,1.5,H17_96K_24bit_512tap_FIR_SOFA_normalised_pink_-45_0_1s (UnityEngine.AudioClip),1,-45,0,0,1.410608,29.85334,pink,343.318,-6.311984,343.2291,-6.069548,355.0491,44.91107, 0.2424359,1.5,loc.score,OA.score,
+10,00:49:02.9175807,-0.001586914,-0.1183352,1.5,subject_155_normalised_pink_0_60_1s (UnityEngine.AudioClip),1,0,60,0,1.522276,32.56496,pink,343.1276,-6.120327,343.126,-6.238662,355.2706,-0.001586914, -60.11834,1.5,loc.score,OA.score,
+11,00:49:07.2616319,0.02261353,-0.2237864,1.5,subject_155_normalised_pink_0_60_1s (UnityEngine.AudioClip),1,0,60,0,2.256901,36.90985,pink,343.1193,-5.997962,343.1419,-6.221748,355.2362,0.02261353, -60.22379,1.5,loc.score,OA.score,
+12,00:49:11.4278771,nan,nan,nan,irc_1021_normalised_pink_0_0_1s (UnityEngine.AudioClip),1,0,0,0,3.834557,41.07604,pink,343.1606,-6.238063,343.936,-5.865709,353.7813,nan, nan,nan,loc.score,OA.score,
+13,00:49:14.4400098,nan,nan,nan,subject_011_normalised_pink_0_0_1s (UnityEngine.AudioClip),1,0,0,0,1.578129,44.08723,pink,343.8867,-5.984668,344.0147,-6.006512,353.3554,nan, nan,nan,loc.score,OA.score,
+14,00:49:19.1161341,nan,nan,nan,subject_011_normalised_pink_0_0_1s (UnityEngine.AudioClip),1,0,0,0,1.708881,48.76367,pink,344.3231,-5.921485,344.341,-6.157141,352.8191,nan, nan,nan,loc.score,OA.score,
+
+- Login date: 2/13/2019 11:58:20 PM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/14/2019 12:03:55 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+10,00:04:11.1632768,0.07440186,-0.1651611,1.5,subject_018_normalised_pink_-90_60_1s (UnityEngine.AudioClip),1,-90,60,0,2.089637,15.00264,pink,345.9066,2.074036,345.981,1.908875,357.6304,90.0744, -60.16516,1.5,loc.score,OA.score,
+12,00:04:23.1375553,nan,nan,nan,H12_96K_24bit_512tap_FIR_SOFA_normalised_pink_135_0_1s (UnityEngine.AudioClip),1,135,0,0,2.966093,26.97811,pink,0,0,0,0,0,nan, nan,nan,loc.score,OA.score,
+13,00:04:31.6039531,nan,nan,nan,H14_96K_24bit_512tap_FIR_SOFA_normalised_pink_-90_45_1s (UnityEngine.AudioClip),1,-90,45,0,5.499901,35.44393,pink,0,0,349.6573,1.249542,357.0916,nan, nan,nan,loc.score,OA.score,
+14,00:04:37.1146529,nan,nan,nan,subject_020_normalised_pink_0_60_1s (UnityEngine.AudioClip),1,0,60,0,3.177452,40.95448,pink,349.7184,1.022888,349.2168,0.7194824,356.6661,nan, nan,nan,loc.score,OA.score,
+15,00:04:42.3022716,3.920105,1.272461,1.5,irc_1055_normalised_pink_-180_0_1s (UnityEngine.AudioClip),1,-180,0,0,3.466934,46.14252,pink,348.6798,0.1244507,352.5999,1.396912,356.8402,176.0799, 1.272461,1.5,loc.score,OA.score,
+16,00:04:46.8248866,-0.3786926,-0.5088501,1.5,irc_1009_normalised_pink_-135_0_1s (UnityEngine.AudioClip),1,-135,0,0,2.390987,50.66513,pink,349.4195,1.053101,349.0408,0.5442505,356.5385,134.6213, -0.5088501,1.5,loc.score,OA.score,
+17,00:04:50.2692472,-0.10672,-0.3922424,1.5,irc_1052_normalised_pink_-30_60_1s (UnityEngine.AudioClip),1,-30,60,0,2.455563,54.10858,pink,348.9822,0.6322632,348.8755,0.2400208,356.5995,29.89328, -60.39224,1.5,loc.score,OA.score,
+41,00:05:00.6987199,-1.516663,0.2095032,1.5,irc_1051_normalised_pink_-150_45_1s (UnityEngine.AudioClip),1,-150,45,0,1.709126,64.53915,pink,350.3515,1.264465,348.8348,1.473969,356.4545,148.4833, -44.7905,1.5,loc.score,OA.score,
+
+- Login date: 2/18/2019 12:36:41 PM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,12:36:47.0095163,-0.1631851,-0.4224243,1.5,subject_060_normalised_pink_-150_60_1s (UnityEngine.AudioClip),1,-150,60,0,1.553819,5.094409,pink,88.99723,1.078522,88.83405,0.6560974,358.85,149.8368, -60.42242,1.5,loc.score,OA.score,
+1,12:36:48.7618362,-0.3908234,0.780304,1.5,irc_1052_normalised_pink_30_45_1s (UnityEngine.AudioClip),1,30,45,0,1.397278,6.847547,pink,88.86402,0.6767273,88.4732,1.457031,358.5073,-30.39082, -44.2197,1.5,loc.score,OA.score,
+2,12:36:50.6283598,0.2669144,-0.4675598,1.5,irc_1058_normalised_pink_-135_0_1s (UnityEngine.AudioClip),1,-135,0,0,1.446402,8.713952,pink,88.42879,1.072205,88.6957,0.6046448,357.6496,135.2669, -0.4675598,1.5,loc.score,OA.score,
+3,12:36:52.3611404,0.5929947,0.3358765,1.5,irc_1056_normalised_pink_-30_60_1s (UnityEngine.AudioClip),1,-30,60,0,1.349483,10.44737,pink,88.57738,0.6539307,89.17038,0.9898071,357.4499,30.59299, -59.66412,1.5,loc.score,OA.score,
+4,12:36:54.1816013,-0.03573608,0.2397461,1.5,subject_148_normalised_pink_-180_0_1s (UnityEngine.AudioClip),1,-180,0,0,1.401554,12.26746,pink,89.28043,1.003357,89.24469,1.243103,357.9271,179.9643, 0.2397461,1.5,loc.score,OA.score,
+5,12:36:56.9833555,-73.8732,-1.669142,1.5,subject_119_normalised_pink_0_45_1s (UnityEngine.AudioClip),1,0,45,0,2.336921,15.0695,pink,88.97,1.406464,15.0968,-0.2626783,355.3383,-73.8732, -46.66914,1.5,loc.score,OA.score,
+
+- Login date: 2/19/2019 1:21:25 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/19/2019 1:22:58 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/19/2019 1:57:46 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/19/2019 2:05:57 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/19/2019 2:09:43 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/19/2019 2:13:20 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/19/2019 2:26:13 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/19/2019 2:53:37 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,02:54:03.2703880,2.436371,0.6539626,2.786719,irc_1030_normalised_pink_-90_60_1s (UnityEngine.AudioClip),0.4479819,-90,60,0,1.176361,25.13771,pink,322.6,-2.894706,325.0364,-2.240743,356.838,92.43637, -59.34604,2.786719,loc.score,OA.score,
+
+- Login date: 2/19/2019 2:57:43 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/19/2019 3:00:50 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/19/2019 3:06:04 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/19/2019 3:11:09 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/19/2019 3:19:16 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/19/2019 3:23:07 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,03:25:29.6930804,113.0897,0.6833082,1.5,subject_155_normalised_pink_-45_0_1s (UnityEngine.AudioClip),1,-45,0,0,7.931931,141.3464,pink,1.027426,-0.6255689,114.1171,0.05773926,358.52,158.0897, 0.6833082,1.5,loc.score,OA.score,
+1,03:25:39.3801759,107.913,0.3782161,1.5,subject_147_normalised_pink_-180_45_1s (UnityEngine.AudioClip),1,-180,45,0,5.933243,151.0356,pink,22.86201,-0.2636226,130.775,0.1145935,355.8988,72.08701, -44.62178,1.5,loc.score,OA.score,
+2,03:25:47.6918530,-246.5853,-0.01791382,1.5,subject_135_normalised_pink_-180_0_1s (UnityEngine.AudioClip),0.7253288,-180,0,0,4.243576,159.346,pink,358.9785,0.1882019,112.3932,0.1702881,357.4075,-66.5853, -0.01791382,1.5,loc.score,OA.score,
+3,03:25:54.4710505,-227.1902,0.3252869,1.5,subject_155_normalised_pink_-90_60_1s (UnityEngine.AudioClip),0.8959864,-90,60,0,3.465561,166.1245,pink,339.099,0.07897949,111.9088,0.4042664,356.9337,-137.1902, -59.67471,1.5,loc.score,OA.score,
+4,03:26:01.6921619,-227.8932,-0.07427713,1.5,subject_155_normalised_pink_30_45_1s (UnityEngine.AudioClip),0.9813152,30,45,0,3.778732,173.3472,pink,317.1583,0.02233887,89.26506,-0.05193826,357.7033,102.1068, -45.07428,1.5,loc.score,OA.score,
+5,03:26:12.2534224,87.17051,-0.4673485,1.5,irc_1048_normalised_pink_-30_45_1s (UnityEngine.AudioClip),1,-30,45,0,4.736374,183.9081,pink,0.5495399,0.1168213,87.72005,-0.3505273,359.5824,117.1705, -45.46735,1.5,loc.score,OA.score,
+6,03:26:21.2632234,67.50549,0.5961173,1.5,irc_1053_normalised_pink_-150_60_1s (UnityEngine.AudioClip),0.5759864,-150,60,0,1.794662,192.9186,pink,0.07981356,-0.3997977,67.5853,0.1963196,0.4815753,142.4945, -59.40388,1.5,loc.score,OA.score,
+7,03:26:35.8021037,-0.06529786,-0.1867114,2.353632,subject_065_normalised_pink_30_45_1s (UnityEngine.AudioClip),1,30,45,0,1.020721,207.4573,pink,0.1652304,-0.04232987,0.09993252,-0.2290412,355.9127,-30.0653, -45.18671,2.353632,loc.score,OA.score,
+8,03:26:43.9947322,75.50583,30.3792,2.353632,irc_1023_normalised_pink_0_60_1s (UnityEngine.AudioClip),0.9813152,0,60,0,6.882507,215.6497,pink,0.2807256,-0.07167479,75.78655,30.30753,355.3937,75.50583, -29.6208,2.353632,loc.score,OA.score,
+
+- Login date: 2/19/2019 3:29:09 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,03:29:17.1808487,20.36199,-0.5268246,1.5,subject_020_normalised_pink_135_0_1s (UnityEngine.AudioClip),1,135,0,0,3.199453,7.288858,pink,1.543604,0.1433105,21.90559,-0.383514,356.712,-114.638, -0.5268246,1.5,loc.score,OA.score,
+1,03:29:22.8907125,42.40879,0.03686523,1.5,subject_011_normalised_pink_-45_0_1s (UnityEngine.AudioClip),0.9813152,-45,0,0,3.888172,12.99931,pink,23.72101,0.168396,66.1298,0.2052612,356.2948,87.40878, 0.03686523,1.5,loc.score,OA.score,
+2,03:29:31.7353593,68.10754,-1.2326,1.5,irc_1049_normalised_pink_30_0_1s (UnityEngine.AudioClip),1,30,0,0,7.710561,21.8437,pink,66.14937,0.8104553,134.2569,-0.4221445,353.5551,38.10754, -1.2326,1.5,loc.score,OA.score,
+3,03:29:46.3134349,92.15849,-0.522999,1.5,irc_1041_normalised_pink_-30_0_1s (UnityEngine.AudioClip),1,-30,0,0,13.26604,36.42181,pink,134.086,0.3354187,226.2445,-0.1875804,353.5157,122.1585, -0.522999,1.5,loc.score,OA.score,
+4,03:29:52.6251748,-92.90096,-0.4450595,1.5,irc_1043_normalised_pink_-150_0_1s (UnityEngine.AudioClip),1,-150,0,0,4.911949,42.73389,pink,226.3733,-0.03745719,133.4724,-0.4825167,352.2485,57.09904, -0.4450595,1.5,loc.score,OA.score,
+5,03:30:05.9798920,-133.9792,-0.5661438,1.5,irc_1025_normalised_pink_150_0_1s (UnityEngine.AudioClip),1,150,0,0,11.53367,56.08847,pink,135.3662,-0.1294719,1.386989,-0.6956157,354.9257,76.02081, -0.5661438,1.5,loc.score,OA.score,
+6,03:30:11.6898599,337.7971,-0.5999922,1.5,subject_018_normalised_pink_150_45_1s (UnityEngine.AudioClip),1,150,45,0,3.776134,61.79918,pink,1.725184,0.3455811,339.5223,-0.2544111,357.0592,172.2029, -45.59999,1.5,loc.score,OA.score,
+
+- Login date: 2/19/2019 10:42:15 PM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+1,22:42:24.8449164,-43.98779,-0.2571785,1.5,subject_028_normalised_pink_-30_0_1s (UnityEngine.AudioClip),1,-30,0,0,2.68751,9.369674,pink,133.854,0.1913757,89.86623,-0.06580281,357.2149,-13.98779, -0.2571785,1.5,loc.score,OA.score,
+2,22:42:30.1768779,45.66948,0.7612,1.5,H15_96K_24bit_512tap_FIR_SOFA_normalised_pink_-150_45_1s (UnityEngine.AudioClip),1,-150,45,0,2.687991,14.70242,pink,133.1999,0.07714844,178.8694,0.8383484,356.8777,164.3305, -44.2388,1.5,loc.score,OA.score,
+3,22:42:35.5328270,-89.33614,0.5916748,1.5,irc_1005_normalised_pink_135_0_1s (UnityEngine.AudioClip),1,135,0,0,3.193569,20.05879,pink,133.8378,0.1737366,44.50164,0.7654114,4.391671,135.6638, 0.5916748,1.5,loc.score,OA.score,
+4,22:42:42.3552496,91.99069,-0.6245422,1.5,subject_135_normalised_pink_-150_0_1s (UnityEngine.AudioClip),1,-150,0,0,4.295023,26.88056,pink,133.426,0.734314,225.4167,0.1097717,355.742,118.0093, -0.6245422,1.5,loc.score,OA.score,
+5,22:42:55.7114049,-132.7664,-0.429002,1.5,irc_1025_normalised_pink_150_45_1s (UnityEngine.AudioClip),1,150,45,0,11.44311,40.23716,pink,134.5981,0.3211365,1.831651,-0.1078655,1.111367,77.23355, -45.429,1.5,loc.score,OA.score,
+6,22:43:04.4231262,139.4241,-0.4979248,1.5,subject_131_normalised_pink_150_45_1s (UnityEngine.AudioClip),0.9813152,150,45,0,6.247204,48.94899,pink,133.0511,0.8478088,272.4752,0.349884,0.4129645,-10.57588, -45.49792,1.5,loc.score,OA.score,
+8,22:43:55.4209147,-0.2379456,0.07382202,1.54251,subject_153_normalised_pink_-30_45_1s (UnityEngine.AudioClip),0.9599773,-30,45,0,41.64404,99.94753,pink,133.6105,0.3013306,133.3725,0.3751526,358.4891,29.76205, -44.92618,1.54251,loc.score,OA.score,
+9,22:44:00.1994906,-175.3855,0.6163635,1.54251,H17_96K_24bit_512tap_FIR_SOFA_normalised_pink_-135_0_1s (UnityEngine.AudioClip),1,-135,0,0,3.955719,104.7254,pink,133.5153,0.04876709,318.1299,0.6651306,0.8006665,-40.38545, 0.6163635,1.54251,loc.score,OA.score,
+10,22:44:07.2229727,86.9505,0.401001,1.54251,subject_133_normalised_pink_-180_45_1s (UnityEngine.AudioClip),1,-180,45,0,2.756721,111.7497,pink,317.5587,0.03594971,44.50925,0.4369507,357.6084,93.0495, -44.599,1.54251,loc.score,OA.score,
+11,22:44:14.9330716,-44.65439,-0.7046081,1.54251,subject_153_normalised_pink_-135_0_1s (UnityEngine.AudioClip),1,-135,0,0,3.270195,119.4591,pink,317.7758,0.3653564,273.1214,-0.3392517,356.4794,90.34561, -0.7046081,1.54251,loc.score,OA.score,
+12,22:44:26.8663655,-177.4171,0.2458496,1.54251,irc_1006_normalised_pink_150_0_1s (UnityEngine.AudioClip),1,150,0,0,8.357559,131.3927,pink,44.38824,0.2822266,226.9712,0.5280762,356.7012,32.58295, 0.2458496,1.54251,loc.score,OA.score,
+13,22:44:31.6448243,177.5723,-0.2638245,1.54251,irc_1009_normalised_pink_-150_60_1s (UnityEngine.AudioClip),1,-150,60,0,4.051315,136.1708,pink,226.0532,0.2887268,43.62548,0.02490234,358.85,32.4277, -60.26382,1.54251,loc.score,OA.score,
+14,22:44:34.8002731,86.82367,0.2593079,1.54251,irc_1014_normalised_pink_-30_0_1s (UnityEngine.AudioClip),0.8746485,-30,0,0,2.28949,139.326,pink,46.51867,0.5720825,133.3423,0.8313904,0.7602279,116.8237, 0.2593079,1.54251,loc.score,OA.score,
+15,22:44:41.2944957,92.76463,0.08166504,1.54251,subject_165_normalised_pink_30_45_1s (UnityEngine.AudioClip),0.9813152,30,45,0,3.273315,145.821,pink,133.2917,0.4584656,226.0563,0.5401306,353.7169,62.76463, -44.91833,1.54251,loc.score,OA.score,
+
+- Login date: 2/19/2019 10:46:41 PM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/19/2019 10:56:05 PM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/19/2019 10:57:46 PM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/19/2019 10:59:07 PM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/19/2019 11:02:36 PM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/19/2019 11:03:33 PM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/19/2019 11:04:47 PM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/19/2019 11:11:56 PM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/19/2019 11:14:03 PM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/19/2019 11:15:20 PM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/19/2019 11:19:10 PM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/19/2019 11:21:35 PM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/19/2019 11:50:05 PM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/20/2019 12:00:14 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/20/2019 12:03:23 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/20/2019 1:08:24 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/20/2019 1:12:41 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/20/2019 1:20:34 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/20/2019 1:23:17 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/20/2019 1:25:48 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/20/2019 1:26:47 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/20/2019 1:33:38 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/20/2019 1:35:38 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/20/2019 1:42:40 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/20/2019 1:44:24 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/20/2019 1:55:57 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+1,01:56:31.0919030,5.044683,3.470856,1.5,irc_1055_normalised_pink_-90_60_1s (UnityEngine.AudioClip),1,-90,60,0,1.578083,33.28751,pink,8.109867,0.4309082,13.15455,3.901764,0.7902531,95.04469, -56.52914,1.5,loc.score,OA.score,
+5,01:56:51.2258460,-0.2636362,0.5376278,1.5,irc_1055_normalised_pink_-90_60_1s (UnityEngine.AudioClip),1,-90,60,0,1.111382,53.42167,pink,1.648599,-0.6010221,1.384963,-0.06339431,359.3954,89.73637, -59.46237,1.5,loc.score,OA.score,
+
+- Login date: 2/20/2019 1:57:01 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,01:57:17.0255348,-2.274128,0.1157744,1.5,irc_1058_normalised_pink_-135_0_1s (UnityEngine.AudioClip),0.746644,-135,0,0,1.622398,14.91435,pink,9.032736,-0.009664778,6.758607,0.1061096,359.1243,132.7259, 0.1157744,1.5,loc.score,OA.score,
+1,01:57:19.2022796,-0.4948893,0.5739069,1.5,subject_003_normalised_pink_30_60_1s (UnityEngine.AudioClip),0.9813152,30,60,0,1.465993,17.0922,pink,7.125832,-0.8357067,6.630943,-0.2617997,359.7397,-30.49489, -59.42609,1.5,loc.score,OA.score,
+2,01:57:26.1368440,0.00999403,-0.1031562,1.5,subject_003_normalised_pink_30_60_1s (UnityEngine.AudioClip),1,30,60,0,1.46681,24.02683,pink,6.524981,-0.07764848,6.534975,-0.1808047,0.1999325,-29.99001, -60.10316,1.5,loc.score,OA.score,
+3,01:57:28.0267899,-0.07938099,0.02375562,1.5,irc_1009_normalised_pink_135_0_1s (UnityEngine.AudioClip),0.9813152,135,0,0,1.401781,25.91692,pink,6.448483,-0.1646204,6.369102,-0.1408648,0.4068329,-135.0794, 0.02375562,1.5,loc.score,OA.score,
+4,01:57:30.4248465,-0.1550131,0.01424052,1.5,irc_1009_normalised_pink_135_0_1s (UnityEngine.AudioClip),0.9813152,135,0,0,1.977377,28.31521,pink,6.461191,-0.1560251,6.306178,-0.1417845,0.4995398,-135.155, 0.01424052,1.5,loc.score,OA.score,
+6,01:57:36.7139686,0.1770163,-1.251084,1.5,irc_1009_normalised_pink_135_0_1s (UnityEngine.AudioClip),1,135,0,0,1.444489,34.60456,pink,6.188907,0.56427,6.365923,-0.686814,0.7569587,-134.823, -1.251084,1.5,loc.score,OA.score,
+7,01:57:41.2925118,-0.1131082,0.4812753,1.5,irc_1004_normalised_pink_90_60_1s (UnityEngine.AudioClip),1,90,60,0,1.533451,39.1832,pink,6.234483,-0.1862924,6.121375,0.2949829,0.9000329,-90.11311, -59.51873,1.5,loc.score,OA.score,
+8,01:57:44.9366618,0.170794,-0.04846374,1.5,irc_1004_normalised_pink_90_60_1s (UnityEngine.AudioClip),0.9813152,90,60,0,1.822762,42.8275,pink,6.172927,0.01464844,6.343721,-0.0338153,0.9999344,-89.82921, -60.04846,1.5,loc.score,OA.score,
+9,01:57:50.1590760,0.1032367,0.3242132,1.5,irc_1009_normalised_pink_135_0_1s (UnityEngine.AudioClip),1,135,0,0,1.822044,48.04975,pink,6.367685,-0.1206915,6.470922,0.2035217,1.059256,-134.8968, 0.3242132,1.5,loc.score,OA.score,
+10,01:57:52.5157204,-0.004248142,-0.1793722,1.5,irc_1004_normalised_pink_90_60_1s (UnityEngine.AudioClip),1,90,60,0,1.711166,50.40574,pink,6.759578,-0.05473576,6.75533,-0.2341079,0.9170629,-90.00425, -60.17937,1.5,loc.score,OA.score,
+11,01:57:54.3384560,0.1578121,0.2799009,1.5,irc_1047_normalised_pink_-30_0_1s (UnityEngine.AudioClip),0.9813152,-30,0,0,1.422729,52.22809,pink,6.557937,-0.371967,6.715749,-0.09206609,1.005334,30.15781, 0.2799009,1.5,loc.score,OA.score,
+12,01:57:57.0719213,-1.035034,-0.1046672,1.5,subject_152_normalised_pink_-150_0_1s (UnityEngine.AudioClip),1,-150,0,0,2.333782,54.96195,pink,6.753881,0.03555298,5.718848,-0.06911426,0.6980548,148.965, -0.1046672,1.5,loc.score,OA.score,
+13,01:57:59.3601474,0.1402836,0.1723003,1.5,irc_1053_normalised_pink_90_45_1s (UnityEngine.AudioClip),0.9813152,90,45,0,1.75552,57.25062,pink,5.890812,-0.2342646,6.031096,-0.06196431,0.6131257,-89.85972, -44.8277,1.5,loc.score,OA.score,
+14,01:58:01.3154146,-0.4662118,-0.3615348,1.5,subject_012_normalised_pink_150_0_1s (UnityEngine.AudioClip),0.9813152,150,0,0,1.488827,59.20601,pink,6.13812,-0.03392037,5.671908,-0.3954552,0.6813163,-150.4662, -0.3615348,1.5,loc.score,OA.score,
+
+- Login date: 2/20/2019 2:00:26 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/20/2019 2:00:58 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/20/2019 2:01:36 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,02:01:50.1367921,1.33667,-0.5371549,1.5,irc_1032_normalised_pink_-45_0_1s (UnityEngine.AudioClip),1,-45,0,0,4.778827,13.63508,pink,358.0204,0.4628601,359.3571,-0.07429476,356.7983,46.33667, -0.5371549,1.5,loc.score,OA.score,
+1,02:01:52.2895453,0.09197998,0.0932312,1.5,subject_134_normalised_pink_135_0_1s (UnityEngine.AudioClip),0.9813152,135,0,0,1.467113,15.78942,pink,359.2961,0.1478882,359.3881,0.2411194,356.8721,-134.908, 0.0932312,1.5,loc.score,OA.score,
+2,02:01:54.0673676,-0.1407166,-0.09072876,1.5,irc_1042_normalised_pink_30_45_1s (UnityEngine.AudioClip),1,30,45,0,1.356325,17.56649,pink,359.5007,0.2596436,359.36,0.1689148,356.9165,-30.14072, -45.09073,1.5,loc.score,OA.score,
+3,02:01:55.6892731,0.1157837,-0.09176636,1.5,subject_061_normalised_pink_-135_0_1s (UnityEngine.AudioClip),1,-135,0,0,1.228235,19.18884,pink,359.3699,0.2577209,359.4857,0.1659546,356.7628,135.1158, -0.09176636,1.5,loc.score,OA.score,
+4,02:01:57.4009357,0.3559265,0.2645569,1.5,subject_040_normalised_pink_0_60_1s (UnityEngine.AudioClip),1,0,60,0,1.357189,20.90071,pink,359.5078,0.2644653,359.8638,0.5290222,357.2598,0.3559265, -59.73544,1.5,loc.score,OA.score,
+5,02:02:01.8449134,-0.1090698,-0.2377014,1.5,subject_040_normalised_pink_0_60_1s (UnityEngine.AudioClip),0.9813152,0,60,0,1.357986,25.34465,pink,359.9479,0.5367737,359.8389,0.2990723,357.4591,-0.1090698, -60.2377,1.5,loc.score,OA.score,
+6,02:02:04.6233647,-0.1292081,-0.2282104,1.5,subject_137_normalised_pink_-180_45_1s (UnityEngine.AudioClip),1,-180,45,0,1.445404,28.12284,pink,0.1542814,0.4057617,0.02507327,0.1775513,357.5203,179.8708, -45.22821,1.5,loc.score,OA.score,
+7,02:02:06.3778835,0.309845,0.16922,1.5,subject_124_normalised_pink_-180_0_1s (UnityEngine.AudioClip),0.7893198,-180,0,0,1.377974,29.87794,pink,359.9566,0.1627808,0.2664288,0.3320007,357.5563,179.6902, 0.16922,1.5,loc.score,OA.score,
+8,02:02:08.2664244,-0.2276734,-0.1864929,1.5,irc_1058_normalised_pink_-30_0_1s (UnityEngine.AudioClip),1,-30,0,0,1.510988,31.76644,pink,0.3334,0.3218079,0.1057266,0.1353149,357.7701,29.77233, -0.1864929,1.5,loc.score,OA.score,
+9,02:02:10.0440084,0.1939507,0.05230713,1.5,subject_019_normalised_pink_30_60_1s (UnityEngine.AudioClip),1,30,60,0,1.404743,33.54396,pink,0.1042039,0.1668701,0.2981546,0.2191772,357.8894,-29.80605, -59.94769,1.5,loc.score,OA.score,
+10,02:02:11.7567268,-0.2625183,-0.2798462,1.5,irc_1029_normalised_pink_-30_45_1s (UnityEngine.AudioClip),1,-30,45,0,1.37933,35.25579,pink,0.357144,0.3500061,0.09462571,0.07015991,358.0464,29.73748, -45.27985,1.5,loc.score,OA.score,
+11,02:02:21.6688737,0.250665,0.003967285,1.5,irc_1016_normalised_pink_-180_0_1s (UnityEngine.AudioClip),1,-180,0,0,1.423729,45.16797,pink,0.06944747,0.09664917,0.3201125,0.1006165,358.1476,179.7493, 0.003967285,1.5,loc.score,OA.score,
+12,02:02:28.6676811,0.1866771,-0.06594849,1.5,subject_162_normalised_pink_-180_60_1s (UnityEngine.AudioClip),0.9813152,-180,60,0,2.666992,52.1675,pink,0.2072235,0.375061,0.3939006,0.3091125,358.562,179.8133, -60.06595,1.5,loc.score,OA.score,
+13,02:02:32.9793865,0.1731636,-0.22135,1.5,irc_1052_normalised_pink_-30_60_1s (UnityEngine.AudioClip),1,-30,60,0,1.933922,56.47846,pink,0.08270008,0.191925,0.2558637,-0.02942494,358.5875,30.17316, -60.22135,1.5,loc.score,OA.score,
+14,02:02:36.6234992,0.2427169,-0.4035334,1.5,H19_96K_24bit_512tap_FIR_SOFA_normalised_pink_-45_0_1s (UnityEngine.AudioClip),0.9813152,-45,0,0,1.622047,60.12288,pink,0.1069991,0.01483154,0.349716,-0.3887018,358.653,45.24272, -0.4035334,1.5,loc.score,OA.score,
+15,02:05:56.3123372,nan,nan,nan,irc_1052_normalised_pink_30_0_1s (UnityEngine.AudioClip),1,30,0,0,199.3383,259.8114,pink,0.2293868,-0.3414435,350.4684,-1.720145,357.4343,nan, nan,nan,loc.score,OA.score,
+
+- Login date: 2/20/2019 2:07:37 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+1,02:08:01.5116384,1.125183,0.3362685,5,irc_1031_normalised_pink_-45_0_1s (UnityEngine.AudioClip),0.9813152,-45,0,0,1.643574,24.1637,pink,357.9137,-0.3070327,359.0389,0.02923584,357.172,46.12518, 0.3362685,5,loc.score,OA.score,
+2,02:08:04.5608536,-0.6390519,-0.262122,5,irc_1058_normalised_pink_150_45_1s (UnityEngine.AudioClip),1,150,45,0,1.538857,27.21435,pink,2.955248,-0.1192485,2.316196,-0.3813705,357.2068,-150.6391, -45.26212,5,loc.score,OA.score,
+3,02:08:06.3990615,-0.4798843,0.01332137,5,irc_1034_normalised_pink_150_0_1s (UnityEngine.AudioClip),0.9813152,150,0,0,1.489014,29.05267,pink,2.065179,-0.295022,1.585295,-0.2817006,357.7999,-150.4799, 0.01332137,5,loc.score,OA.score,
+4,02:08:08.1390783,-1.276948,0.2067871,5,subject_028_normalised_pink_-45_0_1s (UnityEngine.AudioClip),1,-45,0,0,1.385324,30.7921,pink,1.391771,0.05880737,0.1148225,0.2655945,358.4648,43.72305, 0.2067871,5,loc.score,OA.score,
+
+- Login date: 2/20/2019 2:09:05 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+1,02:09:14.7846892,-0.1459853,0.4564021,4.016717,subject_050_normalised_pink_-180_0_1s (UnityEngine.AudioClip),0.9813152,-180,0,0,1.377614,9.123437,pink,0.8772877,-0.1955989,0.7313024,0.2608032,357.4152,179.854, 0.4564021,4.016717,loc.score,OA.score,
+2,02:09:16.2725438,-0.2391765,-0.3397022,4.016717,subject_051_normalised_pink_30_45_1s (UnityEngine.AudioClip),1,30,45,0,1.202589,10.61283,pink,0.5793776,0.2713928,0.3402011,-0.06830934,357.6332,-30.23918, -45.3397,4.016717,loc.score,OA.score,
+3,02:09:17.8960663,0.06742135,-0.0257141,4.016717,irc_1054_normalised_pink_-45_0_1s (UnityEngine.AudioClip),1,-45,0,0,1.267941,12.2358,pink,0.2678211,-0.1657599,0.3352424,-0.191474,357.7003,45.06742, -0.0257141,4.016717,loc.score,OA.score,
+4,02:09:19.5627050,0.01858759,0.01812769,4.016717,irc_1050_normalised_pink_-180_0_1s (UnityEngine.AudioClip),1,-180,0,0,1.290151,13.90321,pink,0.4642037,-0.113022,0.4827913,-0.09489433,357.4931,179.9814, 0.01812769,4.016717,loc.score,OA.score,
+5,02:09:21.0467824,-0.03499931,0.2931167,4.016717,irc_1023_normalised_pink_45_0_1s (UnityEngine.AudioClip),1,45,0,0,1.153234,15.38773,pink,0.3404346,-0.3035958,0.3054352,-0.0104791,357.8224,-45.035, 0.2931167,4.016717,loc.score,OA.score,
+6,02:09:22.5912224,-0.1387025,0.05524597,4.016717,irc_1047_normalised_pink_30_60_1s (UnityEngine.AudioClip),1,30,60,0,1.233078,16.93047,pink,0.3231978,-0.1184364,0.1844953,-0.06319047,357.7841,-30.1387, -59.94476,4.016717,loc.score,OA.score,
+7,02:09:24.0273493,-0.05160199,0.05948378,4.016717,subject_021_normalised_pink_-150_0_1s (UnityEngine.AudioClip),1,-150,0,0,1.154507,18.36726,pink,0.2231631,-0.1821598,0.1715611,-0.122676,357.9603,149.9484, 0.05948378,4.016717,loc.score,OA.score,
+
+- Login date: 2/20/2019 2:20:50 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/20/2019 2:28:24 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/20/2019 2:29:34 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/20/2019 2:32:38 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/20/2019 2:33:59 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/20/2019 2:34:57 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/20/2019 2:35:49 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/20/2019 2:37:19 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/20/2019 2:39:41 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/20/2019 2:40:51 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/20/2019 2:41:31 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/20/2019 3:00:14 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,03:00:19.5295369,0.4335327,-0.1760901,1.5,irc_1056_normalised_pink_30_45_1s (UnityEngine.AudioClip),1,30,45,0,1.602493,4.373335,pink,339.7432,0.03417969,340.1767,-0.1419104,356.1358,-29.56647, -45.17609,1.5,loc.score,OA.score,
+1,03:00:22.2600135,1.362091,0.3315609,1.5,subject_012_normalised_pink_135_0_1s (UnityEngine.AudioClip),0.5546485,135,0,0,1.421743,7.105813,pink,342.35,-0.1749141,343.7121,0.1566467,356.2373,-133.6379, 0.3315609,1.5,loc.score,OA.score,
+2,03:00:24.1738496,0.49646,0.05918626,1.5,irc_1056_normalised_pink_0_0_1s (UnityEngine.AudioClip),1,0,0,0,1.445775,9.01854,pink,343.7116,-0.2842755,344.208,-0.2250892,356.0292,0.49646, 0.05918626,1.5,loc.score,OA.score,
+3,03:00:26.0831979,0.1398315,-0.6784054,1.5,subject_147_normalised_pink_-135_0_1s (UnityEngine.AudioClip),1,-135,0,0,1.600741,10.929,pink,344.2813,-0.305737,344.4212,-0.9841424,356.0618,135.1398, -0.6784054,1.5,loc.score,OA.score,
+4,03:00:29.5724343,0.9064331,2.313175,1.5,irc_1037_normalised_pink_-30_45_1s (UnityEngine.AudioClip),1,-30,45,0,2.646319,14.41838,pink,344.4642,-0.9922829,345.3706,1.320892,359.2875,30.90643, -42.68682,1.5,loc.score,OA.score,
+
+- Login date: 2/20/2019 3:01:06 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,03:01:12.4233641,-0.4324951,-0.09729004,1.5,subject_154_normalised_pink_-90_60_1s (UnityEngine.AudioClip),0.9813152,-90,60,0,1.432766,5.304071,pink,342.5616,0.1193542,342.1291,0.02206421,359.7506,89.5675, -60.09729,1.5,loc.score,OA.score,
+1,03:01:14.7693373,-0.4742737,0.5544726,1.5,irc_1047_normalised_pink_90_60_1s (UnityEngine.AudioClip),1,90,60,0,1.647671,7.652218,pink,342.0962,-0.1233203,341.6219,0.4311523,359.4207,-90.47427, -59.44553,1.5,loc.score,OA.score,
+2,03:01:16.7475746,9.654358,0.5388184,1.5,irc_1044_normalised_pink_-30_0_1s (UnityEngine.AudioClip),0.7893198,-30,0,0,1.400891,9.629812,pink,341.727,0.5209045,351.3813,1.059723,359.9623,39.65436, 0.5388184,1.5,loc.score,OA.score,
+4,03:01:20.3242163,-0.7958069,-0.592804,1.5,irc_1039_normalised_pink_-30_0_1s (UnityEngine.AudioClip),1,-30,0,0,1.621731,13.20686,pink,349.7137,0.8667297,348.9178,0.2739258,359.1721,29.20419, -0.592804,1.5,loc.score,OA.score,
+5,03:01:23.3906080,0.6082153,0.001342773,1.5,subject_050_normalised_pink_90_45_1s (UnityEngine.AudioClip),0.9813152,90,45,0,1.599202,16.27356,pink,343.4597,0.1313477,344.068,0.1326904,358.3388,-89.39178, -44.99866,1.5,loc.score,OA.score,
+6,03:01:25.9454535,-21.04617,21.14459,1.5,irc_1058_normalised_pink_-90_45_1s (UnityEngine.AudioClip),1,-90,45,0,1.975199,18.8281,pink,344.0476,0.1246033,323.0014,21.2692,357.5279,68.95383, -23.85541,1.5,loc.score,OA.score,
+7,03:01:33.2351545,-28.01062,24.2254,1.5,irc_1037_normalised_pink_-45_0_1s (UnityEngine.AudioClip),0.5973243,-45,0,0,1.599907,26.11777,pink,338.8557,-0.5771139,310.8451,23.64828,354.9581,16.98938, 24.2254,1.5,loc.score,OA.score,
+
+- Login date: 2/20/2019 3:07:02 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,03:07:08.7283087,1.056915,-0.1521815,1.5,subject_126_normalised_pink_30_45_1s (UnityEngine.AudioClip),1,30,45,0,1.624672,5.620218,pink,337.2333,0.08532715,338.2903,-0.06685436,358.2072,-28.94308, -45.15218,1.5,loc.score,OA.score,
+1,03:07:13.4397362,-4.507965,10.17727,1.5,subject_058_normalised_pink_-180_45_1s (UnityEngine.AudioClip),0.9599773,-180,45,0,2.55962,10.33218,pink,334.1573,-0.4223897,329.6493,9.754883,359.2107,175.492, -34.82273,1.5,loc.score,OA.score,
+2,03:07:16.3424056,0.6643982,0.2429953,1.5,irc_1041_normalised_pink_-150_0_1s (UnityEngine.AudioClip),1,-150,0,0,1.658172,13.23577,pink,335.9603,-0.3364412,336.6247,-0.09344593,359.8325,150.6644, 0.2429953,1.5,loc.score,OA.score,
+3,03:07:19.3673161,0.5796204,-0.6174011,1.5,irc_1046_normalised_pink_-30_0_1s (UnityEngine.AudioClip),1,-30,0,0,1.755435,16.26024,pink,335.9411,0.933136,336.5207,0.3157349,359.8189,30.57962, -0.6174011,1.5,loc.score,OA.score,
+4,03:07:21.9247448,-3.712036,15.19717,1.5,subject_011_normalised_pink_0_45_1s (UnityEngine.AudioClip),1,0,45,0,1.512577,18.81805,pink,336.4771,0.1496887,332.765,15.34686,358.7709,-3.712036, -29.80283,1.5,loc.score,OA.score,
+5,03:07:25.1092076,-6.743744,24.65744,1.5,subject_127_normalised_pink_30_0_1s (UnityEngine.AudioClip),0.5546485,30,0,0,1.585211,22.00195,pink,336.5362,0.2279663,329.7925,24.88541,358.4385,-36.74374, 24.65744,1.5,loc.score,OA.score,
+7,03:07:31.5455939,-8.21875,28.98782,1.5,irc_1028_normalised_pink_-150_0_1s (UnityEngine.AudioClip),0.8959864,-150,0,0,3.015324,28.4388,pink,336.9437,-0.1687914,328.7249,28.81903,4.27472,141.7813, 28.98782,1.5,loc.score,OA.score,
+
+- Login date: 2/20/2019 3:11:27 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,03:11:32.9214383,-2.459412,15.88569,1.5,subject_065_normalised_pink_150_0_1s (UnityEngine.AudioClip),0.9813152,150,0,0,1.734231,5.311585,pink,335.7274,-0.7718871,333.2679,15.1138,355.2574,-152.4594, 15.88569,1.5,loc.score,OA.score,
+1,03:11:36.1894247,-1.967316,15.58627,1.5,subject_127_normalised_pink_-90_45_1s (UnityEngine.AudioClip),1,-90,45,0,1.623886,8.580277,pink,335.7344,0.4243774,333.7671,16.01065,355.2516,88.03268, -29.41373,1.5,loc.score,OA.score,
+2,03:11:39.6416390,-1.233978,14.58322,1.5,irc_1029_normalised_pink_-150_0_1s (UnityEngine.AudioClip),1,-150,0,0,1.674185,12.03244,pink,335.4744,-0.09099844,334.2404,14.49222,354.1879,148.766, 14.58322,1.5,loc.score,OA.score,
+
+- Login date: 2/20/2019 3:12:36 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,03:12:43.6791021,-14.42627,17.07721,1.5,subject_156_normalised_pink_30_0_1s (UnityEngine.AudioClip),0.9813152,30,0,0,1.780455,6.698089,pink,330.6191,0.08932495,316.1928,17.16653,356.8179,-44.42627, 17.07721,1.5,loc.score,OA.score,
+1,03:12:47.7241284,-26.70511,9.329659,1.5,subject_009_normalised_pink_-45_0_1s (UnityEngine.AudioClip),1,-45,0,0,2.040408,10.74298,pink,327.1433,-0.4250271,300.4382,8.904633,357.3756,18.29489, 9.329659,1.5,loc.score,OA.score,
+2,03:12:51.7674900,52.40344,2.595795,1.5,irc_1049_normalised_pink_-135_0_1s (UnityEngine.AudioClip),1,-135,0,0,2.911653,14.78739,pink,309.1332,0.1091003,1.536663,2.704895,356.2428,172.5966, 2.595795,1.5,loc.score,OA.score,
+3,03:12:58.2554492,-65.37857,0.4630432,1.5,irc_1003_normalised_pink_30_60_1s (UnityEngine.AudioClip),1,30,60,0,4.711306,21.27526,pink,358.3383,0.1496582,292.9598,0.6127014,356.2784,-95.37857, -59.53696,1.5,loc.score,OA.score,
+4,03:13:02.7892801,20.26645,23.71297,1.5,irc_1020_normalised_pink_-180_60_1s (UnityEngine.AudioClip),0.6399773,-180,60,0,1.688932,25.80852,pink,337.3685,-0.4837815,357.635,23.22919,0.979301,159.7336, -36.28703,1.5,loc.score,OA.score,
+5,03:13:07.8999903,-20.2395,0.1711393,1.5,subject_137_normalised_pink_-135_0_1s (UnityEngine.AudioClip),0.9813152,-135,0,0,2.576151,30.91945,pink,355.2844,-0.04632238,335.0449,0.1248169,359.1518,114.7605, 0.1711393,1.5,loc.score,OA.score,
+6,03:13:10.9446169,-17.24054,0.007047959,1.5,H18_96K_24bit_512tap_FIR_SOFA_normalised_pink_0_45_1s (UnityEngine.AudioClip),0.9599773,0,45,0,1.864918,33.96387,pink,318.4983,-0.07366617,301.2578,-0.06661821,358.4103,-17.24054, -44.99295,1.5,loc.score,OA.score,
+
+- Login date: 2/20/2019 11:38:17 PM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/20/2019 11:56:35 PM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/20/2019 11:59:08 PM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/21/2019 12:01:36 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/21/2019 12:05:06 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/21/2019 12:06:00 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/21/2019 12:15:05 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/21/2019 12:16:23 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/21/2019 12:17:47 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/21/2019 12:44:12 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,00:44:18.8601968,-11.78467,4.406568,1.5,irc_1009_normalised_pink_-30_60_1s (UnityEngine.AudioClip),1,-30,60,0,2.554939,6.204199,pink,338.1078,-0.6575751,326.3232,3.748993,356.9796,18.21533, -55.59343,1.5,loc.score,OA.score,
+1,00:44:22.3755968,0.4119873,0.140564,1.5,subject_137_normalised_pink_150_45_1s (UnityEngine.AudioClip),1,150,45,0,2.293604,9.719496,pink,325.2985,0.2868042,325.7104,0.4273682,357.0926,-149.588, -44.85944,1.5,loc.score,OA.score,
+3,00:44:25.9489712,18.20282,7.801971,1.5,D1_96K_24bit_512tap_FIR_SOFA_normalised_pink_-150_60_1s (UnityEngine.AudioClip),1,-150,60,0,2.060513,13.29379,pink,325.6627,0.8339539,343.8655,8.635925,358.2563,168.2028, -52.19803,1.5,loc.score,OA.score,
+
+- Login date: 2/21/2019 12:45:16 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,00:45:22.6201482,-1.360992,6.456657,1.5,subject_156_normalised_pink_0_60_1s (UnityEngine.AudioClip),0.8319955,0,60,0,1.336264,6.022344,pink,325.4846,-0.3033673,324.1236,6.15329,357.4256,-1.360992, -53.54334,1.5,loc.score,OA.score,
+1,00:45:26.1927912,-13.36792,6.869077,1.5,subject_135_normalised_pink_-90_45_1s (UnityEngine.AudioClip),0.4693197,-90,45,0,1.023885,9.59796,pink,319.4781,-0.2227148,306.1102,6.646362,355.6519,76.63208, -38.13092,1.5,loc.score,OA.score,
+2,00:45:30.0610084,0.8286438,5.220654,1.5,irc_1005_normalised_pink_-150_0_1s (UnityEngine.AudioClip),0.8106576,-150,0,0,1.555799,13.46524,pink,306.7689,-0.3671683,307.5975,4.853485,355.1857,150.8286, 5.220654,1.5,loc.score,OA.score,
+
+- Login date: 2/21/2019 12:56:26 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,00:56:31.3037519,-15.34195,7.981005,1.5,irc_1031_normalised_pink_45_0_1s (UnityEngine.AudioClip),0.9386621,45,0,0,1.576941,4.588805,pink,322.8233,-0.4679129,307.4814,7.513092,355.8362,-60.34195, 7.981005,1.5,loc.score,OA.score,
+1,00:56:34.4210354,-4.93045,9.362,1.5,subject_028_normalised_pink_-135_0_1s (UnityEngine.AudioClip),0.9173242,-135,0,0,1.427126,7.706725,pink,321.1536,0.1348267,316.2231,9.496826,354.6768,130.0695, 9.362,1.5,loc.score,OA.score,
+2,00:56:37.7252694,-27.36343,13.58826,1.5,irc_1049_normalised_pink_-180_60_1s (UnityEngine.AudioClip),0.8959864,-180,60,0,1.73245,11.01174,pink,322.2567,0.3172302,294.8932,13.90549,355.6213,152.6366, -46.41174,1.5,loc.score,OA.score,
+
+- Login date: 2/21/2019 1:11:57 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,01:12:03.1235483,0.2137451,0.4649388,1.5,irc_1056_normalised_pink_0_60_1s (UnityEngine.AudioClip),0.1493197,0,60,0,0.7962918,5.136418,pink,325.7505,-0.9394931,325.9643,-0.4745543,355.0967,0.2137451, -59.53506,1.5,loc.score,OA.score,
+1,01:12:06.2101456,0.2228394,-0.2631544,1.5,H12_96K_24bit_512tap_FIR_SOFA_normalised_pink_30_60_1s (UnityEngine.AudioClip),1,30,60,0,1.42048,8.224418,pink,326.0905,-0.2663827,326.3133,-0.5295371,355.4057,-29.77716, -60.26315,1.5,loc.score,OA.score,
+2,01:12:08.9024952,0.3326721,-0.4299515,1.5,irc_1008_normalised_pink_-90_45_1s (UnityEngine.AudioClip),1,-90,45,0,1.423234,10.91732,pink,325.8631,-0.1524567,326.1958,-0.5824082,355.7138,90.33267, -45.42995,1.5,loc.score,OA.score,
+3,01:12:11.5225183,0.1435852,-0.5182848,1.5,subject_156_normalised_pink_-180_60_1s (UnityEngine.AudioClip),0.9813152,-180,60,0,1.398421,13.53631,pink,326.596,-0.0359125,326.7396,-0.5541973,356.0662,179.8564, -60.51828,1.5,loc.score,OA.score,
+
+- Login date: 2/21/2019 1:18:07 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,01:18:14.9344853,-0.962616,2.045403,1.5,irc_1004_normalised_pink_150_45_1s (UnityEngine.AudioClip),1,150,45,0,1.217263,6.686486,pink,327.9988,-0.2986382,327.0362,1.746765,356.078,-150.9626, -42.9546,1.5,loc.score,OA.score,
+1,01:18:17.5369919,-2.464294,2.213867,1.5,H15_96K_24bit_512tap_FIR_SOFA_normalised_pink_150_45_1s (UnityEngine.AudioClip),0.8106576,150,45,0,1.312054,9.290095,pink,324.3966,-0.5482787,321.9323,1.665588,355.8659,-152.4643, -42.78613,1.5,loc.score,OA.score,
+2,01:18:20.1112473,-1.051941,0.08410645,1.5,irc_1017_normalised_pink_30_45_1s (UnityEngine.AudioClip),0.8106576,30,45,0,1.443921,11.8653,pink,320.6772,0.171936,319.6253,0.2560425,356.5289,-31.05194, -44.91589,1.5,loc.score,OA.score,
+
+- Login date: 2/21/2019 1:20:49 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,01:20:55.2665810,0.837616,1.148981,1.5,subject_133_normalised_pink_150_0_1s (UnityEngine.AudioClip),1,150,0,0,1.372156,5.222679,pink,323.1379,-0.1290532,323.9755,1.019928,357.0388,-149.1624, 1.148981,1.5,loc.score,OA.score,
+1,01:20:57.3540020,-2.653687,-0.1114421,1.5,irc_1059_normalised_pink_0_60_1s (UnityEngine.AudioClip),0.3839909,0,60,0,1.038448,7.311281,pink,323.5826,0.07351685,320.9289,-0.03792527,357.0361,-2.653687, -60.11144,1.5,loc.score,OA.score,
+2,01:21:02.7987991,-0.6435547,2.913879,1.5,irc_1003_normalised_pink_90_45_1s (UnityEngine.AudioClip),0.9813152,90,45,0,1.377686,12.75675,pink,305.0935,0.03451538,304.45,2.948395,356.1377,-90.64355, -42.08612,1.5,loc.score,OA.score,
+3,01:21:05.8877796,-2.001099,3.484779,1.5,irc_1004_normalised_pink_-135_0_1s (UnityEngine.AudioClip),1,-135,0,0,1.664288,15.84436,pink,302.1136,-0.01636449,300.1125,3.468414,356.107,132.9989, 3.484779,1.5,loc.score,OA.score,
+4,01:21:09.3327041,-0.0871582,0.8264397,1.5,subject_044_normalised_pink_-150_0_1s (UnityEngine.AudioClip),1,-150,0,0,1.687963,19.29012,pink,299.5515,-0.05934988,299.4644,0.7670898,356.1567,149.9128, 0.8264397,1.5,loc.score,OA.score,
+5,01:21:13.5105058,6.674927,8.767883,1.5,irc_1046_normalised_pink_30_45_1s (UnityEngine.AudioClip),0.8533106,30,45,0,1.332615,23.46805,pink,321.1811,0.0824585,327.856,8.850342,355.6115,-23.32507, -36.23212,1.5,loc.score,OA.score,
+6,01:21:16.9107913,-61.48361,29.56899,1.5,irc_1005_normalised_pink_0_0_1s (UnityEngine.AudioClip),0.4479819,0,0,0,1.310387,26.86841,pink,335.0236,-0.81057,273.54,28.75842,357.6638,-61.48361, 29.56899,1.5,loc.score,OA.score,
+
+- Login date: 2/21/2019 3:19:03 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/21/2019 3:22:20 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/21/2019 3:24:08 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,03:24:13.5454532,2.022919,0.2840576,1.5,H12_96K_24bit_512tap_FIR_SOFA_normalised_pink_-45_0_1s (UnityEngine.AudioClip),0.8746485,-45,0,0,1.378598,4.439275,pink,332.8936,0.4346313,334.9166,0.718689,359.6091,47.02292, 0.2840576,1.5,loc.score,OA.score,
+1,03:24:15.5441141,-1.45285,6.646851,1.5,subject_010_normalised_pink_135_0_1s (UnityEngine.AudioClip),0.7893198,135,0,0,1.200512,6.439725,pink,334.6082,0.4664917,333.1553,7.113342,359.3093,-136.4529, 6.646851,1.5,loc.score,OA.score,
+2,03:24:26.5885855,4.953033,3.129242,1.5,subject_152_normalised_pink_0_60_1s (UnityEngine.AudioClip),1,0,60,0,2.978887,10.41725,pink,330.801,0.08432007,335.754,3.213562,358.4912,4.953033, -56.87076,1.5,loc.score,OA.score,
+17,03:24:38.5431134,-2.311584,12.77228,1.5,subject_018_normalised_pink_-30_45_1s (UnityEngine.AudioClip),1,-30,45,0,1.377655,12.74922,pink,338.0329,0.34198,335.7213,13.11426,358.7313,27.68842, -32.22772,1.5,loc.score,OA.score,
+18,03:24:41.6093635,2.343018,9.380829,1.5,irc_1037_normalised_pink_-150_0_1s (UnityEngine.AudioClip),1,-150,0,0,1.555407,15.816,pink,326.2055,0.1455383,328.5486,9.526367,359.7829,152.343, 9.380829,1.5,loc.score,OA.score,
+22,03:25:01.1644724,0.8202209,5.320455,1.5,irc_1041_normalised_pink_-180_45_1s (UnityEngine.AudioClip),0.9813152,-180,45,0,1.556664,24.5296,pink,339.4073,-0.3705645,340.2275,4.94989,357.8831,179.1798, -39.67955,1.5,loc.score,OA.score,
+
+- Login date: 2/21/2019 3:45:12 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/21/2019 3:45:57 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/21/2019 3:49:53 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,03:50:11.7732640,-0.5799255,4.045074,1.5,subject_154_normalised_pink_-180_0_1s (UnityEngine.AudioClip),0.9813152,-180,0,0,1.664715,17.64182,pink,335.0417,0.809082,334.4617,4.854156,0.7449941,179.4201, 4.045074,1.5,loc.score,OA.score,
+1,03:50:15.7744183,-19.9686,10.00586,1.5,subject_153_normalised_pink_90_60_1s (UnityEngine.AudioClip),0.9813152,90,60,0,1.9118,21.64351,pink,315.9415,0.5206299,295.9729,10.52649,359.1008,-109.9686, -49.99414,1.5,loc.score,OA.score,
+3,03:50:26.1731252,0.7484436,4.509949,1.5,irc_1025_normalised_pink_30_45_1s (UnityEngine.AudioClip),0.9813152,30,45,0,1.691473,32.0425,pink,330.1255,0.4195251,330.8739,4.929474,358.2509,-29.25156, -40.49005,1.5,loc.score,OA.score,
+4,03:50:33.0668538,-0.6937561,1.980042,1.5,irc_1009_normalised_pink_-150_60_1s (UnityEngine.AudioClip),1,-150,60,0,4.492985,38.93442,pink,330.9199,0.9882202,330.2261,2.968262,357.6898,149.3062, -58.01996,1.5,loc.score,OA.score,
+
+- Login date: 2/21/2019 3:52:05 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+1,03:52:16.0036767,-10.77536,1.906036,1.5,irc_1042_normalised_pink_135_0_1s (UnityEngine.AudioClip),0.9599773,135,0,0,1.853903,9.541195,pink,352.1198,0.3978271,341.3444,2.303864,355.5621,-145.7754, 1.906036,1.5,loc.score,OA.score,
+4,03:52:24.8067587,-2.424805,11.84378,1.5,irc_1030_normalised_pink_90_60_1s (UnityEngine.AudioClip),1,90,60,0,1.601857,13.85334,pink,327.4524,0.5645752,325.0276,12.40836,358.3928,-92.4248, -48.15622,1.5,loc.score,OA.score,
+5,03:52:27.7388412,-8.692657,9.516449,1.5,subject_060_normalised_pink_150_60_1s (UnityEngine.AudioClip),1,150,60,0,1.666183,16.78463,pink,317.8263,0.09317017,309.1336,9.609619,355.5154,-158.6927, -50.48355,1.5,loc.score,OA.score,
+12,03:53:11.4503969,-0.0241394,2.271729,2.440916,irc_1032_normalised_pink_-150_60_1s (UnityEngine.AudioClip),1,-150,60,0,1.378071,39.22921,pink,323.4738,0.03329468,323.4496,2.305023,355.3429,149.9759, -57.72827,2.440916,loc.score,OA.score,
+13,03:53:14.6501419,-1.280609,3.302932,2.440916,H14_96K_24bit_512tap_FIR_SOFA_normalised_pink_0_60_1s (UnityEngine.AudioClip),0.9173242,0,60,0,1.466862,42.42862,pink,323.9135,-0.1573325,322.6329,3.145599,355.7561,-1.280609, -56.69707,2.440916,loc.score,OA.score,
+14,03:53:18.0945489,-3.193176,4.027466,2.440916,H17_96K_24bit_512tap_FIR_SOFA_normalised_pink_-150_45_1s (UnityEngine.AudioClip),1,-150,45,0,2.199619,45.87355,pink,320.932,0.4438171,317.7388,4.471283,355.7923,146.8068, -40.97253,2.440916,loc.score,OA.score,
+15,03:53:21.6724221,-23.76151,7.323608,2.440916,subject_134_normalised_pink_-30_45_1s (UnityEngine.AudioClip),0.9599773,-30,45,0,1.956009,49.45108,pink,314.1563,0.1741638,290.3948,7.497772,0.07555419,6.238495, -37.67639,2.440916,loc.score,OA.score,
+
+- Login date: 2/21/2019 7:00:13 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,07:00:27.9089144,-4.094162,5.432556,1.5,D2_96K_24bit_512tap_FIR_SOFA_normalised_pink_-150_0_1s (UnityEngine.AudioClip),1,-150,0,0,2.490396,12.90345,pink,170.3164,0.05795288,166.2222,5.490509,357.7438,145.9058, 5.432556,1.5,loc.score,OA.score,
+1,07:00:32.9512456,0.8240204,3.051239,1.5,irc_1053_normalised_pink_0_45_1s (UnityEngine.AudioClip),0.9813152,0,45,0,2.977516,16.99161,pink,166.4861,0.127655,167.3101,3.178894,357.4031,0.8240204, -41.94876,1.5,loc.score,OA.score,
+3,07:00:40.2352508,0.5261536,-0.1203918,1.5,subject_127_normalised_pink_-90_45_1s (UnityEngine.AudioClip),1,-90,45,0,1.550957,21.47572,pink,168.2416,0.7595825,168.7677,0.6391907,357.9958,90.52615, -45.12039,1.5,loc.score,OA.score,
+4,07:00:44.6402218,0.1216736,0.3600464,1.5,irc_1020_normalised_pink_-180_60_1s (UnityEngine.AudioClip),1,-180,60,0,1.354713,23.90271,pink,169.2207,0.2085876,169.3424,0.568634,357.7289,179.8783, -59.63995,1.5,loc.score,OA.score,
+
+- Login date: 2/21/2019 7:09:36 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,07:09:46.0967956,0.9608307,1.155579,1.5,subject_152_normalised_pink_150_0_1s (UnityEngine.AudioClip),1,150,0,0,1.979943,8.988121,pink,186.7372,0.2055054,187.698,1.361084,357.6664,-149.0392, 1.155579,1.5,loc.score,OA.score,
+1,07:09:48.3171380,-7.08287,7.131409,1.5,subject_162_normalised_pink_45_0_1s (UnityEngine.AudioClip),0.8746485,45,0,0,1.311587,11.2103,pink,175.906,0.7931519,168.8231,7.924561,1.539513,-52.08287, 7.131409,1.5,loc.score,OA.score,
+2,07:10:02.8276671,0.7707214,2.35611,1.5,subject_021_normalised_pink_150_60_1s (UnityEngine.AudioClip),1,150,60,0,1.667475,14.14525,pink,174.6106,0.3300781,175.3813,2.686188,358.508,-149.2293, -57.64389,1.5,loc.score,OA.score,
+3,07:10:05.0715230,-10.4136,7.203888,1.5,irc_1050_normalised_pink_-180_60_1s (UnityEngine.AudioClip),0.7893198,-180,60,0,1.267202,16.38863,pink,171.9742,0.657959,161.5606,7.861847,359.2602,169.5864, -52.79611,1.5,loc.score,OA.score,
+4,07:10:14.1828653,1.65184,10.65012,1.5,subject_040_normalised_pink_-30_60_1s (UnityEngine.AudioClip),0.8959864,-30,60,0,1.289865,20.65568,pink,188.6048,0.05966187,190.2567,10.70978,358.4935,31.65184, -49.34988,1.5,loc.score,OA.score,
+
+- Login date: 2/21/2019 7:14:48 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,07:14:56.3732932,-7.280396,6.590872,1.5,irc_1034_normalised_pink_-30_45_1s (UnityEngine.AudioClip),0.9813152,-30,45,0,2.199927,7.580121,pink,349.9072,-0.8715113,342.6268,5.71936,357.4443,22.7196, -38.40913,1.5,loc.score,OA.score,
+1,07:14:58.3925598,-24.51602,6.075655,1.5,subject_017_normalised_pink_0_45_1s (UnityEngine.AudioClip),0.4479819,0,45,0,1.243868,9.600946,pink,335.8542,-0.6495684,311.3382,5.426086,356.9196,-24.51602, -38.92435,1.5,loc.score,OA.score,
+Continue,
+Paused,
+Continue,
+Paused,
+2,07:15:25.1930619,nan,nan,nan,H17_96K_24bit_512tap_FIR_SOFA_normalised_pink_0_60_1s (UnityEngine.AudioClip),0.9813152,0,60,0,3.914021,18.67019,pink,343.293,-0.8794936,343.3241,0.0819397,355.9113,nan, nan,nan,loc.score,OA.score,
+Continue,
+Paused,
+3,07:15:34.7266236,-0.3019714,0.3946618,1.5,irc_1026_normalised_pink_-180_60_1s (UnityEngine.AudioClip),1,-180,60,0,1.732586,24.31473,pink,343.4684,-0.1421899,343.1664,0.2524719,355.9381,179.698, -59.60534,1.5,loc.score,OA.score,
+Continue,
+Paused,
+4,07:15:46.0830829,0.4524536,4.407013,1.5,irc_1044_normalised_pink_-180_45_1s (UnityEngine.AudioClip),1,-180,45,0,1.600288,31.55737,pink,354.0027,0.2242737,354.4551,4.631287,356.7523,179.5475, -40.59299,1.5,loc.score,OA.score,
+Continue,
+Paused,
+5,07:15:56.4589741,-0.1959534,2.633331,1.5,subject_008_normalised_pink_-180_60_1s (UnityEngine.AudioClip),1,-180,60,0,1.511116,39.35744,pink,355.3969,0.3479919,355.201,2.981323,356.9655,179.804, -57.36667,1.5,loc.score,OA.score,
+
+- Login date: 2/21/2019 7:24:19 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,07:24:24.6702390,-0.7065125,4.088244,1.5,irc_1045_normalised_pink_150_0_1s (UnityEngine.AudioClip),1,150,0,0,1.533987,4.942801,pink,337.8151,-0.7945434,337.1086,3.293701,359.6396,-150.7065, 4.088244,1.5,loc.score,OA.score,
+1,07:24:27.3122010,-14.401,10.43268,1.5,irc_1026_normalised_pink_-45_0_1s (UnityEngine.AudioClip),0.9813152,-45,0,0,1.616555,7.586433,pink,335.1343,0.3161621,320.7333,10.74884,359.198,30.599, 10.43268,1.5,loc.score,OA.score,
+2,07:24:30.0032221,-15.06488,6.216527,1.5,irc_1034_normalised_pink_-135_0_1s (UnityEngine.AudioClip),1,-135,0,0,1.579495,10.27746,pink,313.0577,-0.3370097,297.9928,5.879517,355.5586,119.9351, 6.216527,1.5,loc.score,OA.score,
+Paused,
+Continue,
+10,07:24:50.3345191,0,0,1.5,subject_124_normalised_pink_-90_60_1s (UnityEngine.AudioClip),1,-90,60,0,1.944546,20.30518,pink,309.307,-0.1240226,309.307,-0.1240226,358.5972,90, -60,1.5,loc.score,OA.score,
+11,07:24:53.0252484,0,0,1.5,H14_96K_24bit_512tap_FIR_SOFA_normalised_pink_-150_60_1s (UnityEngine.AudioClip),1,-150,60,0,1.423904,22.99552,pink,309.307,-0.1240226,309.307,-0.1240226,358.5972,150, -60,1.5,loc.score,OA.score,
+12,07:25:10.6731564,0,0,1.5,irc_1054_normalised_pink_-30_45_1s (UnityEngine.AudioClip),0.9813152,-30,45,0,3.981213,40.64328,pink,309.307,-0.1240226,309.307,-0.1240226,358.5972,30, -45,1.5,loc.score,OA.score,
+13,07:25:15.2688516,0,0,1.5,irc_1034_normalised_pink_90_60_1s (UnityEngine.AudioClip),1,90,60,0,3.040699,45.23914,pink,309.307,-0.1240226,309.307,-0.1240226,358.5972,-90, -60,1.5,loc.score,OA.score,
+Paused,
+Continue,
+14,07:25:26.2473579,0,0,1.5,irc_1047_normalised_pink_-30_60_1s (UnityEngine.AudioClip),0.9813152,-30,60,0,1.440929,52.42411,pink,309.307,-0.1240226,309.307,-0.1240226,358.5972,30, -60,1.5,loc.score,OA.score,
+15,07:25:32.1240696,0,0,1.5,irc_1052_normalised_pink_0_0_1s (UnityEngine.AudioClip),1,0,0,0,1.344799,58.30077,pink,309.307,-0.1240226,309.307,-0.1240226,358.5972,0, 0,1.5,loc.score,OA.score,
+
+- Login date: 2/21/2019 7:31:07 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,07:31:17.5491158,-8.767914,9.99942,1.5,irc_1033_normalised_pink_-180_45_1s (UnityEngine.AudioClip),1,-180,45,0,1.872448,9.907194,pink,350.8712,0.4360352,342.1032,10.43546,358.9017,171.2321, -35.00058,1.5,loc.score,OA.score,
+Paused,
+Continue,
+Paused,
+Continue,
+1,07:31:35.7885305,-6.708496,12.20676,1.5,subject_048_normalised_pink_-90_60_1s (UnityEngine.AudioClip),0.9386621,-90,60,0,1.400974,18.85113,pink,339.5186,0.1099548,332.8101,12.31671,357.505,83.2915, -47.79324,1.5,loc.score,OA.score,
+2,07:31:38.7864245,-6.799316,12.50925,1.5,irc_1030_normalised_pink_-150_0_1s (UnityEngine.AudioClip),0.8533106,-150,0,0,1.303669,21.8483,pink,313.3251,0.7701721,306.5258,13.27942,357.677,143.2007, 12.50925,1.5,loc.score,OA.score,
+Paused,
+Continue,
+3,07:31:44.0626097,3.991577,7.52301,1.5,irc_1046_normalised_pink_0_0_1s (UnityEngine.AudioClip),0.2986621,0,0,0,1.007299,24.10361,pink,330.0633,0.3508911,334.0549,7.873901,358.1597,3.991577, 7.52301,1.5,loc.score,OA.score,
+
+- Login date: 2/21/2019 7:35:11 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/21/2019 7:36:46 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/21/2019 7:43:09 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,07:43:14.6936245,-10.4534,12.61856,1.5,subject_126_normalised_pink_30_60_1s (UnityEngine.AudioClip),1,30,60,0,1.368509,5.168865,pink,329.3891,-0.3997183,318.9357,12.21884,356.6074,-40.4534, -47.38144,1.5,loc.score,OA.score,
+Paused,
+Continue,
+1,07:43:26.7534872,4.954529,14.69049,1.5,subject_050_normalised_pink_150_0_1s (UnityEngine.AudioClip),0.8319955,150,0,0,1.2222,9.910212,pink,332.9543,0.2466736,337.9088,14.93716,359.3254,-145.0455, 14.69049,1.5,loc.score,OA.score,
+2,07:43:29.3251461,14.4566,9.782416,1.5,H10_96K_24bit_512tap_FIR_SOFA_normalised_pink_-150_60_1s (UnityEngine.AudioClip),0.5546485,-150,60,0,1.060297,12.49157,pink,300.5735,-0.07154017,315.0301,9.710876,359.8824,164.4566, -50.21758,1.5,loc.score,OA.score,
+3,07:43:32.0146483,-6.272705,12.62989,1.5,irc_1053_normalised_pink_-180_45_1s (UnityEngine.AudioClip),0.8319955,-180,45,0,1.334581,15.18078,pink,359.0865,-0.2147579,352.8138,12.41513,357.1188,173.7273, -32.37011,1.5,loc.score,OA.score,
+4,07:43:34.6012695,-7.651794,18.85104,1.5,H20_96K_24bit_512tap_FIR_SOFA_normalised_pink_150_60_1s (UnityEngine.AudioClip),0.8106576,150,60,0,1.301727,17.76777,pink,314.1249,0.1425171,306.4731,18.99356,357.1505,-157.6518, -41.14896,1.5,loc.score,OA.score,
+Paused,
+Continue,
+5,07:43:44.3988178,0.02944946,9.500275,1.5,subject_126_normalised_pink_-135_0_1s (UnityEngine.AudioClip),0.7893198,-135,0,0,1.078402,23.10011,pink,339.7159,0.545166,339.7453,10.04544,358.184,135.0294, 9.500275,1.5,loc.score,OA.score,
+
+- Login date: 2/21/2019 7:45:11 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+Paused,
+Continue,
+0,07:45:20.7955859,-0.3129883,6.276093,1.5,subject_017_normalised_pink_-150_0_1s (UnityEngine.AudioClip),0.6186621,-150,0,0,0.8725228,7.302719,pink,322.389,0.1465454,322.076,6.422638,355.713,149.687, 6.276093,1.5,loc.score,OA.score,
+1,07:45:23.9039470,-1.333008,-0.185113,1.5,irc_1014_normalised_pink_135_0_1s (UnityEngine.AudioClip),0.7893198,135,0,0,2.448373,10.41199,pink,321.128,0.02154541,319.795,-0.1635676,356.351,-136.333, -0.185113,1.5,loc.score,OA.score,
+Paused,
+Continue,
+2,07:45:27.4484354,0.2854004,0.5652771,1.5,irc_1014_normalised_pink_-135_0_1s (UnityEngine.AudioClip),0.426644,-135,0,0,1.940835,13.0389,pink,319.7614,0.3929443,320.0468,0.9582214,356.1621,135.2854, 0.5652771,1.5,loc.score,OA.score,
+Paused,
+Continue,
+3,07:45:33.9662014,0.2836914,3.022561,1.5,H20_96K_24bit_512tap_FIR_SOFA_normalised_pink_-30_0_1s (UnityEngine.AudioClip),0.7679819,-30,0,0,0.999527,15.83171,pink,320.856,-0.3734522,321.1396,2.649109,356.4535,30.28369, 3.022561,1.5,loc.score,OA.score,
+4,07:45:35.5227334,-0.2470703,1.786528,1.5,subject_148_normalised_pink_-150_45_1s (UnityEngine.AudioClip),0.6826531,-150,45,0,0.802206,17.38813,pink,321.0927,-0.3821092,320.8456,1.404419,357.122,149.7529, -43.21347,1.5,loc.score,OA.score,
+Paused,
+
+- Login date: 2/21/2019 7:59:51 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,07:59:58.1554371,0.03164673,5.649394,1.5,subject_127_normalised_pink_150_0_1s (UnityEngine.AudioClip),0.4479819,150,0,0,0.7120886,5.965883,pink,333.0179,-0.09668997,333.0495,5.552704,357.7097,-149.9684, 5.649394,1.5,loc.score,OA.score,
+1,08:00:00.1292264,-2.523163,6.950165,1.5,subject_020_normalised_pink_-150_60_1s (UnityEngine.AudioClip),0.7893198,-150,60,0,1.133564,7.94242,pink,333.2366,0.6485596,330.7134,7.598724,357.9155,147.4768, -53.04984,1.5,loc.score,OA.score,
+2,08:00:01.7756524,-0.6924438,8.147892,1.5,irc_1041_normalised_pink_-135_0_1s (UnityEngine.AudioClip),0.5119955,-135,0,0,0.8460293,9.588635,pink,325.1508,-0.5208778,324.4583,7.627014,0.4983439,134.3076, 8.147892,1.5,loc.score,OA.score,
+Paused,
+Continue,
+Paused,
+Continue,
+Paused,
+Continue,
+
+- Login date: 2/21/2019 8:02:25 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,08:02:31.4643088,-0.2823792,0.4878853,1.5,subject_165_normalised_pink_-90_45_1s (UnityEngine.AudioClip),0.9813152,-90,45,0,2.826643,6.097712,pink,327.6635,-0.258271,327.3811,0.2296143,357.5544,89.71762, -44.51212,1.5,loc.score,OA.score,
+1,08:02:34.0628418,-0.01489258,-0.05966187,1.5,subject_163_normalised_pink_90_60_1s (UnityEngine.AudioClip),0.9813152,90,60,0,2.109834,8.696705,pink,327.1143,0.2875366,327.0994,0.2278748,357.3468,-90.01489, -60.05966,1.5,loc.score,OA.score,
+Paused,
+Continue,
+2,08:02:42.4194186,0,0,1.5,subject_152_normalised_pink_0_60_1s (UnityEngine.AudioClip),1,0,60,0,1.111232,12.36519,pink,327.0656,0.355835,327.0656,0.355835,357.3848,0, -60,1.5,loc.score,OA.score,
+3,08:02:44.0417136,0,0,1.5,subject_027_normalised_pink_-45_0_1s (UnityEngine.AudioClip),0.9386621,-45,0,0,0.9783707,13.98813,pink,327.0656,0.355835,327.0656,0.355835,357.3848,45, 0,1.5,loc.score,OA.score,
+4,08:02:45.9309100,0,0,1.5,irc_1048_normalised_pink_0_0_1s (UnityEngine.AudioClip),1,0,0,0,1.02145,15.87735,pink,327.0656,0.355835,327.0656,0.355835,357.3848,0, 0,1.5,loc.score,OA.score,
+Paused,
+Continue,
+5,08:02:49.5539887,0,0,1.5,irc_1003_normalised_pink_-150_0_1s (UnityEngine.AudioClip),1,-150,0,0,1.223467,18.27626,pink,327.0656,0.355835,327.0656,0.355835,357.3848,150, 0,1.5,loc.score,OA.score,
+
+- Login date: 2/21/2019 8:03:42 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,08:03:47.1520524,-4.904358,6.479919,1.5,subject_058_normalised_pink_-180_0_1s (UnityEngine.AudioClip),0.9599773,-180,0,0,1.291625,4.30934,pink,331.2231,-0.1450502,326.3188,6.334869,358.2655,175.0956, 6.479919,1.5,loc.score,OA.score,
+Paused,
+Continue,
+1,08:03:55.4644924,-17.10193,10.17625,1.5,irc_1017_normalised_pink_-150_45_1s (UnityEngine.AudioClip),0.6399773,-150,45,0,1.110078,8.555378,pink,327.0661,-0.07474411,309.9642,10.1015,356.674,132.8981, -34.82375,1.5,loc.score,OA.score,
+2,08:03:57.3757156,-20.19321,9.4484,1.5,irc_1057_normalised_pink_-45_0_1s (UnityEngine.AudioClip),0.5333107,-45,0,0,1.135516,10.46684,pink,307.3147,-0.911382,287.1215,8.537018,356.9073,24.80679, 9.4484,1.5,loc.score,OA.score,
+Paused,
+Continue,
+3,08:04:07.8189331,0.1222534,3.034637,1.5,subject_050_normalised_pink_-90_60_1s (UnityEngine.AudioClip),0.8746485,-90,60,0,5.288035,17.62192,pink,311.1736,0.1592407,311.2959,3.193878,359.18,90.12225, -56.96536,1.5,loc.score,OA.score,
+
+- Login date: 2/21/2019 8:04:34 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+Paused,
+Continue,
+0,08:04:43.3077213,-3.044312,2.039032,1.5,subject_012_normalised_pink_30_45_1s (UnityEngine.AudioClip),0.362653,30,45,0,0.8882794,6.276729,pink,323.8705,0.2142334,320.8261,2.253265,356.9879,-33.04431, -42.96097,1.5,loc.score,OA.score,
+Paused,
+Continue,
+Paused,
+Continue,
+Paused,
+Continue,
+Paused,
+
+- Login date: 2/21/2019 8:08:28 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,08:08:37.2193487,-17.77542,8.325684,1.5,irc_1047_normalised_pink_0_0_1s (UnityEngine.AudioClip),0.6399773,0,0,0,1.267559,8.085595,pink,323.4456,0.3179626,305.6702,8.643646,354.4183,-17.77542, 8.325684,1.5,loc.score,OA.score,
+1,08:08:43.2194658,-15.83707,11.16306,1.5,subject_044_normalised_pink_-180_60_1s (UnityEngine.AudioClip),0.6399773,-180,60,0,1.044694,14.08721,pink,318.5572,-0.03543697,302.7202,11.12762,356.0352,164.1629, -48.83694,1.5,loc.score,OA.score,
+Paused,
+Continue,
+2,08:09:33.7297659,-6.789551,18.37521,1.5,irc_1021_normalised_pink_90_45_1s (UnityEngine.AudioClip),0.6613152,90,45,0,9.067196,60.97635,pink,299.1413,0.07369995,292.3517,18.44891,353.8665,-96.78955, -26.62479,1.5,loc.score,OA.score,
+Paused,
+Continue,
+
+- Login date: 2/21/2019 8:12:31 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+Paused,
+Continue,
+
+- Login date: 2/21/2019 8:19:55 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+Paused,
+Continue,
+
+- Login date: 2/21/2019 8:22:53 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+Paused,
+Continue,
+0,08:23:58.3716971,0.2132874,0.5803833,1.5,H18_96K_24bit_512tap_FIR_SOFA_normalised_pink_-45_0_1s (UnityEngine.AudioClip),0.6613152,-45,0,0,0.6884575,61.74412,pink,313.9243,0.160675,314.1376,0.7410583,358.3293,45.21329, 0.5803833,1.5,loc.score,OA.score,
+1,08:24:03.7721588,1.388794,1.304337,1.5,D2_96K_24bit_512tap_FIR_SOFA_normalised_pink_-45_0_1s (UnityEngine.AudioClip),0.746644,-45,0,0,1.000282,67.14455,pink,341.1486,-0.1032266,342.5374,1.201111,358.2147,46.38879, 1.304337,1.5,loc.score,OA.score,
+2,08:24:11.0164061,-0.3982849,0.6663182,1.5,subject_059_normalised_pink_150_60_1s (UnityEngine.AudioClip),0.9386621,150,60,0,0.9775314,74.38866,pink,330.0374,-0.1956151,329.6392,0.4707031,357.7894,-150.3983, -59.33368,1.5,loc.score,OA.score,
+
+- Login date: 2/21/2019 8:25:51 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/21/2019 8:27:20 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/21/2019 8:30:29 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/21/2019 8:32:37 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+Continue,
+Continue,
+Continue,
+Continue,
+Paused,
+Continue,
+Paused,
+Continue,
+Paused,
+Continue,
+Paused,
+Continue,
+Paused,
+
+- Login date: 2/21/2019 8:44:19 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,08:44:30.8957843,-0.1750183,-0.5591735,1.5,subject_008_normalised_pink_-150_60_1s (UnityEngine.AudioClip),0.9813152,-150,60,0,2.340994,11.53975,pink,340.248,0.4121094,340.073,-0.1470641,359.2775,149.825, -60.55917,1.5,loc.score,OA.score,
+1,08:44:32.4932101,-9.154663,-0.131073,1.5,H13_96K_24bit_512tap_FIR_SOFA_normalised_pink_-150_45_1s (UnityEngine.AudioClip),0.426644,-150,45,0,0.8933287,13.13912,pink,339.3128,0.1372375,330.1581,0.006164551,358.3313,140.8453, -45.13107,1.5,loc.score,OA.score,
+2,08:44:35.4504762,0.224823,0.5586548,1.5,irc_1016_normalised_pink_-30_45_1s (UnityEngine.AudioClip),1,-30,45,0,1.132545,16.0959,pink,324.7867,0.1402893,325.0115,0.6989441,358.1526,30.22482, -44.44135,1.5,loc.score,OA.score,
+3,08:44:38.6063117,0.7495422,0.4171753,1.5,irc_1003_normalised_pink_-180_45_1s (UnityEngine.AudioClip),1,-180,45,0,2.221731,19.25229,pink,322.0333,0.1637268,322.7828,0.5809021,357.9505,179.2505, -44.58282,1.5,loc.score,OA.score,
+Paused,
+Continue,
+Paused,
+Continue,
+
+- Login date: 2/21/2019 8:46:42 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,08:46:57.8523701,-0.535675,0.2729886,1.5,irc_1044_normalised_pink_30_0_1s (UnityEngine.AudioClip),1,30,0,0,1.179811,15.26378,pink,338.0708,-0.3189538,337.5351,-0.04596524,359.1312,-30.53568, 0.2729886,1.5,loc.score,OA.score,
+Paused,
+Continue,
+Paused,
+Continue,
+Paused,
+Continue,
+
+- Login date: 2/21/2019 8:49:37 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,08:49:43.5384993,-0.4792175,2.902941,1.5,subject_020_normalised_pink_-135_0_1s (UnityEngine.AudioClip),0.9813152,-135,0,0,1.911758,5.500538,pink,337.4987,-0.1362478,337.0194,2.766693,355.8913,134.5208, 2.902941,1.5,loc.score,OA.score,
+1,08:49:46.5514341,-14.12253,3.497011,1.5,subject_019_normalised_pink_150_45_1s (UnityEngine.AudioClip),0.6826531,150,45,0,1.569539,8.513922,pink,334.7146,-0.2135948,320.5921,3.283417,358.8105,-164.1225, -41.50299,1.5,loc.score,OA.score,
+Paused,
+Continue,
+
+- Login date: 2/21/2019 8:52:15 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+Paused,
+Continue,
+
+- Login date: 2/21/2019 8:54:56 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 2/21/2019 8:58:43 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+Paused,
+Continue,
+Paused,
+Continue,
+Paused,
+Continue,
+Paused,
+Continue,
+
+- Login date: 2/21/2019 10:13:00 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,10:13:05.0396066,-30.85095,3.959747,1.5,irc_1050_normalised_pink_-30_0_1s (UnityEngine.AudioClip),0.746644,-30,0,0,1.33551,4.210797,pink,345.6656,0.04806519,314.8147,4.007813,356.6263,-0.8509521, 3.959747,1.5,loc.score,OA.score,
+1,10:13:07.9920725,-13.93381,8.061839,1.5,subject_154_normalised_pink_-150_60_1s (UnityEngine.AudioClip),1,-150,60,0,1.492529,7.162906,pink,318.9388,-0.03773066,305.0049,8.024109,354.2227,136.0662, -51.93816,1.5,loc.score,OA.score,
+2,10:13:13.6163278,0.4319763,1.628263,1.5,H11_96K_24bit_512tap_FIR_SOFA_normalised_pink_-30_0_1s (UnityEngine.AudioClip),0.8106576,-30,0,0,2.398731,12.788,pink,337.6986,-0.000303063,338.1306,1.62796,358.5577,30.43198, 1.628263,1.5,loc.score,OA.score,
+3,10:13:15.9071627,-9.168549,6.814606,1.5,irc_1004_normalised_pink_-150_45_1s (UnityEngine.AudioClip),1,-150,45,0,1.401474,15.07817,pink,329.6609,0.3331604,320.4924,7.147766,357.6244,140.8315, -38.18539,1.5,loc.score,OA.score,
+Paused,
+Continue,
+4,10:13:20.1939166,-9.853882,13.83792,1.5,subject_044_normalised_pink_-135_0_1s (UnityEngine.AudioClip),0.8959864,-135,0,0,1.288214,18.09895,pink,326.5445,-0.1802067,316.6906,13.65771,357.5103,125.1461, 13.83792,1.5,loc.score,OA.score,
+Paused,
+Continue,
+5,10:13:24.9064705,13.65472,7.292589,1.5,irc_1002_normalised_pink_30_45_1s (UnityEngine.AudioClip),0.8959864,30,45,0,1.297075,22.06263,pink,321.6842,-0.1432665,335.339,7.149323,359.7228,-16.34528, -37.70741,1.5,loc.score,OA.score,
+6,10:13:26.4627192,0.7338562,7.518216,1.5,subject_153_normalised_pink_-150_60_1s (UnityEngine.AudioClip),0.5546485,-150,60,0,0.8686504,23.61795,pink,335.8203,-0.3322721,336.5542,7.185944,359.1702,150.7339, -52.48178,1.5,loc.score,OA.score,
+Paused,
+Continue,
+7,10:13:29.1716197,11.63669,4.919618,1.5,subject_059_normalised_pink_-180_45_1s (UnityEngine.AudioClip),0.6613152,-180,45,0,1.149315,25.68421,pink,336.9804,-0.139253,348.6171,4.780365,358.6497,168.3633, -40.08038,1.5,loc.score,OA.score,
+Paused,
+Continue,
+
+- Login date: 2/21/2019 10:15:26 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,10:15:31.0210998,-1.944702,4.374646,1.5,subject_061_normalised_pink_-45_0_1s (UnityEngine.AudioClip),0.8106576,-45,0,0,0.9838598,4.086491,pink,336.6619,-0.1299561,334.7172,4.24469,358.4994,43.0553, 4.374646,1.5,loc.score,OA.score,
+1,10:15:33.8173114,-21.02905,10.80223,1.5,irc_1034_normalised_pink_-30_45_1s (UnityEngine.AudioClip),0.8533106,-30,45,0,1.312586,6.882422,pink,332.4741,-0.4879313,311.445,10.3143,356.6505,8.970947, -34.19777,1.5,loc.score,OA.score,
+2,10:15:36.0607034,17.63846,7.215189,1.5,subject_134_normalised_pink_90_60_1s (UnityEngine.AudioClip),0.4906576,90,60,0,1.289221,9.126293,pink,314.368,-0.02030423,332.0065,7.194885,357.4348,-72.36154, -52.78481,1.5,loc.score,OA.score,
+Paused,
+Continue,
+3,10:15:41.2586966,-3.757874,9.312073,1.5,H11_96K_24bit_512tap_FIR_SOFA_normalised_pink_-30_0_1s (UnityEngine.AudioClip),0.6826531,-30,0,0,1.00585,11.49773,pink,329.6317,-0.5404359,325.8738,8.771637,357.4012,26.24213, 9.312073,1.5,loc.score,OA.score,
+Paused,
+Continue,
+4,10:15:45.7032040,-0.4981384,6.727081,1.5,irc_1045_normalised_pink_150_45_1s (UnityEngine.AudioClip),0.5759864,150,45,0,1.049789,14.34904,pink,326.0204,0.3483582,325.5222,7.075439,357.0267,-150.4981, -38.27292,1.5,loc.score,OA.score,
+Paused,
+Continue,
+5,10:15:52.4383770,-5.646759,4.86903,1.5,subject_152_normalised_pink_-180_45_1s (UnityEngine.AudioClip),0.5333107,-180,45,0,1.3407,19.68451,pink,319.8022,-0.1375847,314.1555,4.731445,357.2309,174.3532, -40.13097,1.5,loc.score,OA.score,
+Paused,
+Continue,
+6,10:15:57.9054673,7.097382,5.373566,1.5,H12_96K_24bit_512tap_FIR_SOFA_normalised_pink_-180_45_1s (UnityEngine.AudioClip),0.7253288,-180,45,0,1.134375,23.95133,pink,321.0773,0.1274109,328.1747,5.500977,357.5829,172.9026, -39.62643,1.5,loc.score,OA.score,
+7,10:16:02.7505961,-9.383484,11.17325,1.5,irc_1059_normalised_pink_-135_0_1s (UnityEngine.AudioClip),0.426644,-135,0,0,0.9301949,28.7962,pink,327.81,0.1722107,318.4265,11.34546,356.965,125.6165, 11.17325,1.5,loc.score,OA.score,
+Paused,
+Continue,
+Paused,
+Continue,
+
+- Login date: 2/21/2019 10:19:12 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,10:19:17.1480738,-5.997894,6.991184,1.5,D1_96K_24bit_512tap_FIR_SOFA_normalised_pink_30_0_1s (UnityEngine.AudioClip),0.9599773,30,0,0,1.445899,4.736284,pink,328.5651,-0.8004491,322.5672,6.190735,356.785,-35.99789, 6.991184,1.5,loc.score,OA.score,
+Paused,
+Continue,
+Paused,
+Continue,
+Paused,
+Continue,
+1,10:19:28.5262915,0.06924438,0.1333923,1.5,irc_1018_normalised_pink_-180_0_1s (UnityEngine.AudioClip),0.9173242,-180,0,0,0.9354639,14.1598,pink,325.218,0.1158752,325.2872,0.2492676,357.6271,179.9308, 0.1333923,1.5,loc.score,OA.score,
+Paused,
+Continue,
+2,10:19:33.1504348,-0.1290894,0.2028198,1.5,irc_1042_normalised_pink_-135_0_1s (UnityEngine.AudioClip),0.1493197,-135,0,0,1.564206,17.38405,pink,325.6977,0.05926514,325.5686,0.262085,357.1012,134.8709, 0.2028198,1.5,loc.score,OA.score,
+Paused,
+Continue,
+Paused,
+Continue,
+3,10:19:42.6137292,-1.389801,2.713957,1.5,subject_155_normalised_pink_-180_60_1s (UnityEngine.AudioClip),1,-180,60,0,1.196703,24.26636,pink,325.9095,-0.03900006,324.5197,2.674957,356.9061,178.6102, -57.28604,1.5,loc.score,OA.score,
+Paused,
+Continue,
+Paused,
+Continue,
+Paused,
+Continue,
+4,10:19:50.0160225,1.321808,0.53949,1.5,irc_1046_normalised_pink_135_0_1s (UnityEngine.AudioClip),0.2346485,135,0,0,2.485645,29.93122,pink,325.6849,-0.3465884,327.0067,0.1929016,356.752,-133.6782, 0.53949,1.5,loc.score,OA.score,
+Paused,
+Continue,
+Paused,
+Continue,
+Paused,
+Continue,
+5,10:20:08.7714738,-1.291077,2.244171,1.5,subject_040_normalised_pink_-90_45_1s (UnityEngine.AudioClip),0.5973243,-90,45,0,7.958435,46.85201,pink,332.5988,0.4415588,331.3077,2.68573,356.7734,88.70892, -42.75583,1.5,loc.score,OA.score,
+
+- Login date: 2/21/2019 10:21:53 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,10:22:02.1288298,-2.480316,3.766293,1.5,irc_1032_normalised_pink_-180_0_1s (UnityEngine.AudioClip),0.8319955,-180,0,0,1.758073,8.296397,pink,336.5073,-0.5040553,334.0269,3.262238,356.2462,177.5197, 3.766293,1.5,loc.score,OA.score,
+Paused,
+Continue,
+Paused,
+Continue,
+1,10:22:12.1499488,-4.69989,5.300976,1.5,H11_96K_24bit_512tap_FIR_SOFA_normalised_pink_-180_0_1s (UnityEngine.AudioClip),0.5333107,-180,0,0,6.693496,17.28024,pink,333.1283,-0.7906307,328.4284,4.510345,355.3967,175.3001, 5.300976,1.5,loc.score,OA.score,
+
+- Login date: 2/21/2019 10:25:51 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,10:25:58.6370034,-5.664917,3.716766,1.5,irc_1006_normalised_pink_150_60_1s (UnityEngine.AudioClip),0.5119955,150,60,0,0.8422513,6.965224,pink,323.5374,0.4033508,317.8725,4.120117,1.028611,-155.6649, -56.28323,1.5,loc.score,OA.score,
+1,10:26:22.8588032,-6.412476,3.226376,1.5,irc_1033_normalised_pink_-30_60_1s (UnityEngine.AudioClip),0.2559864,-30,60,0,0.8868179,31.1878,pink,318.7239,-0.1470608,312.3114,3.079315,357.9759,23.58752, -56.77362,1.5,loc.score,OA.score,
+2,10:26:49.7468643,-11.64548,5.514984,1.5,irc_1025_normalised_pink_30_0_1s (UnityEngine.AudioClip),0.2133107,30,0,0,0.6839943,58.07573,pink,314.3947,0.4408875,302.7492,5.955872,351.409,-41.64548, 5.514984,1.5,loc.score,OA.score,
+Paused,
+Continue,
+
+- Login date: 2/21/2019 10:28:35 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,10:28:41.8709701,-5.251404,-0.3647156,1.5,irc_1042_normalised_pink_-150_60_1s (UnityEngine.AudioClip),0.8533106,-150,60,0,1.155023,6.059907,pink,333.4383,0.6014404,328.1869,0.2367249,3.213769,144.7486, -60.36472,1.5,loc.score,OA.score,
+1,10:28:44.9366488,0.7302551,2.011546,1.5,subject_010_normalised_pink_90_45_1s (UnityEngine.AudioClip),0.4693197,90,45,0,0.9568186,9.127518,pink,329.4617,-0.8693648,330.1919,1.142181,1.103897,-89.26974, -42.98845,1.5,loc.score,OA.score,
+2,10:28:47.3310924,-2.142456,3.206604,1.5,irc_1054_normalised_pink_-180_0_1s (UnityEngine.AudioClip),1,-180,0,0,1.348645,11.5206,pink,330.5339,0.3177185,328.3915,3.524323,359.2457,177.8575, 3.206604,1.5,loc.score,OA.score,
+3,10:28:49.6906613,-0.3882751,0.6637759,1.5,irc_1046_normalised_pink_0_60_1s (UnityEngine.AudioClip),1,0,60,0,1.399524,13.88039,pink,328.5772,-0.1592593,328.189,0.5045166,359.1468,-0.3882751, -59.33622,1.5,loc.score,OA.score,
+Paused,
+Continue,
+Paused,
+Continue,
+Paused,
+Continue,
+Paused,
+Continue,
+Paused,
+Continue,
+
+- Login date: 2/21/2019 10:33:46 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,10:34:02.5149534,-4.512512,2.746552,1.5,irc_1054_normalised_pink_-180_0_1s (UnityEngine.AudioClip),0.2986621,-180,0,0,1.154462,15.6266,pink,332.852,0.101593,328.3395,2.848145,355.8974,175.4875, 2.746552,1.5,loc.score,OA.score,
+1,10:34:05.7366803,-8.312714,4.683787,1.5,irc_1014_normalised_pink_135_0_1s (UnityEngine.AudioClip),0.106644,135,0,0,2.221889,18.84821,pink,329.7953,-0.5411785,321.4825,4.142609,355.8947,-143.3127, 4.683787,1.5,loc.score,OA.score,
+2,10:34:07.7291818,15.82214,3.891785,1.5,subject_021_normalised_pink_-30_45_1s (UnityEngine.AudioClip),0.2133107,-30,45,0,1.060179,20.84175,pink,323.0493,0.2687378,338.8714,4.160522,354.332,45.82214, -41.10822,1.5,loc.score,OA.score,
+Paused,
+Continue,
+Paused,
+Continue,
+Paused,
+Continue,
+Paused,
+Continue,
+Paused,
+Continue,
+3,10:34:20.4020949,-28.37796,13.42307,1.5,irc_1051_normalised_pink_150_45_1s (UnityEngine.AudioClip),0.426644,150,45,0,1.088518,31.81246,pink,334.8213,0.1232605,306.4434,13.54633,354.551,-178.378, -31.57693,1.5,loc.score,OA.score,
+Paused,
+Continue,
+Paused,
+Continue,
+4,10:34:26.0473351,1.014221,1.879256,1.5,irc_1032_normalised_pink_90_60_1s (UnityEngine.AudioClip),0.2133107,90,60,0,0.9100113,36.67963,pink,333.6658,-0.02659473,334.6801,1.852661,355.7168,-88.98578, -58.12074,1.5,loc.score,OA.score,
+Paused,
+Continue,
+5,10:34:29.8258028,-0.01065063,1.879545,1.5,subject_148_normalised_pink_-90_60_1s (UnityEngine.AudioClip),0.7253288,-90,60,0,1.001892,39.25681,pink,336.2289,-0.08526444,336.2183,1.794281,355.9711,89.98935, -58.12045,1.5,loc.score,OA.score,
+Paused,
+Continue,
+6,10:34:35.0470401,0.102478,0.308136,1.5,irc_1008_normalised_pink_-150_60_1s (UnityEngine.AudioClip),1,-150,60,0,1.510685,42.80883,pink,336.1084,0.2607727,336.2109,0.5689087,354.5781,150.1025, -59.69186,1.5,loc.score,OA.score,
+Paused,
+Continue,
+7,10:34:40.8035717,2.436035,-0.4494793,1.5,irc_1032_normalised_pink_150_45_1s (UnityEngine.AudioClip),0.7679819,150,45,0,0.8842278,47.63044,pink,321.3489,0.4067383,323.7849,-0.04274098,356.347,-147.564, -45.44948,1.5,loc.score,OA.score,
+Paused,
+Continue,
+8,10:34:45.2467516,4.41275,3.909302,1.5,irc_1025_normalised_pink_0_0_1s (UnityEngine.AudioClip),0.7253288,0,0,0,1.268288,49.84232,pink,325.6062,0.2744446,330.019,4.183746,355.7952,4.41275, 3.909302,1.5,loc.score,OA.score,
+9,10:34:46.9343776,-7.106659,6.213932,1.5,subject_165_normalised_pink_-150_45_1s (UnityEngine.AudioClip),0.1279819,-150,45,0,0.7107658,51.5306,pink,328.5811,-0.230808,321.4745,5.983124,354.7832,142.8933, -38.78607,1.5,loc.score,OA.score,
+10,10:34:48.5148916,-6.528961,6.117855,1.5,subject_154_normalised_pink_30_45_1s (UnityEngine.AudioClip),0.1706576,30,45,0,0.6646767,53.11052,pink,325.2305,-0.2239648,318.7016,5.89389,352.8951,-36.52896, -38.88214,1.5,loc.score,OA.score,
+Paused,
+Continue,
+11,10:34:52.8741431,-4.260956,5.540238,1.5,subject_133_normalised_pink_-150_60_1s (UnityEngine.AudioClip),0.4479819,-150,60,0,1.029022,55.40226,pink,329.4982,-0.2078103,325.2373,5.332428,354.5712,145.739, -54.45976,1.5,loc.score,OA.score,
+
+- Login date: 2/21/2019 10:38:26 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,10:40:46.6071998,90.22736,0.4134632,1.5,irc_1056_normalised_pink_-150_60_1s (UnityEngine.AudioClip),1,-150,60,0,4.0336,139.8275,pink,359.2869,-0.7418504,89.51427,-0.3283871,357.6199,119.7726, -59.58654,1.5,loc.score,OA.score,
+1,10:40:55.4398140,89.60498,0.8665956,1.5,irc_1012_normalised_pink_-180_45_1s (UnityEngine.AudioClip),0.9813152,-180,45,0,2.982666,148.6613,pink,359.5636,-0.995007,89.16858,-0.1284114,357.3094,90.39502, -44.1334,1.5,loc.score,OA.score,
+2,10:42:29.4284715,89.68936,0.1476876,1.5,subject_162_normalised_pink_0_0_1s (UnityEngine.AudioClip),1,0,0,0,4.756668,242.6501,pink,359.8337,-0.4235955,89.52311,-0.2759078,355.6708,89.68936, 0.1476876,1.5,loc.score,OA.score,
+3,10:42:35.5396376,89.12895,-0.6154315,1.5,irc_1038_normalised_pink_90_60_1s (UnityEngine.AudioClip),1,90,60,0,2.618469,248.7609,pink,0.8646674,-0.590176,89.99362,-1.205608,357.484,-0.871048, -60.61543,1.5,loc.score,OA.score,
+4,10:42:39.1668393,90.40045,-1.204038,1.5,irc_1049_normalised_pink_-45_0_1s (UnityEngine.AudioClip),0.2346485,-45,0,0,2.206482,252.3888,pink,359.2553,0.4807434,89.65579,-0.7232944,358.6719,135.4005, -1.204038,1.5,loc.score,OA.score,
+5,10:42:43.7049263,91.60306,-0.293972,1.5,subject_040_normalised_pink_150_0_1s (UnityEngine.AudioClip),0.8319955,150,0,0,2.823975,256.9268,pink,358.9072,-0.08227284,90.51029,-0.3762448,357.1575,-58.39694, -0.293972,1.5,loc.score,OA.score,
+
+- Login date: 2/21/2019 12:22:25 PM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,12:22:34.3908650,-0.219635,0.3078613,1.5,irc_1043_normalised_pink_135_0_1s (UnityEngine.AudioClip),1,135,0,0,1.413798,8.371303,pink,346.686,0.4470825,346.4664,0.7549438,357.9847,-135.2196, 0.3078613,1.5,loc.score,OA.score,
+1,12:22:36.1947601,-13.05746,5.268829,1.5,irc_1012_normalised_pink_-90_60_1s (UnityEngine.AudioClip),0.8319955,-90,60,0,1.262056,10.1758,pink,346.6658,0.4562378,333.6084,5.725067,356.8846,76.94254, -54.73117,1.5,loc.score,OA.score,
+2,12:22:38.8420004,-3.041351,2.324828,1.5,subject_051_normalised_pink_-135_0_1s (UnityEngine.AudioClip),1,-135,0,0,1.507163,12.82262,pink,339.5447,-0.2922659,336.5034,2.032562,359.0406,131.9586, 2.324828,1.5,loc.score,OA.score,
+3,12:22:41.0880367,-0.2930603,1.688293,1.5,irc_1048_normalised_pink_-180_45_1s (UnityEngine.AudioClip),1,-180,45,0,1.534943,15.06959,pink,336.9661,0.8693237,336.673,2.557617,358.951,179.7069, -43.31171,1.5,loc.score,OA.score,
+4,12:22:43.1765523,-0.2783508,3.583744,1.5,irc_1039_normalised_pink_-135_0_1s (UnityEngine.AudioClip),0.9813152,-135,0,0,1.37461,17.15796,pink,337.337,-0.529545,337.0586,3.054199,358.4428,134.7216, 3.583744,1.5,loc.score,OA.score,
+Paused,
+Continue,
+5,12:22:46.3545639,0.1683655,3.297668,1.5,irc_1055_normalised_pink_30_60_1s (UnityEngine.AudioClip),0.9173242,30,60,0,1.35425,19.84831,pink,337.6306,0.1228943,337.7989,3.420563,357.8644,-29.83163, -56.70233,1.5,loc.score,OA.score,
+6,12:22:48.2137270,9.743683,5.714203,1.5,subject_028_normalised_pink_-150_0_1s (UnityEngine.AudioClip),0.4693197,-150,0,0,1.074417,21.70741,pink,343.1656,0.08724976,352.9093,5.801453,357.7403,159.7437, 5.714203,1.5,loc.score,OA.score,
+7,12:22:49.9883591,-13.67459,4.605927,1.5,subject_015_normalised_pink_-30_0_1s (UnityEngine.AudioClip),0.4053288,-30,0,0,1.037115,23.48214,pink,351.9971,0.5457153,338.3225,5.151642,354.4731,16.32541, 4.605927,1.5,loc.score,OA.score,
+8,12:22:51.8210152,-6.93335,3.889221,1.5,H14_96K_24bit_512tap_FIR_SOFA_normalised_pink_-30_60_1s (UnityEngine.AudioClip),0.3413152,-30,60,0,0.9997902,25.3139,pink,338.1747,0.1440735,331.2414,4.033295,355.2989,23.06665, -56.11078,1.5,loc.score,OA.score,
+9,12:22:53.8215600,15.4653,4.741943,1.5,irc_1034_normalised_pink_-90_45_1s (UnityEngine.AudioClip),0.362653,-90,45,0,1.023018,27.31524,pink,334.3523,0.1290894,349.8176,4.871033,355.0904,105.4653, -40.25806,1.5,loc.score,OA.score,
+10,12:22:55.7917329,8.502747,3.974687,1.5,subject_003_normalised_pink_135_0_1s (UnityEngine.AudioClip),0.426644,135,0,0,1.095518,29.28556,pink,350.5961,-0.7066813,359.0988,3.268005,354.6899,-126.4973, 3.974687,1.5,loc.score,OA.score,
+11,12:22:57.4453951,-13.84058,3.363983,1.5,irc_1028_normalised_pink_-30_0_1s (UnityEngine.AudioClip),0.2773243,-30,0,0,0.9366245,30.93833,pink,354.9597,0.2957153,341.1191,3.659698,352.0823,16.15942, 3.363983,1.5,loc.score,OA.score,
+12,12:23:06.7758534,0.826416,1.033144,1.5,irc_1054_normalised_pink_0_60_1s (UnityEngine.AudioClip),1,0,60,0,1.309738,40.26941,pink,337.5054,-0.8826011,338.3318,0.1505432,358.2321,0.826416, -58.96685,1.5,loc.score,OA.score,
+14,12:23:11.3265315,nan,nan,nan,subject_126_normalised_pink_-90_60_1s (1) (UnityEngine.AudioClip),1,-90,60,0,1.595413,44.81972,pink,339.3379,0.7051697,339.0856,2.266449,357.1877,nan, nan,nan,loc.score,OA.score,
+15,12:23:13.5592766,nan,nan,nan,subject_152_normalised_pink_-90_45_1s (UnityEngine.AudioClip),0.9813152,-90,45,0,1.360157,47.05282,pink,339.4282,0.3445435,339.3517,0.894043,357.1236,nan, nan,nan,loc.score,OA.score,
+16,12:23:19.7335543,0.4508972,1.242493,1.5,subject_152_normalised_pink_-90_45_1s (UnityEngine.AudioClip),1,-90,45,0,2.490929,53.22649,pink,339.4085,0.06417847,339.8594,1.306671,356.6899,90.4509, -43.75751,1.5,loc.score,OA.score,
+17,12:23:21.5310555,-9.849548,7.064392,1.5,irc_1043_normalised_pink_-180_45_1s (UnityEngine.AudioClip),0.5333107,-180,45,0,0.9703369,55.02439,pink,339.5876,0.5657654,329.738,7.630157,355.185,170.1505, -37.93561,1.5,loc.score,OA.score,
+18,12:23:23.1323974,-13.60458,3.835798,1.5,D1_96K_24bit_512tap_FIR_SOFA_normalised_pink_0_0_1s (UnityEngine.AudioClip),0.362653,0,0,0,0.8735695,56.6258,pink,337.2098,-0.7922187,323.6053,3.043579,355.1917,-13.60458, 3.835798,1.5,loc.score,OA.score,
+
+- Login date: 2/21/2019 12:58:03 PM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,13:00:21.9322480,0,0,1.737088,subject_027_normalised_pink_-150_0_1s (UnityEngine.AudioClip),1,-150,0,0,4.25882,137.9255,pink,0,0,0,0,0,150, 0,1.737088,loc.score,OA.score,
+1,13:00:27.1427757,0,0,1.737088,irc_1031_normalised_pink_45_0_1s (UnityEngine.AudioClip),1,45,0,0,2.678848,143.1366,pink,0,0,0,0,0,-45, 0,1.737088,loc.score,OA.score,
+2,13:00:39.6404775,0,0,1.737088,H18_96K_24bit_512tap_FIR_SOFA_normalised_pink_-90_45_1s (UnityEngine.AudioClip),0.9813152,-90,45,0,2.613663,155.6353,pink,0,0,0,0,0,90, -45,1.737088,loc.score,OA.score,
+3,13:00:52.7635377,0,0,0.99195,irc_1026_normalised_pink_-90_60_1s (UnityEngine.AudioClip),1,-90,60,0,4.508621,168.7584,pink,0,0,0,0,0,90, -60,0.99195,loc.score,OA.score,
+4,13:01:15.0662634,0,0,1.5,irc_1013_normalised_pink_30_60_1s (UnityEngine.AudioClip),1,30,60,0,2.5065,191.0609,pink,0,0,0,0,0,-30, -60,1.5,loc.score,OA.score,
+5,13:01:19.6072108,0,0,1.5,subject_044_normalised_pink_-135_0_1s (UnityEngine.AudioClip),0.9813152,-135,0,0,2.388351,195.6017,pink,0,0,0,0,0,135, 0,1.5,loc.score,OA.score,
+6,13:01:30.9180570,0,0,1.5,subject_163_normalised_pink_90_60_1s (UnityEngine.AudioClip),1,90,60,0,3.202728,206.9124,pink,0,0,0,0,0,-90, -60,1.5,loc.score,OA.score,
+7,13:01:35.8408614,0,0,1.5,subject_133_normalised_pink_-180_45_1s (UnityEngine.AudioClip),1,-180,45,0,2.391144,211.8351,pink,0,0,0,0,0,180, -45,1.5,loc.score,OA.score,
+8,13:01:40.2743181,0,0,1.5,subject_124_normalised_pink_-180_60_1s (UnityEngine.AudioClip),1,-180,60,0,2.177063,216.2687,pink,0,0,0,0,0,180, -60,1.5,loc.score,OA.score,
+9,13:01:44.1155468,0,0,1.5,subject_124_normalised_pink_-180_45_1s (UnityEngine.AudioClip),1,-180,45,0,1.622726,220.1094,pink,0,0,0,0,0,180, -45,1.5,loc.score,OA.score,
+10,13:01:58.9742600,0,0,1.5,irc_1006_normalised_pink_150_0_1s (UnityEngine.AudioClip),1,150,0,0,1.621246,234.9687,pink,0,0,0,0,0,-150, 0,1.5,loc.score,OA.score,
+11,13:02:13.1618166,0,0,1.5,irc_1055_normalised_pink_-180_0_1s (UnityEngine.AudioClip),1,-180,0,0,6.000809,249.1557,pink,0,0,0,0,0,180, 0,1.5,loc.score,OA.score,
+12,13:02:18.0411003,0,0,1.5,subject_059_normalised_pink_-90_60_1s (UnityEngine.AudioClip),1,-90,60,0,2.977921,254.036,pink,0,0,0,0,0,90, -60,1.5,loc.score,OA.score,
+13,13:02:21.3530351,0,0,1.5,irc_1007_normalised_pink_-30_45_1s (UnityEngine.AudioClip),1,-30,45,0,2.097794,257.3471,pink,0,0,0,0,0,30, -45,1.5,loc.score,OA.score,
+14,13:02:28.4512981,0,0,1.5,irc_1039_normalised_pink_0_45_1s (UnityEngine.AudioClip),1,0,45,0,1.845093,264.4451,pink,0,0,0,0,0,0, -45,1.5,loc.score,OA.score,
+15,13:02:33.0747469,0,0,0.12,irc_1043_normalised_pink_150_0_1s (UnityEngine.AudioClip),1,150,0,0,3.043121,269.069,pink,0,0,0,0,0,-150, 0,0.12,loc.score,OA.score,
+16,13:02:41.8274241,0,0,1.06177,irc_1037_normalised_pink_-180_60_1s (UnityEngine.AudioClip),1,-180,60,0,1.854126,277.8212,pink,0,0,0,0,0,180, -60,1.06177,loc.score,OA.score,
+
+- Login date: 3/5/2019 10:55:38 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+0,10:56:21.3096444,-79.48074,15.7815,3.42615,D1_96K_24bit_512tap_FIR_SOFA_normalised_pink_-90_45_1s (UnityEngine.AudioClip),1,-90,45,0,2.342884,38.01538,pink,2.893876,-0.3672279,283.4131,15.41428,357.633,10.51926, -29.2185,3.42615,loc.score,OA.score,
+1,10:56:25.4652484,-115.09,24.0033,3.42615,subject_008_normalised_pink_90_45_1s (UnityEngine.AudioClip),1,90,45,0,2.679298,42.17113,pink,7.750325,-0.3662437,252.6604,23.63705,355.9955,154.91, -20.9967,3.42615,loc.score,OA.score,
+2,10:56:30.2104481,118.9503,45.72895,3.42615,subject_153_normalised_pink_-90_60_1s (UnityEngine.AudioClip),0.9813152,-90,60,0,2.723385,46.91678,pink,9.148067,-0.1302582,128.0984,45.59869,355.7583,151.0497, -14.27105,3.42615,loc.score,OA.score,
+3,10:56:35.3235066,-131.5288,61.04218,3.42615,irc_1030_normalised_pink_45_0_1s (UnityEngine.AudioClip),1,45,0,0,2.968803,52.02999,pink,10.52994,-0.4252985,239.0012,60.61688,359.3128,-176.5288, 61.04218,3.42615,loc.score,OA.score,
+4,10:56:40.1437307,95.71253,53.52476,3.42615,subject_015_normalised_pink_0_60_1s (UnityEngine.AudioClip),0.5973243,0,60,0,2.335529,56.85069,pink,14.94031,-0.9923785,110.6528,52.53238,357.6777,95.71253, -6.475243,3.42615,loc.score,OA.score,
+5,10:56:44.7201628,-4.755689,82.29572,3.42615,irc_1034_normalised_pink_-135_0_1s (UnityEngine.AudioClip),0.8106576,-135,0,0,2.179096,61.42708,pink,7.921967,0.1148071,3.166278,82.41052,1.909784,130.2443, 82.29572,3.42615,loc.score,OA.score,
+6,10:56:49.9193756,-121.5699,11.99976,3.42615,H19_96K_24bit_512tap_FIR_SOFA_normalised_pink_-135_0_1s (UnityEngine.AudioClip),0.7679819,-135,0,0,2.721134,66.62638,pink,4.670135,0.1011047,243.1003,12.10086,352.9798,13.43011, 11.99976,3.42615,loc.score,OA.score,
+7,10:56:55.2203457,-88.74954,6.250153,3.42615,H11_96K_24bit_512tap_FIR_SOFA_normalised_pink_-180_45_1s (UnityEngine.AudioClip),0.9813152,-180,45,0,2.464149,71.92639,pink,13.92114,0.2584229,285.1716,6.508575,354.0365,91.25046, -38.74985,3.42615,loc.score,OA.score,
+8,10:57:01.3436552,-18.90887,66.93231,3.148988,irc_1056_normalised_pink_-135_0_1s (UnityEngine.AudioClip),0.746644,-135,0,0,3.422371,78.04964,pink,9.118836,0.1554565,350.21,67.08777,358.4529,116.0911, 66.93231,3.148988,loc.score,OA.score,
+9,10:57:04.7856616,-94.55624,16.29974,3.148988,irc_1022_normalised_pink_-45_0_1s (UnityEngine.AudioClip),0.6613152,-45,0,0,1.809639,81.49258,pink,8.958539,-0.2452693,274.4023,16.05447,354.6041,-49.55624, 16.29974,3.148988,loc.score,OA.score,
+
+- Login date: 3/9/2019 8:22:17 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 3/9/2019 8:24:14 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 3/9/2019 8:41:10 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 3/9/2019 9:17:43 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 3/9/2019 9:20:43 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 3/9/2019 9:23:37 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 3/9/2019 9:25:21 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 3/9/2019 9:39:16 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 3/9/2019 9:46:42 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 3/9/2019 10:01:11 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 3/9/2019 10:08:36 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 3/9/2019 10:18:35 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 3/9/2019 10:27:09 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 3/9/2019 10:27:36 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 3/9/2019 10:30:09 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 3/9/2019 10:36:29 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 3/9/2019 10:40:45 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 3/9/2019 11:03:31 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 3/9/2019 11:07:48 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 3/9/2019 11:16:08 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 3/9/2019 11:21:25 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 3/9/2019 11:24:13 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 3/9/2019 1:04:27 PM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 3/9/2019 1:09:53 PM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 3/9/2019 1:12:21 PM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 3/9/2019 1:16:09 PM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 3/9/2019 1:17:26 PM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 3/9/2019 1:18:08 PM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 3/10/2019 9:02:06 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,
+
+- Login date: 3/10/2019 9:30:26 AM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,sample.length,tar.azi,tar.ele,tar.dist,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.zazi.err,ele.err,dist.err,loc.score,OA.score,

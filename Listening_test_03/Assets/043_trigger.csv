@@ -1,0 +1,8 @@
+Trigger log 
+
+
+- Login date: 9/11/2019 2:45:52 PM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,tar.azi,tar.ele,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.z,real.tar.azi,real.tar.ele,azi.err,ele.err,azi.score(max100),ele.score(max80),OA.score(max128),
+
+- Login date: 10/11/2019 12:57:00 PM
+count,time,rela.azi,rela.ele,resp.dist,HRTF.file,tar.azi,tar.ele,resp.time,time.passed,sound.type,start.azi,start.ele,real.azi,real.ele,real.z,real.tar.azi,real.tar.ele,azi.err,ele.err,azi.score(max100),ele.score(max80),OA.score(max128),
